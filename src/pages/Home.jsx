@@ -9,7 +9,7 @@ const Introduction = styled.div`
   text-align: left;
   max-width: 700px;
   margin: 16vh auto 0;
-    font-family: 'FFTisaWebLight', serif;
+  font-family: 'FFTisaWebLight', serif;
   
   > p {
     ${fontSize(14, 18)}

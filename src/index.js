@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Work from './pages/Work';
 import AirMaxDay from './pages/AirMaxDay';
+import Officeworks from './pages/Officeworks';
 import registerServiceWorker from './registerServiceWorker';
 
 render((
@@ -15,6 +16,7 @@ render((
       <Route exact path="/" component={Home} />
       <Route path="/work" component={Work} />
       <Route path="/air-max-day" component={AirMaxDay} />
+      <Route path="/officeworks" component={Officeworks} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
     </Layout>
