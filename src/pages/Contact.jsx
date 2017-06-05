@@ -7,8 +7,9 @@ const Form = styled.form`
   ${fontSize(24, 32)}
   text-align: left;
   margin-top: 16vh;
-  max-width: 80%;
+  max-width: 60%;
   font-family: 'FFTisaWebLight', serif;
+  line-height: 2;
 
   ${breakpoint.down`max-width: 100%;`}
 `;
@@ -36,6 +37,7 @@ const Textarea = styled.textarea`
   border: 0;
   font-family: 'FFTisaWebLight', serif;
   outline: 0;
+  line-height: 2;
 `;
 
 const Actions = styled.div`

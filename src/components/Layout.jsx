@@ -17,6 +17,8 @@ injectGlobal`
     min-height: 100%;
     font-size: 18px;
     font-family: 'NeutrifPro-Regular', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   
   html {
