@@ -7,11 +7,11 @@ import MyRole from '../components/MyRole';
 const AirMaxDay = () => (
   <div>
     <h1>Air Max Day</h1>
-    <FullWidthMedia media="http://placehold.it/1400x400" width="1400" height="400" />
+    <FullWidthMedia media="/images/airmaxday/airmax-hero-3.jpg" width="1920" height="1080" />
     <MediaGrid
       type="mobile"
       items={[
-        { media: 'http://placehold.it/320x600', width: 320, height: 600 },
+        { media: '/images/Incoming-Workout-2@2x.png', width: 375, height: 667 },
         { media: 'http://placehold.it/320x600', width: 320, height: 600 },
         { media: 'http://placehold.it/320x600', width: 320, height: 600 },
         { media: 'http://techslides.com/demos/sample-videos/small', width: 320, height: 600, video: true },

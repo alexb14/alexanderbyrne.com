@@ -26,7 +26,7 @@ injectGlobal`
   }
 
   h1 {
-    ${fontSize(30, 42)}
+    ${fontSize(30, 64)}
     font-weight: normal;
     color: #202123;
     margin: 16vh 0 0;
@@ -57,13 +57,13 @@ injectGlobal`
 `;
 
 const Root = styled.div`
-  max-width: 1400px;
-  padding: 0 160px 0 4vw;
+  max-width: 1800px;
+  padding: 0 160px 0 8vw;
   margin: 0 auto 16vh;
   text-align: center;
 
-  ${breakpoint.down`padding-right: 4vw;`}
-  ${props => props.hideSidebar && breakpoint.up`padding-right: 4vw;`}
+  ${breakpoint.down`padding-right: 8vw;`}
+  ${props => props.hideSidebar && breakpoint.up`padding-right: 8vw;`}
 `;
 
 const Layout = ({ children, location }) => (

@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import styled, { css } from 'styled-components';
 import Image from './Image';
 import Video from './Video';
-import { fontSize } from '../utils/styled';
+import { fontSize, breakpoint } from '../utils/styled';
 
 const Media = styled.div`
   display: table-cell;
@@ -25,6 +25,11 @@ const Media = styled.div`
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
   }
+
+  ${breakpoint.down`
+    display: block;
+    width: auto;
+  `}
 `;
 
 const Text = styled.div`
@@ -43,16 +48,23 @@ const Text = styled.div`
 
   p {
     ${fontSize(14, 18)}
-    line-height: 1.5;
+    line-height: 1.7;
     
     &:last-child {
       margin-bottom: 0;
     }
   }
+
+  ${breakpoint.down`
+    display: block;
+    width: auto;
+    margin-top: 32px;
+    padding: 0;
+  `}
 `;
 
 const RootStyle = css`
-  margin: 15vh auto 0;
+  margin: 40vh auto 0;
   display: table;
   max-width: 900px;
   text-decoration: none;

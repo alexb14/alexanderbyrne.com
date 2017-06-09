@@ -7,17 +7,17 @@ import { breakpoint, fontSize } from '../utils/styled';
 const Introduction = styled.div`
   color: #2c2c2f;
   text-align: left;
-  max-width: 700px;
-  margin: 16vh auto 0;
+  max-width: 750px;
+  margin: 30vh auto 0;
   font-family: 'FFTisaWebLight', serif;
   
   > p {
-    ${fontSize(14, 18)}
-    line-height: 1.7;
+    ${fontSize(22, 27)}
+    line-height: 1.85;
   }
     
   p + p {
-    color: #9e9ea6;
+    color: #2c2c2f;
   }
 `;
 
@@ -27,7 +27,7 @@ const Nav = styled.nav`
 `;
 
 const NavItem = styled(NavLink)`
-  ${fontSize(14, 18)}
+  ${fontSize(14, 20)}
   margin-right: 15%;
   text-decoration: none;
 
@@ -60,6 +60,10 @@ const Home = () => (
     </TextMedia>
     <TextMedia media="http://placehold.it/330x520" width="330" height="520" flip>
       <h2>Oxford University Press</h2>
+      <p>An online tool for students and educators to teach, learn and grow.</p>
+    </TextMedia>
+    <TextMedia link="/metcon-mack" media="http://placehold.it/330x520" width="330" height="520">
+      <h2>Metcon Mack</h2>
       <p>An online tool for students and educators to teach, learn and grow.</p>
     </TextMedia>
   </div>

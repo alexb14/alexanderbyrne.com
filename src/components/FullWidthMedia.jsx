@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Image from './Image';
 import Video from './Video';
+import { breakpoint } from '../utils/styled';
 
 const DesktopStyle = `
   border-top: 16px solid #e8e8e8;
@@ -9,7 +10,8 @@ const DesktopStyle = `
 `;
 
 const Root = styled.div`
-  margin: 8vh 0 0;
+  margin: 12vh 0 0;
+  ${breakpoint.down`margin: 12vh -8vw 0;`}
   ${props => props.type === 'desktop' && DesktopStyle}
 `;
 
