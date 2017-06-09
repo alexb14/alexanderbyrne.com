@@ -7,41 +7,47 @@ import MyRole from '../components/MyRole';
 const AirMaxDay = () => (
   <div>
     <h1>Air Max Day</h1>
-    <FullWidthMedia media="/images/airmaxday/airmax-hero-3.jpg" width="1920" height="1080" />
+    <FullWidthMedia media="/images/airmaxday/hero/airmax-hero-4.jpg" width="1920" height="1080" />
+    <Copy>A four tiered experience for one of the most anticaped shoe drops of the year.</Copy>
+    <FullWidthMedia type="desktop" media="/images/airmaxday/desktop/Grid@2x.png" width="3600" height="2048" />
+    <Copy>Each AirMax had its own individual experience.</Copy>
+      <MediaGrid
+      items={[
+        { media: '/images/airmaxday/desktop/OG-1@2x.png', width: 3600, height: 2048 },
+        { media: '/images/airmaxday/desktop/Master-1@2x.png', width: 3600, height: 2048 },
+        { media: '/images/airmaxday/desktop/Atmos-1@2x.png', width: 3600, height: 2048 },
+        { media: '/images/airmaxday/desktop/Vapor-1@2x.png', width: 3600, height: 2048 },
+      ]}
+    />
     <MediaGrid
       type="mobile"
       items={[
-        { media: '/images/Incoming-Workout-2@2x.png', width: 375, height: 667 },
-        { media: 'http://placehold.it/320x600', width: 320, height: 600 },
-        { media: 'http://placehold.it/320x600', width: 320, height: 600 },
-        { media: 'http://techslides.com/demos/sample-videos/small', width: 320, height: 600, video: true },
+        { media: '/images/airmaxday/mobile/Mockup-OG@2x.png', width: 375, height: 667 },
+        { media: '/images/airmaxday/mobile/Mockup-Master@2x.png', width: 375, height: 667 },
+        { media: '/images/airmaxday/mobile/Mockup-Atmos@2x.png', width: 375, height: 667 },
+        { media: '/images/airmaxday/mobile/Mockup-VaporMax@2x.png', width: 375, height: 667 },
       ]}
     />
-    <MediaGrid
-      type="desktop"
+
+    <Copy>Take the AirMax experience.</Copy>
+
+    <FullWidthMedia type="desktop" media="/images/airmaxday/desktop/Vapor-3@2x.png" width="3600" height="2048" />
+
+      <MediaGrid
+      type="mobile"
       items={[
-        { media: 'http://placehold.it/650x730', width: 650, height: 730 },
-        { media: 'http://placehold.it/650x580', width: 650, height: 580 },
+        { media: '/images/airmaxday/mobile/mockup-OG-1@2x.png', width: 375, height: 667 },
+        { media: '/images/airmaxday/mobile/mockup-OG-5@2x.png', width: 375, height: 667 },
+        { media: '/images/airmaxday/mobile/mockup-OG-2@2x.png', width: 375, height: 667 },
+        { media: '/images/airmaxday/mobile/mockup-OG-6@2x.png', width: 375, height: 667 },
+        { media: '/images/airmaxday/mobile/mockup-OG-3@2x.png', width: 375, height: 667 },
+        { media: '/images/airmaxday/mobile/mockup-OG-7@2x.png', width: 375, height: 667 },
+        { media: '/images/airmaxday/mobile/mockup-OG-4@2x.png', width: 375, height: 667 },
+        { media: '/images/airmaxday/mobile/mockup-OG-8@2x.png', width: 375, height: 667 },
       ]}
     />
-    <MediaGrid
-      type="responsive"
-      items={[
-        { media: 'http://placehold.it/1000x900', width: 1000, height: 900 },
-        { media: 'http://placehold.it/300x530', width: 300, height: 530 },
-      ]}
-    />
-    <MediaGrid
-      items={[
-        { media: 'http://placehold.it/700x400', width: 700, height: 400 },
-        { media: 'http://placehold.it/700x400', width: 700, height: 400 },
-        { media: 'http://placehold.it/700x400', width: 700, height: 400 },
-        { media: 'http://placehold.it/700x400', width: 700, height: 400 },
-      ]}
-    />
-    <FullWidthMedia type="desktop" media="http://placehold.it/1400x800" width="1400" height="800" />
-    <Copy>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin ligula vel convallis suscipit.</Copy>
-    <FullWidthMedia type="desktop" media="http://techslides.com/demos/sample-videos/small" width="1400" height="800" video />
+
+    
     <MyRole
       roles={[
         'Lead Designer',

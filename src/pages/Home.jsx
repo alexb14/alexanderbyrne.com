@@ -51,7 +51,7 @@ const Home = () => (
         <NavItem to="/contact">Get in touch</NavItem>
       </Nav>
     </Introduction>
-    <TextMedia link="/air-max-day" media="http://placehold.it/530x320" width="530" height="320" flip>
+    <TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile.jpg" width="600" height="400" flip>
       <h2>Air Max Day</h2>
       <p>A four tiered experience for one of the most anticaped shoe drop of the year.</p>
     </TextMedia>

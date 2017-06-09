@@ -7,47 +7,52 @@ import MyRole from '../components/MyRole';
 const MetconMack = () => (
   <div>
     <h1>Metcon Mack</h1>
-    <FullWidthMedia media="/images/metcon-mack/Event.jpg" width="1920" height="1080" />
-    <MediaGrid
+    <FullWidthMedia media="/images/metcon-mack/Event.jpg" width="3600" height="2400" />
+
+     <Copy>A Mack truck turned cross-fit gym needed a digital workout experience.</Copy>
+
+     <FullWidthMedia media="/images/metcon-mack/iPhone-1.jpg" width="3600" height="2400" />
+
+      <Copy>The product used three devices to deliver a tailored experience to each particpant.</Copy>
+
+      <FullWidthMedia media="/images/metcon-mack/Athletes@2x.png" width="2048" height="1536" />
+
+      <Copy>A tablet was mounted on the wall for participants to choose their desired opponent.</Copy>
+
+      <FullWidthMedia media="/images/metcon-mack/iPad-3.jpg" width="3600" height="2400" />
+
+      <Copy>The Nike trainer would be notified on their smartphone of the upcoming workout.</Copy>
+
+      <MediaGrid
       type="mobile"
       items={[
-        { media: '/images/Incoming-Workout-2@2x.png', width: 375, height: 667 },
-        { media: 'http://placehold.it/320x600', width: 320, height: 600 },
-        { media: 'http://placehold.it/320x600', width: 320, height: 600 },
-        { media: 'http://techslides.com/demos/sample-videos/small', width: 320, height: 600, video: true },
+        { media: '/images/metcon-mack/Incoming-Workout-2@2x.png', width: 375, height: 667 },
+        { media: '/images/metcon-mack/Countdown@2x.png', width: 375, height: 667 },
       ]}
     />
-    <MediaGrid
-      type="desktop"
+      <Copy>Push-ups or Burpees?</Copy>
+
+      <MediaGrid
+      type="mobile"
       items={[
-        { media: 'http://placehold.it/650x730', width: 650, height: 730 },
-        { media: 'http://placehold.it/650x580', width: 650, height: 580 },
+        { media: '/images/metcon-mack/Workout-Start@2x.png', width: 375, height: 667 },
+        { media: '/images/metcon-mack/Workout-End@2x.png', width: 375, height: 667 },
+        { media: '/images/metcon-mack/Workout-Live@2x.png', width: 375, height: 667 },
+        { media: '/images/metcon-mack/Workout-Finish@2x 2.png', width: 375, height: 667 },
       ]}
     />
-    <MediaGrid
-      type="responsive"
-      items={[
-        { media: 'http://placehold.it/1000x900', width: 1000, height: 900 },
-        { media: 'http://placehold.it/300x530', width: 300, height: 530 },
-      ]}
-    />
-    <MediaGrid
-      items={[
-        { media: 'http://placehold.it/700x400', width: 700, height: 400 },
-        { media: 'http://placehold.it/700x400', width: 700, height: 400 },
-        { media: 'http://placehold.it/700x400', width: 700, height: 400 },
-        { media: 'http://placehold.it/700x400', width: 700, height: 400 },
-      ]}
-    />
-    <FullWidthMedia type="desktop" media="http://placehold.it/1400x800" width="1400" height="800" />
-    <Copy>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin ligula vel convallis suscipit.</Copy>
-    <FullWidthMedia type="desktop" media="http://techslides.com/demos/sample-videos/small" width="1400" height="800" video />
+      <Copy>The crowd looked on from a TV mounted to the truck</Copy>
+
+      <FullWidthMedia media="/images/metcon-mack/Workout@2x.png" width="1920" height="1080" />
+ 
     <MyRole
       roles={[
         'Lead Designer',
         'Art Direction',
       ]}
     />
+
+    
   </div>
 );
 

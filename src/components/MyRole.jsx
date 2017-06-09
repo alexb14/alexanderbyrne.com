@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { fontSize } from '../utils/styled';
 
 const Root = styled.div`
-  margin: 8vh 0 0;
+  margin: 12vh 0 0;
 `;
 
 const Title = styled.p`
@@ -13,11 +13,12 @@ const Title = styled.p`
 `;
 
 const Role = styled.span`
-  ${fontSize(16, 24)}
+  ${fontSize(20, 40)}
   color: #2c2c2f;
   font-family: 'FFTisaWebLight', serif;
   display: inline-block;
   vertical-align: middle;
+  padding: 24px 0 0 0;
   
   & + &::before {
     content: '•';
