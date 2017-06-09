@@ -4,7 +4,7 @@ import Image from './Image';
 import Video from './Video';
 
 const Root = styled.div`
-  margin: 8vh 0 0;
+  margin: 24vh 0 0;
   
   ${props => props.type === 'mobile' && `
     max-width: 850px;

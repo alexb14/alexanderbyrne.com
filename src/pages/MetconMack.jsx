@@ -7,7 +7,7 @@ import MyRole from '../components/MyRole';
 const MetconMack = () => (
   <div>
     <h1>Metcon Mack</h1>
-    <FullWidthMedia media="/images/airmaxday/airmax-hero-3.jpg" width="1920" height="1080" />
+    <FullWidthMedia media="/images/metcon-mack/Event.jpg" width="1920" height="1080" />
     <MediaGrid
       type="mobile"
       items={[

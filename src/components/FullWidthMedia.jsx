@@ -10,7 +10,7 @@ const DesktopStyle = `
 `;
 
 const Root = styled.div`
-  margin: 12vh 0 0;
+  margin: 16vh 0 0;
   ${breakpoint.down`margin: 12vh -8vw 0;`}
   ${props => props.type === 'desktop' && DesktopStyle}
 `;

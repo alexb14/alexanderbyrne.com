@@ -32,7 +32,8 @@ const NavItem = styled(NavLink)`
   text-decoration: none;
 
   &:hover {
-    border-bottom: 2px solid #d3b98b;
+    border-bottom: 1px solid #d3b98b;
+    padding: 0 0 8px 0;
   }
 `;
 

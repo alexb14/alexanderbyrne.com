@@ -47,10 +47,10 @@ const Nav = styled.nav`
 
 const NavItem = styled(NavLink)`
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
   font-family: 'FFTisaWebLight', serif;
-  margin: 20px auto;
+  margin: 32px auto;
   
   ${breakpoint.down`${fontSize(24, 32)}`}
 `;
