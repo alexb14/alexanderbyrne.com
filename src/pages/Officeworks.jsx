@@ -7,28 +7,30 @@ import MyRole from '../components/MyRole';
 const Officeworks = () => (
   <div>
     <h1>Officeworks</h1>
-    <FullWidthMedia media="http://placehold.it/1400x400" width="1400" height="400" />
+    <FullWidthMedia media="/images/officeworks/hero/ow-hero.jpg" width="2400" height="1600" />
+    <Copy>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin ligula vel convallis suscipit.</Copy>
+    <FullWidthMedia media="/images/officeworks/desktop/header.png" width="1800" height="698" />
+    <FullWidthMedia media="/images/officeworks/desktop/styles.png" width="1800" height="697" />
+    <FullWidthMedia media="/images/officeworks/desktop/components.png" width="1800" height="1416" />
     <MediaGrid
       type="mobile"
       items={[
-        { media: 'http://placehold.it/320x600', width: 320, height: 600 },
-        { media: 'http://placehold.it/320x600', width: 320, height: 600 },
-        { media: 'http://placehold.it/320x600', width: 320, height: 600 },
-        { media: 'http://techslides.com/demos/sample-videos/small', width: 320, height: 600, video: true },
+        { media: '/images/officeworks/mobile/Homepage.png', width: 375, height: 667 },
+        { media: '/images/officeworks/mobile/Search.png', width: 375, height: 667 },
       ]}
     />
     <MediaGrid
       type="desktop"
       items={[
-        { media: 'http://placehold.it/650x730', width: 650, height: 730 },
-        { media: 'http://placehold.it/650x580', width: 650, height: 580 },
+        { media: '/images/officeworks/desktop/category-page.jpg', width: 1440, height: 1947 },
+        { media: '/images/officeworks/desktop/product-page.jpg', width: 1440, height: 3321 },
       ]}
     />
     <MediaGrid
       type="responsive"
       items={[
-        { media: 'http://placehold.it/1000x900', width: 1000, height: 900 },
-        { media: 'http://placehold.it/300x530', width: 300, height: 530 },
+        { media: '/images/officeworks/desktop/product-page.jpg', width: 1440, height: 3321 },
+        { media: '/images/officeworks/mobile/product-page-mobile.jpg', width: 640, height: 10453 },
       ]}
     />
     <MediaGrid
@@ -45,7 +47,6 @@ const Officeworks = () => (
     <MyRole
       roles={[
         'Lead Designer',
-        'Art Direction',
       ]}
     />
   </div>

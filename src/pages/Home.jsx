@@ -51,11 +51,11 @@ const Home = () => (
         <NavItem to="/contact">Get in touch</NavItem>
       </Nav>
     </Introduction>
-    <TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile.jpg" width="600" height="400" flip>
+    <TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile.png" width="800" height="900" flip>
       <h2>Air Max Day</h2>
       <p>A four tiered experience for one of the most anticaped shoe drop of the year.</p>
     </TextMedia>
-    <TextMedia media="http://placehold.it/230x120" width="230" height="120">
+    <TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900">
       <h2>Officeworks</h2>
       <p>Bringing a dated national brand into the current.</p>
     </TextMedia>
@@ -65,6 +65,10 @@ const Home = () => (
     </TextMedia>
     <TextMedia link="/metcon-mack" media="http://placehold.it/330x520" width="330" height="520">
       <h2>Metcon Mack</h2>
+      <p>An online tool for students and educators to teach, learn and grow.</p>
+    </TextMedia>
+    <TextMedia link="/ibl" media="http://placehold.it/330x520" width="330" height="520" flip>
+      <h2>IBL</h2>
       <p>An online tool for students and educators to teach, learn and grow.</p>
     </TextMedia>
   </div>

@@ -9,6 +9,7 @@ import Work from './pages/Work';
 import AirMaxDay from './pages/AirMaxDay';
 import Officeworks from './pages/Officeworks';
 import MetconMack from './pages/MetconMack';
+import ibl from './pages/ibl';
 import registerServiceWorker from './registerServiceWorker';
 
 render((
@@ -19,6 +20,7 @@ render((
       <Route path="/air-max-day" component={AirMaxDay} />
       <Route path="/officeworks" component={Officeworks} />
       <Route path="/metcon-mack" component={MetconMack} />
+      <Route path="/ibl" component={ibl} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
     </Layout>
