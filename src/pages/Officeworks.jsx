@@ -11,7 +11,7 @@ const Officeworks = () => (
     <Copy>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin ligula vel convallis suscipit.</Copy>
     <FullWidthMedia media="/images/officeworks/desktop/header.png" width="1800" height="698" />
     <FullWidthMedia media="/images/officeworks/desktop/styles.png" width="1800" height="697" />
-    <FullWidthMedia media="/images/officeworks/desktop/components.png" width="1800" height="1416" />
+    <FullWidthMedia media="/images/officeworks/desktop/components-2.jpg" width="1800" height="1416" />
     <MediaGrid
       type="mobile"
       items={[

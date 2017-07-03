@@ -10,6 +10,7 @@ import AirMaxDay from './pages/AirMaxDay';
 import Officeworks from './pages/Officeworks';
 import MetconMack from './pages/MetconMack';
 import ibl from './pages/ibl';
+import Hypervenom from './pages/Hypervenom';
 import registerServiceWorker from './registerServiceWorker';
 
 render((
@@ -21,6 +22,7 @@ render((
       <Route path="/officeworks" component={Officeworks} />
       <Route path="/metcon-mack" component={MetconMack} />
       <Route path="/ibl" component={ibl} />
+      <Route path="/hypervenom" component={Hypervenom} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
     </Layout>

@@ -26,8 +26,7 @@ const MetconMack = () => (
       <MediaGrid
       type="mobile"
       items={[
-        { media: '/images/metcon-mack/Incoming-Workout-2@2x.png', width: 375, height: 667 },
-        { media: '/images/metcon-mack/Countdown@2x.png', width: 375, height: 667 },
+        { media: '/images/metcon-mack/mobile/metcon-mobile-animation', width: 375, height: 667, video: true },
       ]}
     />
       <Copy>Push-ups or Burpees?</Copy>

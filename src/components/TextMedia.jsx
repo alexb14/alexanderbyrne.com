@@ -49,6 +49,7 @@ const Text = styled.div`
   p {
     ${fontSize(14, 18)}
     line-height: 1.7;
+    color: #9E9EA6;
     
     &:last-child {
       margin-bottom: 0;

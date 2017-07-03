@@ -8,8 +8,16 @@ const ibl = () => (
   <div>
     <h1>IBL</h1>
     <FullWidthMedia media="/images/ibl/hero/ibl-hero.jpg" width="1800" height="1200" />
-    <Copy>A four tiered experience for one of the most anticaped shoe drops of the year.</Copy>
-    <FullWidthMedia type="desktop" media="/images/airmaxday/desktop/Grid@2x.png" width="3600" height="2048" />
+    <Copy>A four tiered experience for one of the most anticaped shoe drops of the year.</Copy> 
+    <MediaGrid
+      type="desktop"
+      items={[
+        { media: '/images/ibl/desktop/About-Us.png', width: 1440, height: 3263 },
+        { media: '/images/ibl/desktop/Contact-Us.png', width: 1440, height: 3287 },
+      ]}
+    />
+    <FullWidthMedia type="desktop" media="/images/ibl/desktop/About-Us.png" width="1400" height="3623" />
+    
     <Copy>Each AirMax had its own individual experience.</Copy>
       <MediaGrid
       items={[

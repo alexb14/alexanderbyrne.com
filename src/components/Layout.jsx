@@ -34,7 +34,7 @@ injectGlobal`
   }
 
   h2 {
-    ${fontSize(26, 36)}
+    ${fontSize(26, 40)}
     font-weight: normal;
     font-family: 'FFTisaWebLight', serif;
     margin: 0;

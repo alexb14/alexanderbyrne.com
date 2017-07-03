@@ -67,8 +67,12 @@ const Home = () => (
       <h2>Metcon Mack</h2>
       <p>An online tool for students and educators to teach, learn and grow.</p>
     </TextMedia>
-    <TextMedia link="/ibl" media="http://placehold.it/330x520" width="330" height="520" flip>
+    <TextMedia link="/ibl" media="/images/ibl/tile/ibl-tile.jpg" width="628" height="877" flip>
       <h2>IBL</h2>
+      <p>An online tool for students and educators to teach, learn and grow.</p>
+    </TextMedia>
+    <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile.png" width="1000" height="900" flip>
+      <h2>Hyper Venom 3</h2>
       <p>An online tool for students and educators to teach, learn and grow.</p>
     </TextMedia>
   </div>
