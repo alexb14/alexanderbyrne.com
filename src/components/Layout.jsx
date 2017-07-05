@@ -16,6 +16,7 @@ injectGlobal`
     padding: 0;
     min-height: 100%;
     font-size: 18px;
+    color: #9E9EA6;
     font-family: 'NeutrifPro-Regular', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -23,6 +24,7 @@ injectGlobal`
   
   html {
     overflow-y: scroll;
+    background-color: #fafafa;
   }
 
   h1 {

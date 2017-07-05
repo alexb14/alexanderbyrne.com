@@ -42,7 +42,7 @@ const MetconMack = () => (
     />
       <Copy>The crowd looked on from a TV mounted to the truck</Copy>
 
-      <FullWidthMedia media="/images/metcon-mack/Workout@2x.png" width="1920" height="1080" />
+      <FullWidthMedia media="/images/metcon-mack/tv@2x.png" width="1800" height="751" />
  
     <MyRole
       roles={[
