@@ -11,7 +11,7 @@ const Root = styled.div`
 
 const Wrapper = styled.div`
   border-left: 1px solid #dee2e6;
-  background-color: #fff;
+  background-color: #fafafa;
   position: fixed;
   top: 0;
   right: 0;

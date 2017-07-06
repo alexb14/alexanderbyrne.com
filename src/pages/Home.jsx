@@ -51,26 +51,26 @@ const Home = () => (
         <NavItem to="/contact">Get in touch</NavItem>
       </Nav>
     </Introduction>
-    <TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile.png" width="800" height="900" flip>
-      <h2>Air Max Day</h2>
-      <p>A four tiered experience for one of the most anticaped shoe drop of the year.</p>
-    </TextMedia>
-    <TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900">
+    <TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900" flip>
       <h2>Officeworks</h2>
       <p>Bringing a dated national brand into the current.</p>
     </TextMedia>
-    <TextMedia media="http://placehold.it/330x520" width="330" height="520" flip>
-      <h2>Oxford University Press</h2>
-      <p>An online tool for students and educators to teach, learn and grow.</p>
+
+    <TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile.png" width="800" height="900">
+      <h2>Air Max Day</h2>
+      <p>A four tiered experience for one of the most anticaped shoe drop of the year.</p>
     </TextMedia>
-    <TextMedia link="/metcon-mack" media="http://placehold.it/330x520" width="330" height="520">
+    
+    <TextMedia link="/metcon-mack" media="/images/metcon-mack/Tile/metcon.png" width="1100" height="900" flip>
       <h2>Metcon Mack</h2>
       <p>An online tool for students and educators to teach, learn and grow.</p>
     </TextMedia>
-    <TextMedia link="/ibl" media="/images/ibl/tile/ibl-tile.jpg" width="628" height="877" flip>
+
+    <TextMedia link="/ibl" media="/images/ibl/tile/ibl-tile.jpg" width="628" height="877">
       <h2>IBL</h2>
       <p>An online tool for students and educators to teach, learn and grow.</p>
     </TextMedia>
+
     <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile.png" width="1000" height="900" flip>
       <h2>Hyper Venom 3</h2>
       <p>An online tool for students and educators to teach, learn and grow.</p>

@@ -7,7 +7,7 @@ const Root = styled.div`
   font-weight: normal;
   font-family: 'FFTisaWebLight', serif;
   line-height: 1.6;
-  color: #9d9ea6;
+  color: #202123;
   margin: 16vh auto 0;
   max-width: 950px;
   text-align: center;
