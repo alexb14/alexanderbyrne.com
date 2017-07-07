@@ -61,7 +61,7 @@ const Home = () => (
       <p>A four tiered experience for one of the most anticaped shoe drop of the year.</p>
     </TextMedia>
     
-    <TextMedia link="/metcon-mack" media="/images/metcon-mack/Tile/metcon.png" width="1100" height="900" flip>
+    <TextMedia link="/metcon-mack" media="/images/metcon-mack/Tile/metcon-2.png" width="1100" height="1100" flip>
       <h2>Metcon Mack</h2>
       <p>An online tool for students and educators to teach, learn and grow.</p>
     </TextMedia>
