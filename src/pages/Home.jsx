@@ -56,7 +56,7 @@ const Home = () => (
       <p>Bringing a dated national brand into the current.</p>
     </TextMedia>
 
-    <TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile.png" width="800" height="900">
+    <TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile-2.jpg" width="1100" height="900">
       <h2>Air Max Day</h2>
       <p>A four tiered experience for one of the most anticaped shoe drop of the year.</p>
     </TextMedia>

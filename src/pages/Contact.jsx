@@ -10,6 +10,7 @@ const Form = styled.form`
   max-width: 60%;
   font-family: 'FFTisaWebLight', serif;
   line-height: 2;
+  color: #202123;
 
   ${breakpoint.down`max-width: 100%;`}
 `;
@@ -29,6 +30,7 @@ const Input = styled.span`
 const Textarea = styled.textarea`
   ${fontSize(24, 32)}
   display: block;
+  background-color: #fafafa;
   height: 20vh;
   resize: none;
   width: 100%;

@@ -16,7 +16,7 @@ const ibl = () => (
         { media: '/images/ibl/desktop/Contact-Us.png', width: 1440, height: 3287 },
       ]}
     />
-    <FullWidthMedia type="desktop" media="/images/ibl/desktop/About-Us.png" width="1400" height="3623" />
+    <FullWidthMedia media="/images/ibl/desktop/ibl-colour@2x.png" width="1800" height="1000" />
     
     <Copy>Each AirMax had its own individual experience.</Copy>
       <MediaGrid
