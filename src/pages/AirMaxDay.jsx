@@ -3,6 +3,7 @@ import FullWidthMedia from '../components/FullWidthMedia';
 import MediaGrid from '../components/MediaGrid';
 import Copy from '../components/Copy';
 import MyRole from '../components/MyRole';
+import TextMedia from '../components/TextMedia';
 
 const AirMaxDay = () => (
   <div>
@@ -56,6 +57,17 @@ const AirMaxDay = () => (
         'Art Direction',
       ]}
     />
+
+<TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile.png" width="1000" height="900">
+      <h2>Hyper Venom 3</h2>
+      <p>An online tool for students and educators to teach, learn and grow.</p>
+    </TextMedia>
+
+    <TextMedia link="/metcon-mack" media="/images/metcon-mack/Tile/metcon-2.png" width="1100" height="1100" flip>
+      <h2>Metcon Mack</h2>
+      <p>An online tool for students and educators to teach, learn and grow.</p>
+    </TextMedia>
+
   </div>
 );
 

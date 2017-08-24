@@ -66,9 +66,14 @@ const MetconMack = () => (
     />
 
    
-<TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile.png" width="800" height="900" flip>
+<TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile.png" width="800" height="900">
       <h2>Air Max Day</h2>
       <p>A four tiered experience for one of the most anticaped shoe drop of the year.</p>
+    </TextMedia>
+
+    <TextMedia link="/ibl" media="/images/ibl/tile/ibl-tile.jpg" width="628" height="877" flip>
+      <h2>IBL</h2>
+      <p>An online tool for students and educators to teach, learn and grow.</p>
     </TextMedia>
     
   </div>

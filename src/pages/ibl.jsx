@@ -3,6 +3,7 @@ import FullWidthMedia from '../components/FullWidthMedia';
 import MediaGrid from '../components/MediaGrid';
 import Copy from '../components/Copy';
 import MyRole from '../components/MyRole';
+import TextMedia from '../components/TextMedia';
 
 const ibl = () => (
   <div>
@@ -62,6 +63,17 @@ const ibl = () => (
         'Art Direction',
       ]}
     />
+
+<TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900">
+      <h2>Officeworks</h2>
+      <p>Bringing a dated national brand into the current.</p>
+    </TextMedia>
+
+    <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile.png" width="1000" height="900" flip>
+      <h2>Hyper Venom 3</h2>
+      <p>An online tool for students and educators to teach, learn and grow.</p>
+    </TextMedia>
+
   </div>
 );
 

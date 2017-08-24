@@ -3,6 +3,7 @@ import FullWidthMedia from '../components/FullWidthMedia';
 import MediaGrid from '../components/MediaGrid';
 import Copy from '../components/Copy';
 import MyRole from '../components/MyRole';
+import TextMedia from '../components/TextMedia';
 
 const Hypervenom = () => (
   <div>
@@ -43,6 +44,16 @@ const Hypervenom = () => (
     />
 
     
+<TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900">
+      <h2>Officeworks</h2>
+      <p>Bringing a dated national brand into the current.</p>
+    </TextMedia>
+
+    <TextMedia link="/ibl" media="/images/ibl/tile/ibl-tile.jpg" width="628" height="877" flip>
+      <h2>IBL</h2>
+      <p>An online tool for students and educators to teach, learn and grow.</p>
+    </TextMedia>
+
   </div>
 );
 
