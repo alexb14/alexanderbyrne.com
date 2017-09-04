@@ -49,7 +49,7 @@ const Officeworks = () => (
         { media: 'http://placehold.it/700x400', width: 700, height: 400 },
       ]}
     />
-    <FullWidthMedia type="desktop" media="http://placehold.it/1400x800" width="1400" height="800" />
+    <FullWidthMedia type="mobile" media="http://placehold.it/1400x800" width="375" height="667" />
     <Copy>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin ligula vel convallis suscipit.</Copy>
     <FullWidthMedia type="desktop" media="http://techslides.com/demos/sample-videos/small" width="1400" height="800" video />
     <MyRole

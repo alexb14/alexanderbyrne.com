@@ -13,7 +13,7 @@ const ibl = () => (
     <MediaGrid
       type="desktop"
       items={[
-        { media: '/images/ibl/desktop/About-Us.png', width: 1440, height: 3263 },
+        { media: '/images/ibl/desktop/About-Us.png', width: 1440, height: 3623 },
         { media: '/images/ibl/desktop/Contact-Us.png', width: 1440, height: 3287 },
       ]}
     />
