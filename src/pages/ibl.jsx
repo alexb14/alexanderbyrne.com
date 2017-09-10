@@ -8,53 +8,43 @@ import TextMedia from '../components/TextMedia';
 const ibl = () => (
   <div>
     <h1>IBL</h1>
-    <FullWidthMedia media="/images/ibl/hero/ibl-hero.jpg" width="1800" height="1200" />
-    <Copy>A four tiered experience for one of the most anticaped shoe drops of the year.</Copy> 
+    <FullWidthMedia media="/images/ibl/hero/hero@2x.png" width="1800" height="1040" />
+    <Copy>A historic name in british lighting wanted a new aesthetic.</Copy> 
+
+    <FullWidthMedia media="/images/ibl/desktop/Homepage@2x.png" width="1440" height="1432" />
+
+    <FullWidthMedia media="/images/ibl/desktop/ibl-brand@2x.png" width="1800" height="1040" />
+
     <MediaGrid
       type="desktop"
       items={[
-        { media: '/images/ibl/desktop/About-Us.png', width: 1440, height: 3623 },
-        { media: '/images/ibl/desktop/Contact-Us.png', width: 1440, height: 3287 },
+        { media: '/images/ibl/desktop/about-us@2x.png', width: 1440, height: 3623 },
+        { media: '/images/ibl/desktop/distributors@2x.png', width: 1440, height: 2702 },
       ]}
     />
     <FullWidthMedia media="/images/ibl/desktop/ibl-colour@2x.png" width="1800" height="1000" />
     
-    <Copy>Each AirMax had its own individual experience.</Copy>
-      <MediaGrid
-      items={[
-        { media: '/images/airmaxday/desktop/OG-1@2x.png', width: 3600, height: 2048 },
-        { media: '/images/airmaxday/desktop/Master-1@2x.png', width: 3600, height: 2048 },
-        { media: '/images/airmaxday/desktop/Atmos-1@2x.png', width: 3600, height: 2048 },
-        { media: '/images/airmaxday/desktop/Vapor-1@2x.png', width: 3600, height: 2048 },
-      ]}
-    />
+    <FullWidthMedia type="desktop" media="/images/ibl/desktop/projects@2x.png" width="1440" height="2796" />
+
+    <FullWidthMedia type="desktop" media="/images/ibl/desktop/project-page@2x.png" width="1440" height="4010" />
+
     <MediaGrid
-      type="mobile"
+      type="desktop"
       items={[
-        { media: '/images/airmaxday/mobile/Mockup-OG@2x.png', width: 375, height: 667 },
-        { media: '/images/airmaxday/mobile/Mockup-Master@2x.png', width: 375, height: 667 },
-        { media: '/images/airmaxday/mobile/Mockup-Atmos@2x.png', width: 375, height: 667 },
-        { media: '/images/airmaxday/mobile/Mockup-VaporMax@2x.png', width: 375, height: 667 },
+        { media: '/images/ibl/desktop/search@2x.png', width: 1440, height: 1024 },
+        { media: '/images/ibl/desktop/no results@2x.png', width: 1440, height: 1024 },
       ]}
     />
+    
+    <FullWidthMedia type="desktop" media="/images/ibl/desktop/category@2x.png" width="1440" height="2438" />
 
-    <Copy>Take the AirMax experience.</Copy>
+    <FullWidthMedia type="desktop" media="/images/ibl/desktop/Product-Page@2x.png" width="1440" height="3304" />
 
-    <FullWidthMedia type="desktop" media="/images/airmaxday/desktop/Vapor-3@2x.png" width="3600" height="2048" />
+    <FullWidthMedia type="desktop" media="/images/ibl/desktop/Menu@2x.png" width="1440" height="768" />
 
-      <MediaGrid
-      type="mobile"
-      items={[
-        { media: '/images/airmaxday/mobile/mockup-OG-1@2x.png', width: 375, height: 667 },
-        { media: '/images/airmaxday/mobile/mockup-OG-5@2x.png', width: 375, height: 667 },
-        { media: '/images/airmaxday/mobile/mockup-OG-2@2x.png', width: 375, height: 667 },
-        { media: '/images/airmaxday/mobile/mockup-OG-6@2x.png', width: 375, height: 667 },
-        { media: '/images/airmaxday/mobile/mockup-OG-3@2x.png', width: 375, height: 667 },
-        { media: '/images/airmaxday/mobile/mockup-OG-7@2x.png', width: 375, height: 667 },
-        { media: '/images/airmaxday/mobile/mockup-OG-4@2x.png', width: 375, height: 667 },
-        { media: '/images/airmaxday/mobile/mockup-OG-8@2x.png', width: 375, height: 667 },
-      ]}
-    />
+    <FullWidthMedia media="/images/ibl/mobile/mock@2x.png" width="1800" height="1040" />
+    
+
 
     
     <MyRole

@@ -63,17 +63,17 @@ const Home = () => (
     
     <TextMedia link="/metcon-mack" media="/images/metcon-mack/Tile/metcon-2.png" width="1100" height="1100" flip>
       <h2>Metcon Mack</h2>
-      <p>An online tool for students and educators to teach, learn and grow.</p>
+      <p>A digital workout experience for a Macktrck turned crossfit gym </p>
     </TextMedia>
 
-    <TextMedia link="/ibl" media="/images/ibl/tile/ibl-tile.jpg" width="628" height="877">
+    <TextMedia link="/ibl" media="/images/ibl/tile/tile@2x.png" width="600" height="600">
       <h2>IBL</h2>
-      <p>An online tool for students and educators to teach, learn and grow.</p>
+      <p>A new chapter for a hostoric name in british lighting</p>
     </TextMedia>
 
     <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile.png" width="1000" height="900" flip>
       <h2>Hyper Venom 3</h2>
-      <p>An online tool for students and educators to teach, learn and grow.</p>
+      <p>Nike's most agressive football boot</p>
     </TextMedia>
   </div>
 );
