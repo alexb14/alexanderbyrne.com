@@ -60,9 +60,9 @@ const ibl = () => (
     </TextMedia>
 
     <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile.png" width="1000" height="900" flip>
-      <h2>Hyper Venom 3</h2>
-      <p>An online tool for students and educators to teach, learn and grow.</p>
-    </TextMedia>
+    <h2>Hyper Venom 3</h2>
+    <p>Nike's most agressive football boot</p>
+  </TextMedia>
 
   </div>
 );

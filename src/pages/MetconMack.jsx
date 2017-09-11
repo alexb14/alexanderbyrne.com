@@ -71,10 +71,10 @@ const MetconMack = () => (
       <p>A four tiered experience for one of the most anticaped shoe drop of the year.</p>
     </TextMedia>
 
-    <TextMedia link="/ibl" media="/images/ibl/tile/ibl-tile.jpg" width="628" height="877" flip>
-      <h2>IBL</h2>
-      <p>An online tool for students and educators to teach, learn and grow.</p>
-    </TextMedia>
+    <TextMedia link="/ibl" media="/images/ibl/tile/tile@2x.png" width="600" height="600">
+    <h2>IBL</h2>
+    <p>A new chapter for a hostoric name in british lighting</p>
+  </TextMedia>
     
   </div>
    
