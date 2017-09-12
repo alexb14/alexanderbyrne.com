@@ -146,9 +146,9 @@ class Contact extends Component {
     return (
       <Form onSubmit={this.handleSubmit}>
         Hi, I'm <Input name="name" contentEditable="true" placeholder="Milhouse Van Houten" onKeyDown={this.handleKeyDown} onKeyUp={this.handleKeyUp} /> from <Input name="location" contentEditable="true" placeholder="Springfield" onKeyDown={this.handleKeyDown} onKeyUp={this.handleKeyUp} /> reaching out about an opportunity to:
-        <Textarea name="body" onChange={this.handleKeyUp} placeholder="Describe the opportunity here..." value={body} />
+        <Textarea name="body" onChange={this.handleKeyUp} placeholder="Win Lisa's love..." value={body} />
         You can reach me via email on:<br />
-        <Input name="email" contentEditable="true" placeholder="milhouse@gmail.com" onKeyDown={this.handleKeyDown} onKeyUp={this.handleKeyUp} />
+        <Input name="email" contentEditable="true" placeholder="thrillhouse@gmail.com" onKeyDown={this.handleKeyDown} onKeyUp={this.handleKeyUp} />
         <Actions>
           {success ? <p>Thanks! I'll get back to you shortly.</p> : <Button type="submit" disabled={sending || !isValid}>Send</Button> }
         </Actions>

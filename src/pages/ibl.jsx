@@ -13,6 +13,8 @@ const ibl = () => (
 
     <FullWidthMedia media="/images/ibl/desktop/Homepage@2x.png" width="1440" height="1432" />
 
+    <Copy>Unity between brand and iconography</Copy> 
+
     <FullWidthMedia media="/images/ibl/desktop/ibl-brand@2x.png" width="1800" height="1040" />
 
     <MediaGrid
@@ -22,9 +24,13 @@ const ibl = () => (
         { media: '/images/ibl/desktop/distributors@2x.png', width: 1440, height: 2702 },
       ]}
     />
+    <Copy>A bold colour palette that spoke to their heritage</Copy> 
+
     <FullWidthMedia media="/images/ibl/desktop/ibl-colour@2x.png" width="1800" height="1000" />
     
     <FullWidthMedia type="desktop" media="/images/ibl/desktop/projects@2x.png" width="1440" height="2796" />
+
+    <Copy>Showing their work in the best light</Copy> 
 
     <FullWidthMedia type="desktop" media="/images/ibl/desktop/project-page@2x.png" width="1440" height="4010" />
 
@@ -38,9 +44,13 @@ const ibl = () => (
     
     <FullWidthMedia type="desktop" media="/images/ibl/desktop/category@2x.png" width="1440" height="2438" />
 
+    <Copy>Simplicity and focus allowed complex customisation</Copy> 
+
     <FullWidthMedia type="desktop" media="/images/ibl/desktop/Product-Page@2x.png" width="1440" height="3304" />
 
     <FullWidthMedia type="desktop" media="/images/ibl/desktop/Menu@2x.png" width="1440" height="768" />
+
+    <Copy>With a fluid and seamless mobile experience</Copy> 
 
     <FullWidthMedia media="/images/ibl/mobile/mock@2x.png" width="1800" height="1040" />
     
