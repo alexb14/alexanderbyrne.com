@@ -50,9 +50,7 @@ const ibl = () => (
 
     <FullWidthMedia type="desktop" media="/images/ibl/desktop/Menu@2x.png" width="1440" height="768" />
 
-    <Copy>With a fluid and seamless mobile experience</Copy> 
-
-    <FullWidthMedia media="/images/ibl/mobile/mock@2x.png" width="1800" height="1040" />
+    
     
 
 
