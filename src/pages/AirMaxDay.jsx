@@ -58,7 +58,7 @@ const AirMaxDay = () => (
       ]}
     />
 
-    <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile.png" width="1000" height="900" flip>
+    <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile-4.jpg" width="1450" height="1400">
     <h2>Hyper Venom 3</h2>
     <p>Nike's most agressive football boot</p>
   </TextMedia>

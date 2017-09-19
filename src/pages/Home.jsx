@@ -71,7 +71,7 @@ const Home = () => (
       <p>A new chapter for a hostoric name in british lighting</p>
     </TextMedia>
 
-    <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile-3.jpg" width="1000" height="1389" flip>
+    <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile-4.jpg" width="1450" height="1400" flip>
       <h2>Hyper Venom 3</h2>
       <p>Nike's most agressive football boot</p>
     </TextMedia>

@@ -4,11 +4,12 @@ import MediaGrid from '../components/MediaGrid';
 import Copy from '../components/Copy';
 import MyRole from '../components/MyRole';
 import TextMedia from '../components/TextMedia';
+import Video from '../components/Video';
 
 const MetconMack = () => (
   <div>
     <h1>Metcon Mack</h1>
-    <FullWidthMedia media="/images/metcon-mack/hero/shoe.jpg" width="2400" height="1350" />
+    <FullWidthMedia media="/images/metcon-mack/hero/metcon-hero.jpg" width="2000" height="1333" />
 
      <Copy>A Mack truck turned cross-fit gym needed a digital workout experience for the launch of Nike's new Metcon trainer.</Copy>
      <FullWidthMedia media="/images/metcon-mack/Event.jpg" width="3600" height="2400" />
@@ -30,15 +31,12 @@ const MetconMack = () => (
       ]}
     />
       
+    
+    <Copy>The Nike trainer would be notified on their smartphone of the upcoming workout.</Copy>
 
-      <Copy>The Nike trainer would be notified on their smartphone of the upcoming workout.</Copy>
+    <Video media="/images/metcon-mack/mobile/metcon-mobile-animation" width="375" height="667"/>
 
-      <MediaGrid
-      type="mobile"
-      items={[
-        { media: '/images/metcon-mack/mobile/metcon-mobile-animation', width: 375, height: 667, video: true },
-      ]}
-    />
+  
       <Copy>Push-ups or Burpees?</Copy>
 
       <MediaGrid

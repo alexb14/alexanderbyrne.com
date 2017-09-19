@@ -8,7 +8,7 @@ import { fontSize, breakpoint } from '../utils/styled';
 const Media = styled.div`
   display: table-cell;
   vertical-align: middle;
-  width: 50%;
+  width: 52%;
   position: relative;
   
   > *::after {
@@ -21,9 +21,8 @@ const Media = styled.div`
     z-index: -1;
     width: 100%;
     height: 100%;
-    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.12);
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    
+    
   }
 
   ${breakpoint.down`
@@ -37,18 +36,20 @@ const Text = styled.div`
   vertical-align: middle;
   width: 50%;
   position: relative;
-  padding-left: 4vw;
+  padding-left: 6vw;
   direction: ltr;
   text-align: left;
 
+
+
   ${props => props.flip && `
-    padding-right: 4vw;
+    padding-right: 6vw;
     padding-left: 0;
   `}
 
   p {
     ${fontSize(14, 18)}
-    line-height: 1.7;
+    line-height: 1.5;
     color: #9E9EA6;
     
     &:last-child {
