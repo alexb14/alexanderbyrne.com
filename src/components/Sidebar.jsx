@@ -113,7 +113,7 @@ class Sidebar extends Component {
           <Logo to="/">a</Logo>
           <Nav>
             <NavItem to="/work" activeClassName="active">Work</NavItem>
-            <NavItem to="/about" activeClassName="active">About</NavItem>
+            
             <NavItem to="/contact" activeClassName="active">Contact</NavItem>
           </Nav>
         </Wrapper>

@@ -13,7 +13,7 @@ const Introduction = styled.div`
   
   > p {
     ${fontSize(22, 27)}
-    line-height: 1.85;
+    line-height: 1.75;
   }
     
   p + p {
@@ -32,7 +32,7 @@ const NavItem = styled(NavLink)`
   text-decoration: none;
 
   &:hover {
-    border-bottom: 1px solid #d3b98b;
+    border-bottom: 1px solid #2c2c2f;
     padding: 0 0 8px 0;
   }
 `;
@@ -47,7 +47,7 @@ const Home = () => (
       </p>
       <Nav>
         <NavItem to="/work">See my work</NavItem>
-        <NavItem to="/about">A bit about me</NavItem>
+        
         <NavItem to="/contact">Get in touch</NavItem>
       </Nav>
     </Introduction>
