@@ -44,7 +44,7 @@ const Hypervenom = () => (
     />
 
     
-<TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900">
+<TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900" flip>
       <h2>Officeworks</h2>
       <p>Bringing a dated national brand into the current.</p>
     </TextMedia>

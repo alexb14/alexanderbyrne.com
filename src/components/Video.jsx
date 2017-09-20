@@ -6,17 +6,14 @@ const Root = styled.div`
   position: relative;
   width: 100%;
   height: 0;
-  margin-top: 12vw;
-  margin-bottom: -60vw;
 `;
 
 const Media = styled.video`
-  position: centre;
+  position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
-  width: 562px;
-  height: 1000px;
+  width: 100%;
+  height: 100%;
 `;
 
 class Video extends Component {

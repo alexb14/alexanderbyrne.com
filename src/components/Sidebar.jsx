@@ -110,7 +110,13 @@ class Sidebar extends Component {
           <Hamburger toggle={visible} onClick={this.handleToggle} />
         </Toggle>
         <Wrapper style={{ display: visible ? 'block' : 'none' }}>
-          <Logo to="/">a</Logo>
+          <Logo to="/">
+          <img 
+            src="images/logo.svg" 
+            alt="triangle with all three sides equal"
+            height="20px"
+            width="18px" />
+          </Logo>
           <Nav>
             <NavItem to="/work" activeClassName="active">Work</NavItem>
             

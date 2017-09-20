@@ -34,7 +34,7 @@ const MetconMack = () => (
     
     <Copy>The Nike trainer would be notified on their smartphone of the upcoming workout.</Copy>
 
-    <Video media="/images/metcon-mack/mobile/metcon-mobile-animation" width="375" height="667"/>
+    <FullWidthMedia media="/images/metcon-mack/mobile/mobile-animation" width="1800" height="900" video/>
 
   
       <Copy>Push-ups or Burpees?</Copy>
@@ -64,12 +64,12 @@ const MetconMack = () => (
     />
 
    
-<TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile.png" width="800" height="900">
+<TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile-2.jpg" width="1000" height="900">
       <h2>Air Max Day</h2>
       <p>A four tiered experience for one of the most anticaped shoe drop of the year.</p>
     </TextMedia>
 
-    <TextMedia link="/ibl" media="/images/ibl/tile/tile@2x.png" width="600" height="600">
+    <TextMedia link="/ibl" media="/images/ibl/tile/tile@2x.png" width="600" height="600" flip>
     <h2>IBL</h2>
     <p>A new chapter for a hostoric name in british lighting</p>
   </TextMedia>
