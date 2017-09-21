@@ -31,7 +31,7 @@ injectGlobal`
     ${fontSize(30, 64)}
     font-weight: normal;
     color: #202123;
-    margin: 16vh 0 0;
+    margin: 18vh 0 0;
     font-family: 'FFTisaWebLight', serif;
   }
 
