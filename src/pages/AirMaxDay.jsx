@@ -9,9 +9,9 @@ const AirMaxDay = () => (
   <div>
     <h1>Air Max Day</h1>
     <FullWidthMedia media="/images/airmaxday/hero/airmax-hero.gif" width="1920" height="1080" />
-    <Copy>A four tiered experience for one of the most anticaped shoe drops of the year.</Copy>
+    <Copy>A multi-layered digital experience for one of the most anticipated shoe drops of the year</Copy>
     <FullWidthMedia type="desktop" media="/images/airmaxday/desktop/airmax-grid-timer@2x.png" width="3600" height="2048" />
-    <Copy>Each AirMax had its own individual experience.</Copy>
+    <Copy>Four Air Max silhouettes, four different release dates; four unique digital experiences</Copy>
       <MediaGrid
       items={[
         { media: '/images/airmaxday/desktop/OG-1.png', width: 1800, height: 1024 },

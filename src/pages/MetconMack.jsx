@@ -11,16 +11,16 @@ const MetconMack = () => (
     <h1>Metcon Mack</h1>
     <FullWidthMedia media="/images/metcon-mack/hero/metcon-hero.jpg" width="2000" height="1333" />
 
-     <Copy>A Mack truck turned cross-fit gym needed a digital workout experience for the launch of Nike's new Metcon trainer.</Copy>
+     <Copy>An elevated digital workout experience for a Mack truck turned crossfit gym, to launch Nike’s latest training shoe. </Copy>
      <FullWidthMedia media="/images/metcon-mack/Event.jpg" width="3600" height="2400" />
 
      
 
-      <Copy>The product used three devices to deliver a tailored experience to each particpant.</Copy>
+      <Copy>A custom-designed app that used three interfaces and three separate pieces of hardware to deliver one tailored experience</Copy>
 
     <FullWidthMedia media="/images/metcon-mack/iPad-3.jpg" width="3600" height="2400" />
 
-      <Copy>A tablet was mounted on the wall for participants to choose their desired opponent.</Copy>
+      <Copy>The tablet was mounted onto the Mack’s wall inviting participants to choose their desired opponent</Copy>
          <MediaGrid
       items={[
         { media: '/images/metcon-mack/tablet/iPad-Home@2x.png', width: 2048, height: 1536 },
@@ -32,7 +32,7 @@ const MetconMack = () => (
     />
       
     
-    <Copy>The Nike trainer would be notified on their smartphone of the upcoming workout.</Copy>
+    <Copy>The Nike trainer then received a smartphone notification that someone was ready for a challenge</Copy>
 
     <FullWidthMedia media="/images/metcon-mack/mobile/mobile-animation" width="1800" height="900" video/>
 
@@ -52,7 +52,7 @@ const MetconMack = () => (
     <FullWidthMedia media="/images/metcon-mack/iPhone-1.jpg" width="3600" height="2400" />
 
 
-      <Copy>The crowd looked on from a TV mounted to the truck</Copy>
+      <Copy>The challenge was completed as the crowd watched reps get counted in real-time on an external screen</Copy>
 
       <FullWidthMedia media="/images/metcon-mack/tv-dark@2x.png" width="1800" height="1150" />
  

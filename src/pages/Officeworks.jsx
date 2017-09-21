@@ -9,22 +9,22 @@ const Officeworks = () => (
   <div>
     <h1>Officeworks</h1>
     <FullWidthMedia media="/images/officeworks/hero/ow-hero@2x.png" width="1800" height="1040" />
-    <Copy>Officeworks wanted a complete overhaul of their digital style.</Copy>
+    <Copy>Officeworks needed to refresh the functioning of their website. With that, came an overhaul of their digital style</Copy>
     
     <FullWidthMedia media="/images/officeworks/other/ow-colour@2x.png" width="1800" height="1500" />
   
 
-    <Copy>A component based approach informed every decision, resulting in a full UI Kit</Copy>
+    <Copy>A component-based approach informed every decision, resulting in a full, future-proofed UI kit</Copy>
     <FullWidthMedia media="/images/officeworks/desktop/components@2x.png" width="1800" height="1416" />
 
-    <Copy>Clear categorisation</Copy>
+    <Copy>Clear categorisation that could handle the depth of 152 links</Copy>
     <FullWidthMedia type="desktop" media="/images/officeworks/desktop/desktop-cat@2x.png" width="1440" height="2000" />
 
 
-    <Copy>A simplified product experience</Copy>
+    <Copy>A sleek and simplified product experience</Copy>
     <FullWidthMedia type="desktop" media="/images/officeworks/desktop/Desktop-product@2x.png" width="1440" height="2680" />
 
-    <Copy>A responsive redesign needs to be responsive, right?</Copy>
+    <Copy>Responsive consistency whether you’re on mobile or desktop</Copy>
     <MediaGrid
       type="mobile"
       items={[
@@ -36,7 +36,7 @@ const Officeworks = () => (
     />
     
     
-    <Copy>An intuitive menu that works with for the user </Copy>
+    <Copy>An intuitive menu designed for the user</Copy>
     <FullWidthMedia media="/images/officeworks/mobile/Menu@2x.png" width="1800" height="1200" />
     
     

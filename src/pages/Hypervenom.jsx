@@ -10,11 +10,11 @@ const Hypervenom = () => (
     <h1>Hyper Venom 3</h1>
     <FullWidthMedia media="/images/hypervenom/other/hyper-hero.png" width="2400" height="1500" />
 
-     <Copy>Nike needed a landing page for the new Hyper Venom 3</Copy>
+     <Copy>As part of the release of their new Hyper Venom 3, Nike gave rebel customer’s a bold, powerful experience</Copy>
 
      <FullWidthMedia media="/images/hypervenom/desktop/hypervenom-scroll-3" width="1600" height="1000" video/>
 
-      <Copy>A bold and aggressive experience reimagining vivid colours and striking lines.</Copy>
+      <Copy>Reimagined vivid colours and striking lines</Copy>
 
       <MediaGrid
       type="responsive"
@@ -25,6 +25,9 @@ const Hypervenom = () => (
     />
     
     <FullWidthMedia media="/images/hypervenom/other/player.jpg" width="3142" height="2095" />
+
+    <Copy>Powerful execution as clean as the fit of the shoe </Copy>
+
       <MediaGrid
       type="mobile"
       items={[

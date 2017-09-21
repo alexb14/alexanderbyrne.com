@@ -13,12 +13,12 @@ const Title = styled.p`
 `;
 
 const Role = styled.span`
-  ${fontSize(20, 40)}
+  ${fontSize(24, 40)}
   color: #2c2c2f;
   font-family: 'FFTisaWebLight', serif;
   display: inline-block;
   vertical-align: middle;
-  padding: 24px 0 0 0;
+  padding: 16px 0 0 0;
   
   & + &::before {
     content: '•';

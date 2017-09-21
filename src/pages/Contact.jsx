@@ -49,16 +49,20 @@ const Actions = styled.div`
 const Button = styled.button`
   ${fontSize(24, 32)}
   font-family: 'FFTisaWebLight', serif;
-  color: #d3b98b;
+  color: #2c2c2c;
   border: 0;
   background: none;
-  border-bottom: 1px solid #d3b98b;
+  
   padding: 0;
   margin: 0;
   
   &[disabled] {
     color: #ccc;
     border-color: #ccc;
+  }
+
+  &:hover {
+    border-bottom: 1px solid #2c2c2c;
   }
 `;
 
@@ -145,7 +149,7 @@ class Contact extends Component {
 
     return (
       <Form onSubmit={this.handleSubmit}>
-        Hi, I'm <Input name="name" contentEditable="true" placeholder="Milhouse Van Houten" onKeyDown={this.handleKeyDown} onKeyUp={this.handleKeyUp} /> from <Input name="location" contentEditable="true" placeholder="Springfield" onKeyDown={this.handleKeyDown} onKeyUp={this.handleKeyUp} /> reaching out about an opportunity to:
+        Hi Alex, I'm <Input name="name" contentEditable="true" placeholder="Milhouse Van Houten" onKeyDown={this.handleKeyDown} onKeyUp={this.handleKeyUp} /> from <Input name="location" contentEditable="true" placeholder="Springfield" onKeyDown={this.handleKeyDown} onKeyUp={this.handleKeyUp} /> reaching out about an opportunity to:
         <Textarea name="body" onChange={this.handleKeyUp} placeholder="Win Lisa's love..." value={body} />
         You can reach me via email on:<br />
         <Input name="email" contentEditable="true" placeholder="thrillhouse@gmail.com" onKeyDown={this.handleKeyDown} onKeyUp={this.handleKeyUp} />

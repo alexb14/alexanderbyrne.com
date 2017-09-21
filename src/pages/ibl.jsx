@@ -9,11 +9,11 @@ const ibl = () => (
   <div>
     <h1>IBL</h1>
     <FullWidthMedia media="/images/ibl/hero/hero@2x.png" width="1800" height="1040" />
-    <Copy>A historic name in british lighting wanted a new aesthetic.</Copy> 
+    <Copy>A historic name in British lighting needed a complete brand refresh and an aesthetic that matched their reputation</Copy> 
 
     <FullWidthMedia media="/images/ibl/desktop/Homepage@2x.png" width="1440" height="1432" />
 
-    <Copy>Unity between brand and iconography</Copy> 
+    <Copy>Establishing unity between brand and iconography </Copy> 
 
     <FullWidthMedia media="/images/ibl/desktop/ibl-brand@2x.png" width="1800" height="1040" />
 
@@ -30,7 +30,7 @@ const ibl = () => (
     
     <FullWidthMedia type="desktop" media="/images/ibl/desktop/projects@2x.png" width="1440" height="2796" />
 
-    <Copy>Showing their work in the best light</Copy> 
+    <Copy>A design that highlighted their work in its very best light</Copy> 
 
     <FullWidthMedia type="desktop" media="/images/ibl/desktop/project-page@2x.png" width="1440" height="4010" />
 
@@ -44,7 +44,7 @@ const ibl = () => (
     
     <FullWidthMedia type="desktop" media="/images/ibl/desktop/category@2x.png" width="1440" height="2438" />
 
-    <Copy>Simplicity and focus allowed complex customisation</Copy> 
+    <Copy>Simplicity and focus to allow for complex customisation</Copy> 
 
     <FullWidthMedia type="desktop" media="/images/ibl/desktop/Product-Page@2x.png" width="1440" height="3304" />
 
