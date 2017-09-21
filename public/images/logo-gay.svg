@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="17" viewBox="0 0 19 17">
+  <defs>
+    <path id="logo-gay-a" d="M13.3,1.4313519 L13.3,0 L19,0 L19,17 L13.3,17 L13.3,15.5686481 C11.94141,16.4727434 10.30764,17 8.55,17 C3.82797,17 0,13.1944204 0,8.5 C0,3.8055796 3.82797,0 8.55,0 C10.30764,0 11.94141,0.5272566 13.3,1.4313519 Z M9.5,12 C11.59868,12 13.3,10.4329966 13.3,8.5 C13.3,6.5670034 11.59868,5 9.5,5 C7.40132,5 5.7,6.5670034 5.7,8.5 C5.7,10.4329966 7.40132,12 9.5,12 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="logo-gay-b" fill="#fff">
+      <use xlink:href="#logo-gay-a"/>
+    </mask>
+    <use fill="#F7F7F7" fill-rule="nonzero" xlink:href="#logo-gay-a"/>
+    <g mask="url(#logo-gay-b)">
+      <g transform="rotate(30 49.687 19.134)">
+        <rect width="3.701" height="62.399" x=".004" y=".019" fill="#FF3A3A"/>
+        <rect width="3.701" height="62.399" x="3.714" y=".601" fill="#FF9400"/>
+        <rect width="3.701" height="62.399" x="7.19" y=".569" fill="#FAE000"/>
+        <rect width="3.701" height="62.399" x="10.891" y=".569" fill="#00AE6D"/>
+        <rect width="3.701" height="62.399" x="14.592" y=".569" fill="#0081CA"/>
+        <rect width="3.701" height="62.399" x="18.293" y=".569" fill="#7D59AB"/>
+      </g>
+    </g>
+  </g>
+</svg>

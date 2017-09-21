@@ -12,10 +12,6 @@ const Officeworks = () => (
     <Copy>Officeworks needed to refresh the functioning of their website. With that, came an overhaul of their digital style</Copy>
     
     <FullWidthMedia media="/images/officeworks/other/ow-colour@2x.png" width="1800" height="1500" />
-  
-
-    <Copy>A component-based approach informed every decision, resulting in a full, future-proofed UI kit</Copy>
-    <FullWidthMedia media="/images/officeworks/desktop/components@2x.png" width="1800" height="1416" />
 
     <Copy>Clear categorisation that could handle the depth of 152 links</Copy>
     <FullWidthMedia type="desktop" media="/images/officeworks/desktop/desktop-cat@2x.png" width="1440" height="2000" />
@@ -35,6 +31,8 @@ const Officeworks = () => (
       ]}
     />
     
+    <Copy>A component-based approach informed every decision, resulting in a full, future-proofed UI kit</Copy>
+    <FullWidthMedia media="/images/officeworks/desktop/components@2x.png" width="1800" height="1416" />
     
     <Copy>An intuitive menu designed for the user</Copy>
     <FullWidthMedia media="/images/officeworks/mobile/Menu@2x.png" width="1800" height="1200" />
