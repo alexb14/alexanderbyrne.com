@@ -113,9 +113,9 @@ class Sidebar extends Component {
           <Logo to="/">
           <img 
             src="images/logo-gay.svg" 
-            alt="triangle with all three sides equal"
-            height="20px"
-            width="18px" />
+            alt="logo"
+            height="22px"
+            width="20px" />
           </Logo>
           <Nav>
             <NavItem to="/work" activeClassName="active">Work</NavItem>

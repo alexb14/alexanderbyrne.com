@@ -25,7 +25,7 @@ const Work = () => (
   </TextMedia>
 
   <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile-2.jpg" width="1000" height="900" flip>
-    <h2>Hyper Venom 3</h2>
+    <h2>Nike Hypervenom</h2>
     <p>A page takeover for Nike’s most aggressive football boot.</p>
   </TextMedia>
   </div>

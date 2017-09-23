@@ -17,13 +17,7 @@ const ibl = () => (
 
     <FullWidthMedia media="/images/ibl/desktop/ibl-brand@2x.png" width="1800" height="1040" />
 
-    <MediaGrid
-      type="desktop"
-      items={[
-        { media: '/images/ibl/desktop/about-us@2x.png', width: 1440, height: 3623 },
-        { media: '/images/ibl/desktop/distributors@2x.png', width: 1440, height: 2702 },
-      ]}
-    />
+    
     <Copy>A bold colour palette that spoke to their heritage</Copy> 
 
     <FullWidthMedia media="/images/ibl/desktop/ibl-colour@2x.png" width="1800" height="1000" />
@@ -34,21 +28,14 @@ const ibl = () => (
 
     <FullWidthMedia type="desktop" media="/images/ibl/desktop/project-page@2x.png" width="1440" height="4010" />
 
-    <MediaGrid
-      type="desktop"
-      items={[
-        { media: '/images/ibl/desktop/search@2x.png', width: 1440, height: 1024 },
-        { media: '/images/ibl/desktop/no results@2x.png', width: 1440, height: 1024 },
-      ]}
-    />
-    
-    <FullWidthMedia type="desktop" media="/images/ibl/desktop/category@2x.png" width="1440" height="2438" />
+    <FullWidthMedia type="desktop" media="/images/ibl/desktop/search@2x.png" width="1440" height="1024" />
+
 
     <Copy>Simplicity and focus to allow for complex customisation</Copy> 
 
     <FullWidthMedia type="desktop" media="/images/ibl/desktop/Product-Page@2x.png" width="1440" height="3304" />
 
-    <FullWidthMedia type="desktop" media="/images/ibl/desktop/Menu@2x.png" width="1440" height="768" />
+    <FullWidthMedia type="desktop" media="/images/ibl/desktop/about-us@2x.png" width="1440" height="3623" />
 
     
     
@@ -62,15 +49,17 @@ const ibl = () => (
       ]}
     />
 
-<TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900">
-      <h2>Officeworks</h2>
-      <p>Bringing a dated national brand into the current.</p>
+    <TextMedia link="/metcon-mack" media="/images/metcon-mack/Tile/metcon-2.png" width="1100" height="1100" flip>
+      <h2>NikeWomen Metcon Mack</h2>
+      <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
     </TextMedia>
 
-    <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile.png" width="1000" height="900" flip>
-    <h2>Hyper Venom 3</h2>
-    <p>Nike's most agressive football boot</p>
-  </TextMedia>
+    <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile-2.jpg" width="1000" height="900">
+      <h2>Nike HyperVenom</h2>
+      <p>A page takeover for Nike’s most aggressive football boot.</p>
+    </TextMedia>
+
+  
 
   </div>
 );

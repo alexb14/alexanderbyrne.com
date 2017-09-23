@@ -66,7 +66,7 @@ const Text = styled.div`
 `;
 
 const RootStyle = css`
-  margin: 37vh auto 0;
+  margin: 32vh auto 0;
   display: table;
   max-width: 900px;
   text-decoration: none;

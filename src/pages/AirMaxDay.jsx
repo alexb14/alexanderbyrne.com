@@ -58,14 +58,14 @@ const AirMaxDay = () => (
       ]}
     />
 
-    <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile-4.jpg" width="1450" height="1400">
-    <h2>Hyper Venom 3</h2>
-    <p>Nike's most agressive football boot</p>
+    <TextMedia link="/ibl" media="/images/ibl/tile/tile@2x.png" width="600" height="600">
+    <h2>IBL</h2>
+    <p>Creating a new chapter for a historic name in British lighting.</p>
   </TextMedia>
 
   <TextMedia link="/metcon-mack" media="/images/metcon-mack/Tile/metcon-2.png" width="1100" height="1100" flip>
-  <h2>Metcon Mack</h2>
-  <p>A digital workout experience for a Macktrck turned crossfit gym </p>
+  <h2>NikeWomen Metcon Mack</h2>
+  <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
 </TextMedia>
 
   </div>

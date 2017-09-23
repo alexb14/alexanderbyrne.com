@@ -7,7 +7,7 @@ import TextMedia from '../components/TextMedia';
 
 const Hypervenom = () => (
   <div>
-    <h1>Hyper Venom 3</h1>
+    <h1>Nike HyperVenom</h1>
     <FullWidthMedia media="/images/hypervenom/other/hyper-hero.png" width="2400" height="1500" />
 
      <Copy>As part of the release of their new Hyper Venom 3, Nike gave rebel customer’s a bold, powerful experience</Copy>
@@ -47,14 +47,14 @@ const Hypervenom = () => (
     />
 
     
-<TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900" flip>
+    <TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900" flip>
       <h2>Officeworks</h2>
-      <p>Bringing a dated national brand into the current.</p>
+      <p>Modernising a national legacy brand website.</p>
     </TextMedia>
 
     <TextMedia link="/ibl" media="/images/ibl/tile/tile@2x.png" width="600" height="600">
     <h2>IBL</h2>
-    <p>A new chapter for a hostoric name in british lighting</p>
+    <p>Creating a new chapter for a historic name in British lighting.</p>
   </TextMedia>
 
   </div>

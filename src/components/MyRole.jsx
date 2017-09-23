@@ -13,7 +13,7 @@ const Title = styled.p`
 `;
 
 const Role = styled.span`
-  ${fontSize(24, 40)}
+  ${fontSize(22, 40)}
   color: #2c2c2f;
   font-family: 'FFTisaWebLight', serif;
   display: inline-block;

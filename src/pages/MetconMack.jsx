@@ -9,7 +9,7 @@ import Video from '../components/Video';
 const MetconMack = () => (
   <div>
     <h1>Metcon Mack</h1>
-    <FullWidthMedia media="/images/metcon-mack/hero/metcon-hero.jpg" width="2000" height="1333" />
+    <FullWidthMedia media="/images/metcon-mack/hero/iPhone-2.jpg" width="2000" height="1333" />
 
      <Copy>An elevated digital workout experience for a Mack truck turned crossfit gym, to launch Nike’s latest training shoe. </Copy>
      <FullWidthMedia media="/images/metcon-mack/Event.jpg" width="3600" height="2400" />
@@ -64,15 +64,15 @@ const MetconMack = () => (
     />
 
    
-<TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile-2.jpg" width="1000" height="900">
-      <h2>Air Max Day</h2>
-      <p>A four tiered experience for one of the most anticaped shoe drop of the year.</p>
+    <TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile-2.jpg" width="1000" height="900">
+      <h2>Nike Air Max Day</h2>
+      <p>A multi-layered digital experience for the most anticipated shoe drop of the year.</p>
     </TextMedia>
 
-    <TextMedia link="/ibl" media="/images/ibl/tile/tile@2x.png" width="600" height="600" flip>
-    <h2>IBL</h2>
-    <p>A new chapter for a hostoric name in british lighting</p>
-  </TextMedia>
+    <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile-2.jpg" width="1000" height="900" flip>
+      <h2>Nike HyperVenom</h2>
+      <p>A page takeover for Nike’s most aggressive football boot.</p>
+    </TextMedia>
     
   </div>
    
