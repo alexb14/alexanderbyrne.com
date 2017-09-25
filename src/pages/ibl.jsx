@@ -49,6 +49,11 @@ const ibl = () => (
       ]}
     />
 
+    <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile-2.jpg" width="1000" height="900">
+    <h2>Nike Hypervenom</h2>
+    <p>A page takeover for Nike’s most aggressive football boot.</p>
+  </TextMedia>
+  
     <TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900" flip>
     <h2>Officeworks</h2>
     <p>Modernising a national legacy brand website.</p>
@@ -64,12 +69,8 @@ const ibl = () => (
     <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
   </TextMedia>
 
-  
 
-  <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile-2.jpg" width="1000" height="900" flip>
-    <h2>Nike Hypervenom</h2>
-    <p>A page takeover for Nike’s most aggressive football boot.</p>
-  </TextMedia>
+  
   
 
   </div>
