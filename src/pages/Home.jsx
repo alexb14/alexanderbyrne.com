@@ -21,6 +21,23 @@ const Introduction = styled.div`
   }
 `;
 
+const Signoff = styled.div`
+  color: #2c2c2f;
+  text-align: center;
+  max-width: 750px;
+  margin: 30vh auto 0;
+  font-family: 'FFTisaWebLight', serif;
+  
+  > p {
+    ${fontSize(26, 40)}
+    line-height: 1.75;
+  }
+    
+  p + p {
+    color: #2c2c2f;
+  }
+`;
+
 const Nav = styled.nav`
   margin-top: 6vh;
   ${breakpoint.down`display:none;`}
@@ -37,12 +54,23 @@ const NavItem = styled(NavLink)`
   }
 `;
 
+const NavItemBottom = styled(NavLink)`
+  ${fontSize(14, 20)}
+  margin-right: 0%;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 1px solid #2c2c2f;
+    padding: 0 0 8px 0;
+  }
+`;
+
 const Home = () => (
   <div>
     <Introduction>
-      <p>Hi, I'm Alex.</p>
+      <p>Hi, I'm Alexander.</p>
       <p>
-      I’m an Experience and Interaction designer based in Melbourne. Over the past four years, I’ve designed products and helped tailor experiences for some amazing brands.
+      I’m an Experience and Interaction designer based in Melbourne. Over the past six years, I’ve designed products and helped tailor experiences for some amazing brands.
       </p>
       <Nav>
         <NavItem to="/work">See my work</NavItem>
@@ -74,6 +102,13 @@ const Home = () => (
       <h2>Nike HyperVenom</h2>
       <p>A page takeover for Nike’s most aggressive football boot.</p>
     </TextMedia>
+    <Signoff>
+      <p>Let's make something great together</p>
+      
+      <Nav>
+        <NavItemBottom to="/contact">Get in touch</NavItemBottom>
+      </Nav>
+    </Signoff>
   </div>
 );
 
