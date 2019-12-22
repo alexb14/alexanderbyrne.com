@@ -1,9 +1,10 @@
-import React from 'react';
-import styled, { injectGlobal } from 'styled-components';
-import { withRouter } from 'react-router-dom';
-import Sidebar from './Sidebar';
-import ScrollToTop from './ScrollToTop';
-import { breakpoint, fontSize } from '../utils/styled';
+import React from "react";
+import styled, { injectGlobal } from "styled-components";
+import { withRouter } from "react-router-dom";
+import Sidebar from "./Sidebar";
+import SocialLinks from "./SocialLinks";
+import ScrollToTop from "./ScrollToTop";
+import { breakpoint, fontSize } from "../utils/styled";
 
 injectGlobal`
   *, *::before, *::after {
@@ -16,7 +17,7 @@ injectGlobal`
     padding: 0;
     min-height: 100%;
     font-size: 18px;
-    color: #9E9EA6;
+    color: #323235;
     font-family: 'NeutrifPro-Regular', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -24,13 +25,16 @@ injectGlobal`
   
   html {
     overflow-y: scroll;
-    background-color: #fafafa;
+    background-color: #fff;
   }
 
   h1 {
-    ${fontSize(30, 64)}
+    ${fontSize(30, 76)}
+    line-height: 1.1;
+    letter-spacing: -1px;
     font-weight: normal;
-    color: #202123;
+    color: #323235;
+    text-align: left;
     margin: 18vh 0 0;
     font-family: 'FFTisaWebLight', serif;
   }
@@ -70,9 +74,10 @@ const Root = styled.div`
 
 const Layout = ({ children, location }) => (
   <ScrollToTop>
-    <Root hideSidebar={location.pathname === '/'}>
+    <Root>
       <Sidebar />
       {children}
+      <SocialLinks />
     </Root>
   </ScrollToTop>
 );

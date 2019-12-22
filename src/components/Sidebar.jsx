@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { Link, NavLink, withRouter } from 'react-router-dom';
-import styled from 'styled-components';
-import Hamburger from './Hamburger';
-import { breakpoint, fontSize } from '../utils/styled';
+import React, { Component } from "react";
+import { Link, NavLink, withRouter } from "react-router-dom";
+import styled from "styled-components";
+import Hamburger from "./Hamburger";
+import { breakpoint, fontSize } from "../utils/styled";
 
 const Root = styled.div`
   text-align: center;
@@ -10,55 +10,42 @@ const Root = styled.div`
 `;
 
 const Wrapper = styled.div`
-  border-left: 1px solid #dee2e6;
-  background-color: #fafafa;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  width: 140px;
-  z-index: 1;
-  
-  ${breakpoint.up`display: block !important;`}
-  
+  padding: 46px 0;
+  align-items: center;
+  justify-content: space-between;
+
+  ${breakpoint.up`display: flex !important;`}
+
   ${breakpoint.down`
     border: 0;
     width: 100%;
     left: 0;
     text-align: left;
     padding: 0 8vw;
-  `}
+  `};
 `;
 
 const Nav = styled.nav`
-  position: absolute;
-  transform: translate(0, 50%);
-  bottom: 50%;
-  left: 30px;
   text-align: left;
-  
+
   ${breakpoint.down`
-    bottom: 16vw;
-    left: 8vw;
     transform: none;
   `}
 `;
 
 const NavItem = styled(NavLink)`
-  display: block;
-  font-size: 18px;
+  display: inline-block;
+  font-size: 15px;
   font-weight: normal;
-  font-family: 'FFTisaWebLight', serif;
-  margin: 32px auto;
-  
-  ${breakpoint.down`${fontSize(24, 32)}`}
+  margin-right: 63px;
+  color: #74747b;
+  font-family: "NeutrifPro-Regular", sans-serif;
+  ${breakpoint.down`${fontSize(24, 32)}`};
 `;
 
 const Logo = styled(Link)`
   display: inline-block;
-  font-size: 32px;
-  margin: 30px 0;
+  font-size: 15px;
   color: #000;
   text-decoration: none;
 `;
@@ -80,12 +67,12 @@ class Sidebar extends Component {
     this.handleToggle = this.handleToggle.bind(this);
 
     this.state = {
-      visible: false,
+      visible: false
     };
 
     this.unlisten = this.props.history.listen(() => {
       this.setState({
-        visible: false,
+        visible: false
       });
     });
   }
@@ -96,7 +83,7 @@ class Sidebar extends Component {
 
   handleToggle() {
     this.setState({
-      visible: !this.state.visible,
+      visible: !this.state.visible
     });
   }
 
@@ -105,23 +92,21 @@ class Sidebar extends Component {
     const { location } = this.props;
 
     return (
-      <Root hide={location.pathname === '/'}>
+      <Root>
         <Toggle>
           <Hamburger toggle={visible} onClick={this.handleToggle} />
         </Toggle>
-        <Wrapper style={{ display: visible ? 'block' : 'none' }}>
-          <Logo to="/">
-          <img 
-            src="images/logo-gay.svg" 
-            alt="logo"
-            height="22px"
-            width="20px" />
-          </Logo>
+        <Wrapper style={{ display: visible ? "block" : "none" }}>
           <Nav>
-            <NavItem to="/work" activeClassName="active">Work</NavItem>
-            
-            <NavItem to="/contact" activeClassName="active">Contact</NavItem>
+            <NavItem to="/work" activeClassName="active">
+              Work
+            </NavItem>
+
+            <NavItem to="/contact" activeClassName="active">
+              Contact
+            </NavItem>
           </Nav>
+          <Logo to="/">Alexander Byrne</Logo>
         </Wrapper>
       </Root>
     );

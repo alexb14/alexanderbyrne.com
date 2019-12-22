@@ -1,29 +1,33 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
-import request from 'superagent';
-import { breakpoint, fontSize } from '../utils/styled';
+import React, { Component } from "react";
+import styled from "styled-components";
+import request from "superagent";
+import { breakpoint, fontSize } from "../utils/styled";
 
 const Form = styled.form`
   ${fontSize(24, 32)}
   text-align: left;
   margin-top: 16vh;
   max-width: 60%;
-  font-family: 'FFTisaWebLight', serif;
   line-height: 2;
   color: #202123;
 
   ${breakpoint.down`max-width: 100%;`}
 `;
 
+const Intro = styled.p`
+  color: #74747b;
+  text-align: left;
+`;
+
 const Input = styled.span`
-  border-bottom: 2px dotted #acadb7;
+  border-bottom: 1px dashed #74747b;
   display: inline-block;
   line-height: 1;
   outline: 0;
-  
+
   &:empty::before {
     content: attr(placeholder);
-    color: #acadb7;
+    color: #74747b;
   }
 `;
 
@@ -37,7 +41,6 @@ const Textarea = styled.textarea`
   padding: 0;
   margin: 0;
   border: 0;
-  font-family: 'FFTisaWebLight', serif;
   outline: 0;
   line-height: 2;
 `;
@@ -48,21 +51,20 @@ const Actions = styled.div`
 
 const Button = styled.button`
   ${fontSize(24, 32)}
-  font-family: 'FFTisaWebLight', serif;
+  display: inline-block;
   color: #2c2c2c;
-  border: 0;
-  background: none;
-  
-  padding: 0;
-  margin: 0;
-  
-  &[disabled] {
-    color: #ccc;
-    border-color: #ccc;
-  }
+  background: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  border-radius: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  padding: 13px 34px;
 
-  &:hover {
-    border-bottom: 1px solid #2c2c2c;
+  &[disabled] {
+    opacity: 0.3;
   }
 `;
 
@@ -78,10 +80,10 @@ class Contact extends Component {
       sending: false,
       success: false,
       error: false,
-      name: '',
-      location: '',
-      body: '',
-      email: '',
+      name: "",
+      location: "",
+      body: "",
+      email: ""
     };
   }
 
@@ -91,22 +93,22 @@ class Contact extends Component {
     const { name, location, body, email } = this.state;
 
     this.setState({
-      sending: true,
+      sending: true
     });
 
     request
-      .post('https://formspree.io/hello@alexanderbyrne.com')
+      .post("https://formspree.io/hello@alexanderbyrne.com")
       .send({
         name,
         email,
         location,
-        body,
+        body
       })
       .end((error, response) => {
         if (error) {
           this.setState({
             sending: false,
-            error: true,
+            error: true
           });
 
           return;
@@ -114,28 +116,28 @@ class Contact extends Component {
 
         this.setState({
           sending: false,
-          success: true,
+          success: true
         });
       });
   }
 
   handleKeyUp(e) {
     const target = e.target;
-    const value = target.tagName === 'SPAN' ? target.textContent : target.value;
-    const name = target.getAttribute('name');
+    const value = target.tagName === "SPAN" ? target.textContent : target.value;
+    const name = target.getAttribute("name");
 
     this.setState({
-      [name]: value,
+      [name]: value
     });
   }
 
   handleKeyDown(e) {
     const target = e.target;
-    const name = target.getAttribute('name');
+    const name = target.getAttribute("name");
     const key = e.key;
 
-    if (key === 'Enter' && target.tagName === 'SPAN') {
-      if (name === 'email') {
+    if (key === "Enter" && target.tagName === "SPAN") {
+      if (name === "email") {
         this.handleSubmit(e);
       }
 
@@ -145,18 +147,64 @@ class Contact extends Component {
 
   render() {
     const { sending, success, name, location, body, email } = this.state;
-    const isValid = name.trim() !== '' && location.trim() !== '' && body.trim() !== '' && email.trim() !== '';
+    const isValid =
+      name.trim() !== "" &&
+      location.trim() !== "" &&
+      body.trim() !== "" &&
+      email.trim() !== "";
 
     return (
-      <Form onSubmit={this.handleSubmit}>
-        Hi Alex, <br />I'm <Input name="name" contentEditable="true" placeholder="Milhouse Van Houten" onKeyDown={this.handleKeyDown} onKeyUp={this.handleKeyUp} /> from <Input name="location" contentEditable="true" placeholder="Springfield" onKeyDown={this.handleKeyDown} onKeyUp={this.handleKeyUp} /> reaching out about an opportunity to:
-        <Textarea name="body" onChange={this.handleKeyUp} placeholder="Win Lisa's love..." value={body} />
-        You can reach me via email on:<br />
-        <Input name="email" contentEditable="true" placeholder="thrillhouse@gmail.com" onKeyDown={this.handleKeyDown} onKeyUp={this.handleKeyUp} />
-        <Actions>
-          {success ? <p>Thanks! I'll get back to you shortly.</p> : <Button type="submit" disabled={sending || !isValid}>Send</Button> }
-        </Actions>
-      </Form>
+      <div>
+        <h1>Have a project or opportunity of your own?</h1>
+        <Intro>
+          Use the form below or <button>copy my email address</button> and send
+          me a message.
+        </Intro>
+        <Form onSubmit={this.handleSubmit}>
+          Hi Alex, <br />
+          I'm{" "}
+          <Input
+            name="name"
+            contentEditable="true"
+            placeholder="Milhouse Van Houten"
+            onKeyDown={this.handleKeyDown}
+            onKeyUp={this.handleKeyUp}
+          />{" "}
+          from{" "}
+          <Input
+            name="location"
+            contentEditable="true"
+            placeholder="Springfield"
+            onKeyDown={this.handleKeyDown}
+            onKeyUp={this.handleKeyUp}
+          />{" "}
+          reaching out about an opportunity to:
+          <Textarea
+            name="body"
+            onChange={this.handleKeyUp}
+            placeholder="Win Lisa's love..."
+            value={body}
+          />
+          You can reach me via email on:
+          <br />
+          <Input
+            name="email"
+            contentEditable="true"
+            placeholder="thrillhouse@gmail.com"
+            onKeyDown={this.handleKeyDown}
+            onKeyUp={this.handleKeyUp}
+          />
+          <Actions>
+            {success ? (
+              <p>Thanks! I'll get back to you shortly.</p>
+            ) : (
+              <Button type="submit" disabled={sending || !isValid}>
+                Send message
+              </Button>
+            )}
+          </Actions>
+        </Form>
+      </div>
     );
   }
 }
