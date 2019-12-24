@@ -41,6 +41,26 @@ const NavItem = styled(NavLink)`
   color: #74747b;
   font-family: "NeutrifPro-Regular", sans-serif;
   ${breakpoint.down`${fontSize(24, 32)}`};
+
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #323235;
+    opacity: 0;
+    transition: opacity 220ms ease;
+  }
+
+  &.active {
+    &:after {
+      opacity: 1;
+    }
+  }
 `;
 
 const Logo = styled(Link)`
@@ -99,9 +119,14 @@ class Sidebar extends Component {
         <Wrapper style={{ display: visible ? "block" : "none" }}>
           <Nav>
             <NavItem to="/work" activeClassName="active">
-              Work
+              Projects
             </NavItem>
-
+            <NavItem to="/work" activeClassName="active">
+              About
+            </NavItem>
+            <NavItem to="/work" activeClassName="active">
+              Writing
+            </NavItem>
             <NavItem to="/contact" activeClassName="active">
               Contact
             </NavItem>

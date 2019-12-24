@@ -1,89 +1,177 @@
-import React from 'react';
-import FullWidthMedia from '../components/FullWidthMedia';
-import MediaGrid from '../components/MediaGrid';
-import Copy from '../components/Copy';
-import MyRole from '../components/MyRole';
-import TextMedia from '../components/TextMedia';
-import Video from '../components/Video';
+import React from "react";
+import FullWidthMedia from "../components/FullWidthMedia";
+import MediaGrid from "../components/MediaGrid";
+import Copy from "../components/Copy";
+import MyRole from "../components/MyRole";
+import TextMedia from "../components/TextMedia";
+import TextMediaGrid from "../components/TextMediaGrid";
+import Video from "../components/Video";
 
 const MetconMack = () => (
   <div>
     <h1>Metcon Mack</h1>
-    <FullWidthMedia media="/images/metcon-mack/hero/iPhone-2.jpg" width="2000" height="1333" />
+    <FullWidthMedia
+      media="/images/metcon-mack/hero/iPhone-2.jpg"
+      width="2000"
+      height="1333"
+    />
 
-     <Copy>An elevated digital workout experience for a Mack truck turned crossfit gym, to launch Nike’s latest training shoe. </Copy>
-     <FullWidthMedia media="/images/metcon-mack/Event.jpg" width="3600" height="2400" />
+    <Copy>
+      An elevated digital workout experience for a Mack truck turned crossfit
+      gym, to launch Nike’s latest training shoe.{" "}
+    </Copy>
+    <FullWidthMedia
+      media="/images/metcon-mack/Event.jpg"
+      width="3600"
+      height="2400"
+    />
 
-     
+    <Copy>
+      A custom-designed app that used three interfaces and three separate pieces
+      of hardware to deliver one tailored experience
+    </Copy>
 
-      <Copy>A custom-designed app that used three interfaces and three separate pieces of hardware to deliver one tailored experience</Copy>
+    <FullWidthMedia
+      media="/images/metcon-mack/iPad-3.jpg"
+      width="3600"
+      height="2400"
+    />
 
-    <FullWidthMedia media="/images/metcon-mack/iPad-3.jpg" width="3600" height="2400" />
-
-      <Copy>The tablet was mounted onto the Mack’s wall inviting participants to choose their desired opponent</Copy>
-         <MediaGrid
+    <Copy>
+      The tablet was mounted onto the Mack’s wall inviting participants to
+      choose their desired opponent
+    </Copy>
+    <MediaGrid
       items={[
-        { media: '/images/metcon-mack/tablet/iPad-Home@2x.png', width: 2048, height: 1536 },
-        { media: '/images/metcon-mack/tablet/Summary@2x.png', width: 2048, height: 1536 },
-        { media: '/images/metcon-mack/tablet/Athletes@2x.png', width: 2048, height: 1536 },
-        { media: '/images/metcon-mack/tablet/Shoe-2@2x.png', width: 2048, height: 1536 },
-        
+        {
+          media: "/images/metcon-mack/tablet/iPad-Home@2x.png",
+          width: 2048,
+          height: 1536
+        },
+        {
+          media: "/images/metcon-mack/tablet/Summary@2x.png",
+          width: 2048,
+          height: 1536
+        },
+        {
+          media: "/images/metcon-mack/tablet/Athletes@2x.png",
+          width: 2048,
+          height: 1536
+        },
+        {
+          media: "/images/metcon-mack/tablet/Shoe-2@2x.png",
+          width: 2048,
+          height: 1536
+        }
       ]}
     />
-      
-    
-    <Copy>The Nike trainer then received a smartphone notification that someone was ready for a challenge</Copy>
 
-    <FullWidthMedia media="/images/metcon-mack/mobile/mobile-animation" width="1800" height="900" video/>
+    <Copy>
+      The Nike trainer then received a smartphone notification that someone was
+      ready for a challenge
+    </Copy>
 
-  
-      <Copy>Push-ups or Burpees?</Copy>
+    <FullWidthMedia
+      media="/images/metcon-mack/mobile/mobile-animation"
+      width="1800"
+      height="900"
+      video
+    />
 
-      <MediaGrid
+    <Copy>Push-ups or Burpees?</Copy>
+
+    <MediaGrid
       type="mobile"
       items={[
-        { media: '/images/metcon-mack/Workout-Start@2x.png', width: 375, height: 667 },
-        { media: '/images/metcon-mack/Workout-End@2x.png', width: 375, height: 667 },
-        { media: '/images/metcon-mack/Workout-Live@2x.png', width: 375, height: 667 },
-        { media: '/images/metcon-mack/Workout-Finish@2x 2.png', width: 375, height: 667 },
+        {
+          media: "/images/metcon-mack/Workout-Start@2x.png",
+          width: 375,
+          height: 667
+        },
+        {
+          media: "/images/metcon-mack/Workout-End@2x.png",
+          width: 375,
+          height: 667
+        },
+        {
+          media: "/images/metcon-mack/Workout-Live@2x.png",
+          width: 375,
+          height: 667
+        },
+        {
+          media: "/images/metcon-mack/Workout-Finish@2x 2.png",
+          width: 375,
+          height: 667
+        }
       ]}
     />
 
-    <FullWidthMedia media="/images/metcon-mack/iPhone-1.jpg" width="3600" height="2400" />
-
-
-      <Copy>The challenge was completed as the crowd watched reps get counted in real-time on an external screen</Copy>
-
-      <FullWidthMedia media="/images/metcon-mack/tv-dark@2x.png" width="1800" height="1150" />
- 
-    <MyRole
-      roles={[
-        'Lead Designer',
-        'Art Direction',
-      ]}
+    <FullWidthMedia
+      media="/images/metcon-mack/iPhone-1.jpg"
+      width="3600"
+      height="2400"
     />
-  <TextMedia link="/ibl" media="/images/ibl/tile/tile@2x.png" width="600" height="600">
-    <h2>IBL</h2>
-    <p>Creating a new chapter for a historic name in British lighting.</p>
-  </TextMedia>
 
-  <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile-2.jpg" width="1000" height="900" flip>
-    <h2>Nike Hypervenom</h2>
-    <p>A page takeover for Nike’s most aggressive football boot.</p>
-  </TextMedia>
+    <Copy>
+      The challenge was completed as the crowd watched reps get counted in
+      real-time on an external screen
+    </Copy>
 
-  <TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900">
-    <h2>Officeworks</h2>
-    <p>Modernising a national legacy brand website.</p>
-  </TextMedia>
+    <FullWidthMedia
+      media="/images/metcon-mack/tv-dark@2x.png"
+      width="1800"
+      height="1150"
+    />
 
-  <TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile-2.jpg" width="1000" height="900" flip>
-    <h2>Nike Air Max Day</h2>
-    <p>A multi-layered digital experience for the most anticipated shoe drop of the year.</p>
-  </TextMedia>
-    
+    <MyRole roles={["Lead Designer", "Art Direction"]} />
+
+    <TextMediaGrid>
+      <TextMedia
+        link="/ibl"
+        media="/images/ibl/tile/tile@2x.png"
+        width="600"
+        height="600"
+      >
+        <h2>IBL</h2>
+        <p>Creating a new chapter for a historic name in British lighting.</p>
+      </TextMedia>
+
+      <TextMedia
+        link="/Hypervenom"
+        media="/images/hypervenom/tile/hypervenom-tile-2.jpg"
+        width="1000"
+        height="900"
+        flip
+      >
+        <h2>Nike Hypervenom</h2>
+        <p>A page takeover for Nike’s most aggressive football boot.</p>
+      </TextMedia>
+
+      <TextMedia
+        link="/officeworks"
+        media="/images/officeworks/tile/ow-tile.png"
+        width="800"
+        height="900"
+      >
+        <h2>Officeworks</h2>
+        <p>Modernising a national legacy brand website.</p>
+      </TextMedia>
+
+      <TextMedia
+        link="/air-max-day"
+        media="/images/airmaxday/tile/airmax-tile-2.jpg"
+        width="1000"
+        height="900"
+        flip
+      >
+        <h2>Nike Air Max Day</h2>
+        <p>
+          A multi-layered digital experience for the most anticipated shoe drop
+          of the year.
+        </p>
+      </TextMedia>
+    </TextMediaGrid>
   </div>
-   
 );
 
 export default MetconMack;

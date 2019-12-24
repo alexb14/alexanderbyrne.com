@@ -50,7 +50,7 @@ injectGlobal`
     color: rgba(44, 44, 47, .5);
     text-decoration: none;
     font-family: 'FFTisaWebLight', serif;
-  
+
     &.active,
     &:hover {
       color: rgba(44, 44, 47, 1);
@@ -64,7 +64,7 @@ injectGlobal`
 
 const Root = styled.div`
   max-width: 1800px;
-  padding: 0 160px 0 8vw;
+  padding: 0 8vw;
   margin: 0 auto 16vh;
   text-align: center;
 

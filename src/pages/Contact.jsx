@@ -14,6 +14,22 @@ const Form = styled.form`
   ${breakpoint.down`max-width: 100%;`}
 `;
 
+const CopyButton = styled.button`
+  background: none;
+  border: 0;
+  padding: 0;
+  font-size: 17px;
+  border-bottom: 1px solid #74747b;
+  color: #74747b;
+  cursor: pointer;
+  transition: opacity: 220ms ease;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+`;
+
 const Intro = styled.p`
   color: #74747b;
   text-align: left;
@@ -34,7 +50,7 @@ const Input = styled.span`
 const Textarea = styled.textarea`
   ${fontSize(24, 32)}
   display: block;
-  background-color: #fafafa;
+  background-color: #fff;
   height: 20vh;
   resize: none;
   width: 100%;
@@ -43,6 +59,10 @@ const Textarea = styled.textarea`
   border: 0;
   outline: 0;
   line-height: 2;
+
+  &:placeholder {
+    color: #74747b;
+  }
 `;
 
 const Actions = styled.div`
@@ -75,8 +95,10 @@ class Contact extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleKeyUp = this.handleKeyUp.bind(this);
     this.handleKeyDown = this.handleKeyDown.bind(this);
+    this.handleCopy = this.handleCopy.bind(this);
 
     this.state = {
+      copied: false,
       sending: false,
       success: false,
       error: false,
@@ -85,6 +107,30 @@ class Contact extends Component {
       body: "",
       email: ""
     };
+  }
+
+  handleCopy(e) {
+    e.preventDefault();
+
+    const { copied } = this.state;
+
+    let el = document.createElement("textarea");
+    // Set value (string to be copied)
+    el.value = "alexanderbyrne@gmail.com";
+    // Set non-editable to avoid focus and move outside of view
+    el.setAttribute("readonly", "");
+    el.style = { position: "absolute", left: "-9999px" };
+    document.body.appendChild(el);
+    // Select text inside element
+    el.select();
+    // Copy text to clipboard
+    document.execCommand("copy");
+    // Remove temporary element
+    document.body.removeChild(el);
+
+    this.setState({
+      copied: true
+    });
   }
 
   handleSubmit(e) {
@@ -146,7 +192,15 @@ class Contact extends Component {
   }
 
   render() {
-    const { sending, success, name, location, body, email } = this.state;
+    const {
+      copied,
+      sending,
+      success,
+      name,
+      location,
+      body,
+      email
+    } = this.state;
     const isValid =
       name.trim() !== "" &&
       location.trim() !== "" &&
@@ -157,8 +211,13 @@ class Contact extends Component {
       <div>
         <h1>Have a project or opportunity of your own?</h1>
         <Intro>
-          Use the form below or <button>copy my email address</button> and send
-          me a message.
+          Use the form below or{" "}
+          <CopyButton type="button" disabled={copied} onClick={this.handleCopy}>
+            {copied
+              ? "you've copied my email address!"
+              : "copy my email address"}
+          </CopyButton>{" "}
+          and send me a message.
         </Intro>
         <Form onSubmit={this.handleSubmit}>
           Hi Alex, <br />

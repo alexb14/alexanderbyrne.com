@@ -2,17 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import TextMedia from "../components/TextMedia";
+import TextMediaGrid from "../components/TextMediaGrid";
+import SignOff from "../components/SignOff";
 import { breakpoint, fontSize } from "../utils/styled";
-
-const TextMediaGrid = styled.div`
-  column-count: 2;
-  column-gap: 0;
-  column-gap: 80px;
-  & > div {
-    break-inside: avoid;
-    margin-bottom: 88px;
-  }
-`;
 
 const Introduction = styled.div`
   color: #2c2c2f;
@@ -52,75 +44,11 @@ const SeeMoreLink = styled(NavLink)`
   }
 `;
 
-const Signoff = styled.div`
-  color: #2c2c2f;
-  text-align: left;
-  max-width: 750px;
-  margin: 30vh 0 0;
-  font-family: "FFTisaWebLight", serif;
-
-  > p {
-    ${fontSize(26, 76)}
-    line-height: 1.1;
-  }
-
-  p + p {
-    color: #2c2c2f;
-  }
-
-  a {
-    ${fontSize(18, 24)}
-    color: #9a6a00;
-    font-family: "NeutrifPro-Regular", sans-serif;
-  }
-`;
-
-const Nav = styled.nav`
-  margin-top: 6vh;
-  ${breakpoint.down`display:none;`}
-`;
-
-const NavItem = styled(NavLink)`
-  ${fontSize(14, 20)}
-  margin-right: 15%;
-  text-decoration: none;
-
-  &:hover {
-    border-bottom: 1px solid #2c2c2f;
-    padding: 0 0 8px 0;
-  }
-`;
-
-const NavItemBottom = styled(NavLink)`
-  ${fontSize(14, 20)}
-  margin-right: 0%;
-  text-decoration: none;
-
-  &:hover {
-    border-bottom: 1px solid #2c2c2f;
-    padding: 0 0 8px 0;
-  }
-`;
-
 const Home = () => (
   <div>
     <h1>
       Experience and Interaction designer in <em>London</em>.
     </h1>
-    <Introduction>
-      <p>Hi, I'm Alexander.</p>
-      <p>
-        I’m an Experience and Interaction designer based in Melbourne. Over the
-        past six years, I’ve designed products and helped tailor experiences for
-        some amazing brands.
-      </p>
-      <Nav>
-        <NavItem to="/work">See my work</NavItem>
-
-        <NavItem to="/contact">Get in touch</NavItem>
-      </Nav>
-    </Introduction>
-
     <TextMediaGrid>
       <TextMedia
         link="/officeworks"
@@ -184,13 +112,7 @@ const Home = () => (
 
     <SeeMoreLink to="/work">See all projects</SeeMoreLink>
 
-    <Signoff>
-      <p>Let's make something great together</p>
-
-      <Nav>
-        <NavItemBottom to="/contact">Get in touch 🡒</NavItemBottom>
-      </Nav>
-    </Signoff>
+    <SignOff />
   </div>
 );
 
