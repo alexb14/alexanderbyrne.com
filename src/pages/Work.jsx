@@ -15,7 +15,7 @@ const TripleMediaGrid = styled(TextMediaGrid)`
 const Work = () => (
   <div>
     <h1>A curation of works spanning freelance and full-time.</h1>
-    <TextMediaGrid>
+    <TextMediaGrid columns={2}>
       <TextMedia
         link="/officeworks"
         media="/images/officeworks/tile/ow-tile.png"
@@ -78,7 +78,39 @@ const Work = () => (
 
     <h3>Projects coming soon</h3>
 
-    <TripleMediaGrid>
+    <TripleMediaGrid columns={2}>
+      <TextMedia
+        link="/air-max-day"
+        media="/images/airmaxday/tile/airmax-tile-2.jpg"
+        width="1000"
+        height="900"
+      >
+        <h2>Nike Air Max Day</h2>
+        <p>
+          A multi-layered digital experience for the most anticipated shoe drop
+          of the year.
+        </p>
+      </TextMedia>
+
+      <TextMedia
+        link="/metcon-mack"
+        media="/images/metcon-mack/Tile/metcon-2.png"
+        width="1100"
+        height="1100"
+        flip
+      >
+        <h2>NikeWomen Metcon Mack</h2>
+        <p>
+          An elevated digital workout experience for a Mack truck turned
+          crossfit gym.
+        </p>
+      </TextMedia>
+    </TripleMediaGrid>
+
+    <h3>Exercises</h3>
+    <p>Small and simple pieces focusing on a single problem</p>
+
+    <TripleMediaGrid columns={3}>
       <TextMedia
         link="/officeworks"
         media="/images/officeworks/tile/ow-tile.png"

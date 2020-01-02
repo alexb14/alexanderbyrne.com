@@ -46,6 +46,18 @@ injectGlobal`
     margin: 0;
   }
 
+  h3 {
+    ${fontSize(20, 36)}
+    font-weight: normal;
+    font-family: 'FFTisaWebLight', serif;
+    margin: 0;
+    text-align: left;
+  }
+
+  p {
+    text-align: left;
+  }
+
   nav a {
     color: rgba(44, 44, 47, .5);
     text-decoration: none;

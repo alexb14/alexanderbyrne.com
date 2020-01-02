@@ -1,19 +1,23 @@
-import React from "react";
+import React, { Component } from "react";
 import styled from "styled-components";
 import { breakpoint } from "../utils/styled";
 
-const Root = styled.div`
-  column-count: 2;
-  column-gap: 0;
-  column-gap: 80px;
-  margin: 18vh 0 0;
-  & > div {
-    break-inside: avoid;
-    margin-bottom: 88px;
+class TextMediaGrid extends Component {
+  render() {
+    const Root = styled.div`
+      column-count: ${this.props.columns ? this.props.columns : "2"};
+      column-gap: 0;
+      column-gap: ${this.props.columns == "3" ? "70px" : "80px"};
+      margin: 18vh 0;
+      & > div {
+        break-inside: avoid;
+        padding-bottom: 88px;
+        ${breakpoint.down`padding-bottom: 44px;`};
+      }
+      ${breakpoint.down`margin: 10vw 0; column-gap: 8vw; column-count: 2`};
+    `;
+    return <Root>{this.props.children}</Root>;
   }
-  ${breakpoint.down`column-gap: 8vw;`};
-`;
-
-const TextMediaGrid = ({ children }) => <Root>{children}</Root>;
+}
 
 export default TextMediaGrid;

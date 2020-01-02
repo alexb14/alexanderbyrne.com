@@ -37,7 +37,7 @@ const SeeMoreLink = styled(NavLink)`
   text-align: center;
   padding: 13px 34px;
   text-decoration: none;
-  margin: 88px 0;
+  margin: 0;
 
   &[disabled] {
     opacity: 0.3;
@@ -49,7 +49,7 @@ const Home = () => (
     <h1>
       Experience and Interaction designer in <em>London</em>.
     </h1>
-    <TextMediaGrid>
+    <TextMediaGrid columns={2}>
       <TextMedia
         link="/officeworks"
         media="/images/officeworks/tile/ow-tile.png"
