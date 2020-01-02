@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { fontSize } from "../utils/styled";
+import { fontSize, breakpoint } from "../utils/styled";
 
 const Root = styled.div`
   margin: 12vh 0 0;
-  display: flex;
-  justify-content: space-between;
+  ${breakpoint.up`display: flex;
+  justify-content: space-between;`}
 `;
 
 const Label = styled.p`
@@ -21,13 +21,12 @@ const Value = styled.p`
   margin: 0;
 `;
 
-const Role = styled.span`
+const Role = styled.div`
   ${fontSize(16, 17)}
   color: #323235;
   text-align: left;
-  display: inline-block;
-  vertical-align: top;
   padding: 16px 0 0 0;
+  ${breakpoint.down`margin-bottom: 20px;`}
 `;
 
 const ProjectMeta = ({ details }) => (

@@ -33,6 +33,7 @@ const CopyButton = styled.button`
 const Intro = styled.p`
   color: #74747b;
   text-align: left;
+  line-height: 1.5;
 `;
 
 const Input = styled.span`

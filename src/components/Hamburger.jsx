@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const HamburgerIcon = `
   display: inline-block;
@@ -16,36 +16,36 @@ const Root = styled.button`
   width: 64px;
   height: 64px;
   cursor: pointer;
-  transition: transform .2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
   border-radius: 100%;
   padding: 20px;
   border: 1px solid #e1e1e1;
   background: #ffffff;
-  ${props => props.toggle && 'border: 0;'}
-  
+  ${props => props.toggle && "border: 0;"}
+
   &:focus {
     outline: 0;
   }
-  
+
   &::before,
   &::after {
-    content: '';
+    content: "";
     ${HamburgerIcon}
   }
-  
+
   &::before {
-    ${props => props.toggle && 'transform: translateY(6px) rotate(135deg);'}
+    ${props => props.toggle && "transform: translateY(6px) rotate(135deg);"}
   }
-  
+
   &::after {
     margin-bottom: 0;
-    ${props => props.toggle && 'transform: translateY(-6px) rotate(-135deg);'}
+    ${props => props.toggle && "transform: translateY(-6px) rotate(-135deg);"}
   }
 `;
 
 const Icon = styled.div`
   ${HamburgerIcon}
-  ${props => props.toggle && 'transform: scale(0);'}
+  ${props => props.toggle && "transform: scale(0);"}
 `;
 
 const Hamburger = ({ toggle, onClick }) => (

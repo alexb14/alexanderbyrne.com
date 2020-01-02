@@ -1,19 +1,20 @@
-import React from 'react';
-import { render } from 'react-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Home from './pages/Home';
-import Work from './pages/Work';
-import AirMaxDay from './pages/AirMaxDay';
-import Officeworks from './pages/Officeworks';
-import MetconMack from './pages/MetconMack';
-import ibl from './pages/ibl';
-import Hypervenom from './pages/Hypervenom';
-import registerServiceWorker from './registerServiceWorker';
+import React from "react";
+import { render } from "react-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import About from "./pages/About";
+import Writing from "./pages/Writing";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import Work from "./pages/Work";
+import AirMaxDay from "./pages/AirMaxDay";
+import Officeworks from "./pages/Officeworks";
+import MetconMack from "./pages/MetconMack";
+import ibl from "./pages/ibl";
+import Hypervenom from "./pages/Hypervenom";
+import registerServiceWorker from "./registerServiceWorker";
 
-render((
+render(
   <Router>
     <Layout>
       <Route exact path="/" component={Home} />
@@ -24,9 +25,11 @@ render((
       <Route path="/ibl" component={ibl} />
       <Route path="/hypervenom" component={Hypervenom} />
       <Route path="/about" component={About} />
+      <Route path="/writing" component={Writing} />
       <Route path="/contact" component={Contact} />
     </Layout>
-  </Router>
-), document.getElementById('root'));
+  </Router>,
+  document.getElementById("root")
+);
 
 registerServiceWorker();

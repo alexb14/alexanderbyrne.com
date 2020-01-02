@@ -2,13 +2,13 @@ import React from "react";
 import Copy from "../components/Copy";
 import FullWidthMedia from "../components/FullWidthMedia";
 
-const About = () => (
+const Writing = () => (
   <div>
-    <h1>About</h1>
+    <h1>Writing</h1>
     <FullWidthMedia
-      media="https://www.placecage.com/c/800/300"
-      width="800"
-      height="300"
+      media="https://www.placecage.com/c/500/200"
+      width="500"
+      height="200"
     />
     <Copy>
       Todo - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -17,4 +17,4 @@ const About = () => (
   </div>
 );
 
-export default About;
+export default Writing;

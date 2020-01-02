@@ -22,6 +22,14 @@ const Wrapper = styled.div`
     left: 0;
     text-align: left;
     padding: 0 8vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1;
+    align-items: center;
   `};
 `;
 
@@ -40,11 +48,11 @@ const NavItem = styled(NavLink)`
   margin-right: 63px;
   color: #74747b;
   font-family: "NeutrifPro-Regular", sans-serif;
-  ${breakpoint.down`${fontSize(24, 32)}`};
+  ${breakpoint.down`display: table; margin: 8vw 0; ${fontSize(24, 32)}`};
 
   position: relative;
 
-  &:after {
+  ${breakpoint.up`&:after {
     content: "";
     position: absolute;
     bottom: -40px;
@@ -60,7 +68,7 @@ const NavItem = styled(NavLink)`
     &:after {
       opacity: 1;
     }
-  }
+  }`};
 `;
 
 const Logo = styled(Link)`
@@ -68,6 +76,7 @@ const Logo = styled(Link)`
   font-size: 15px;
   color: #000;
   text-decoration: none;
+  ${breakpoint.down`position: fixed; top: 8vw; left: 8vw;`};
 `;
 
 const Toggle = styled.div`
@@ -116,15 +125,15 @@ class Sidebar extends Component {
         <Toggle>
           <Hamburger toggle={visible} onClick={this.handleToggle} />
         </Toggle>
-        <Wrapper style={{ display: visible ? "block" : "none" }}>
+        <Wrapper style={{ display: visible ? "flex" : "none" }}>
           <Nav>
             <NavItem to="/work" activeClassName="active">
               Projects
             </NavItem>
-            <NavItem to="/work" activeClassName="active">
+            <NavItem to="/about" activeClassName="active">
               About
             </NavItem>
-            <NavItem to="/work" activeClassName="active">
+            <NavItem to="/writing" activeClassName="active">
               Writing
             </NavItem>
             <NavItem to="/contact" activeClassName="active">
