@@ -74,6 +74,16 @@ const Work = () => (
         <h2>Nike Hypervenom</h2>
         <p>A page takeover for Nike’s most aggressive football boot.</p>
       </TextMedia>
+      <TextMedia
+        link="/officeworks"
+        media="/images/officeworks/tile/ow-tile.png"
+        width="800"
+        height="900"
+        flip
+      >
+        <h2>Officeworks</h2>
+        <p>Modernising a national legacy brand website.</p>
+      </TextMedia>
     </TextMediaGrid>
 
     <h3>Projects coming soon</h3>

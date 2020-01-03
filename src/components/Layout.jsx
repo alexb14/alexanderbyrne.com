@@ -37,6 +37,8 @@ injectGlobal`
     text-align: left;
     margin: 18vh 0 0;
     font-family: 'FFTisaWebLight', serif;
+    ${breakpoint.down`line-height: 1.25;`}
+    max-width: 990px;
   }
 
   h2 {

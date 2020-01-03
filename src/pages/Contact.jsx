@@ -4,7 +4,7 @@ import request from "superagent";
 import { breakpoint, fontSize } from "../utils/styled";
 
 const Form = styled.form`
-  ${fontSize(24, 32)}
+  ${fontSize(21, 32)}
   text-align: left;
   margin-top: 16vh;
   max-width: 60%;
@@ -49,7 +49,7 @@ const Input = styled.span`
 `;
 
 const Textarea = styled.textarea`
-  ${fontSize(24, 32)}
+  ${fontSize(21, 32)}
   display: block;
   background-color: #fff;
   height: 20vh;
@@ -215,7 +215,7 @@ class Contact extends Component {
           Use the form below or{" "}
           <CopyButton type="button" disabled={copied} onClick={this.handleCopy}>
             {copied
-              ? "you've copied my email address!"
+              ? "copy my email address (copied!)"
               : "copy my email address"}
           </CopyButton>{" "}
           and send me a message.

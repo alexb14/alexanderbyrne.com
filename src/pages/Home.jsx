@@ -89,16 +89,6 @@ const Home = () => (
       </TextMedia>
 
       <TextMedia
-        link="/ibl"
-        media="/images/ibl/tile/tile@2x.png"
-        width="600"
-        height="600"
-      >
-        <h2>IBL</h2>
-        <p>Creating a new chapter for a historic name in British lighting.</p>
-      </TextMedia>
-
-      <TextMedia
         link="/Hypervenom"
         media="/images/hypervenom/tile/hypervenom-tile-2.jpg"
         width="1000"

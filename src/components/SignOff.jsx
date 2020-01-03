@@ -28,7 +28,6 @@ const Root = styled.div`
 
 const Nav = styled.nav`
   margin-top: 6vh;
-  ${breakpoint.down`display:none;`}
 `;
 
 const NavItem = styled(NavLink)`
