@@ -113,8 +113,6 @@ class Contact extends Component {
   handleCopy(e) {
     e.preventDefault();
 
-    const { copied } = this.state;
-
     let el = document.createElement("textarea");
     // Set value (string to be copied)
     el.value = "alexanderbyrne@gmail.com";

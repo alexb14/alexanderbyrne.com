@@ -4,14 +4,6 @@ import TextMedia from "../components/TextMedia";
 import TextMediaGrid from "../components/TextMediaGrid";
 import SignOff from "../components/SignOff";
 
-const TripleMediaGrid = styled(TextMediaGrid)`
-  column-count: 4;
-  background: red;
-  * {
-    background: red;
-  }
-`;
-
 const Work = () => (
   <div>
     <h1>A curation of works spanning freelance and full-time.</h1>
@@ -88,7 +80,7 @@ const Work = () => (
 
     <h3>Projects coming soon</h3>
 
-    <TripleMediaGrid columns={2}>
+    <TextMediaGrid columns={2} flush={true}>
       <TextMedia
         link="/air-max-day"
         media="/images/airmaxday/tile/airmax-tile-2.jpg"
@@ -115,12 +107,12 @@ const Work = () => (
           crossfit gym.
         </p>
       </TextMedia>
-    </TripleMediaGrid>
+    </TextMediaGrid>
 
     <h3>Exercises</h3>
     <p>Small and simple pieces focusing on a single problem</p>
 
-    <TripleMediaGrid columns={3}>
+    <TextMediaGrid columns={3} flush={true}>
       <TextMedia
         link="/officeworks"
         media="/images/officeworks/tile/ow-tile.png"
@@ -158,7 +150,7 @@ const Work = () => (
           crossfit gym.
         </p>
       </TextMedia>
-    </TripleMediaGrid>
+    </TextMediaGrid>
 
     <SignOff />
   </div>

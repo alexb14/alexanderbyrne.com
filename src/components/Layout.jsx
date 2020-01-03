@@ -16,7 +16,8 @@ injectGlobal`
     margin: 0;
     padding: 0;
     min-height: 100%;
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 1.3;
     color: #323235;
     font-family: 'NeutrifPro-Regular', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -30,14 +31,15 @@ injectGlobal`
 
   h1 {
     ${fontSize(30, 76)}
-    line-height: 1.1;
+    line-height: 1.25;
+    ${breakpoint.up`line-height: 1.1;`}
     letter-spacing: -1px;
     font-weight: normal;
     color: #323235;
     text-align: left;
-    margin: 18vh 0 0;
+    margin: 18vh 0 2vh;
     font-family: 'FFTisaWebLight', serif;
-    ${breakpoint.down`line-height: 1.25;`}
+    
     max-width: 990px;
   }
 
@@ -49,7 +51,7 @@ injectGlobal`
   }
 
   h3 {
-    ${fontSize(20, 36)}
+    ${fontSize(22, 36)}
     font-weight: normal;
     font-family: 'FFTisaWebLight', serif;
     margin: 0;

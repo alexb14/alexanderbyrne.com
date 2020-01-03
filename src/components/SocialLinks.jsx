@@ -36,13 +36,19 @@ const SocialLinks = () => (
   <Root>
     <List>
       <Item>
-        <Link href="https://dribble.com">Dribbble ↗</Link>
+        <Link href="https://dribbble.com/" target="_blank">
+          Dribbble ↗
+        </Link>
       </Item>
       <Item>
-        <Link href="https://medium.com">Medium ↗</Link>
+        <Link href="https://medium.com" target="_blank">
+          Medium ↗
+        </Link>
       </Item>
       <Item>
-        <Link href="https://linkedin.com">LinkedIn ↗</Link>
+        <Link href="https://linkedin.com" target="_blank">
+          LinkedIn ↗
+        </Link>
       </Item>
     </List>
   </Root>
