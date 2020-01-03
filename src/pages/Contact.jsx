@@ -4,7 +4,7 @@ import request from "superagent";
 import { breakpoint, fontSize } from "../utils/styled";
 
 const Form = styled.form`
-  ${fontSize(21, 32)}
+  ${fontSize(18, 24)}
   text-align: left;
   margin-top: 16vh;
   max-width: 60%;
@@ -36,12 +36,18 @@ const Intro = styled.p`
   line-height: 1.5;
 `;
 
+const Label = styled.p`
+  margin: 0;
+  padding-top: 3vw;
+`;
+
 const Input = styled.span`
+  ${fontSize(18, 24)}
   font-family: "Inter", sans-serif;
   font-weight: normal;
   border-bottom: 1px dashed #74747b;
   display: inline-block;
-  line-height: 1;
+  line-height: 1.5;
   outline: 0;
 
   &:empty::before {
@@ -50,13 +56,12 @@ const Input = styled.span`
   }
 `;
 
-const Textarea = styled.textarea`
-  ${fontSize(21, 32)}
+const Textarea = styled.div`
+  ${fontSize(18, 24)}
   font-family: 'Inter', sans-serif;
   font-weight: normal;
   display: block;
   background-color: #fff;
-  height: 20vh;
   resize: none;
   width: 100%;
   padding: 0;
@@ -64,7 +69,21 @@ const Textarea = styled.textarea`
   border: 0;
   outline: 0;
   line-height: 1.5;
-  margin-top: 0.5em;
+  margin-top: 3vw;
+  border-bottom: 1px solid transparent;
+  margin-bottom: 5px;
+
+  &:empty {
+    display: inline-block;
+    width: auto;
+    border-bottom: 1px dashed #74747b;
+    margin-bottom: 0;
+  }
+
+  &:empty::before {
+    content: attr(placeholder);
+    color: #74747b;
+  }
 
   &:placeholder {
     color: #74747b;
@@ -173,8 +192,11 @@ class Contact extends Component {
 
   handleKeyUp(e) {
     const target = e.target;
-    const value = target.tagName === "SPAN" ? target.textContent : target.value;
+    const value =
+      target.tagName === "SPAN" ? target.textContent : target.textContent;
     const name = target.getAttribute("name");
+
+    console.log(value);
 
     this.setState({
       [name]: value
@@ -225,31 +247,35 @@ class Contact extends Component {
         </Intro>
         <Form onSubmit={this.handleSubmit}>
           Hi Alex, <br />
-          I'm{" "}
-          <Input
-            name="name"
-            contentEditable="true"
-            placeholder="Milhouse Van Houten"
-            onKeyDown={this.handleKeyDown}
-            onKeyUp={this.handleKeyUp}
-          />{" "}
-          from{" "}
-          <Input
-            name="location"
-            contentEditable="true"
-            placeholder="Springfield"
-            onKeyDown={this.handleKeyDown}
-            onKeyUp={this.handleKeyUp}
-          />{" "}
-          reaching out about an opportunity to:
-          <Textarea
-            name="body"
-            onChange={this.handleKeyUp}
-            placeholder="Win Lisa's love..."
-            value={body}
-          />
-          You can reach me via email on:
-          <br />
+          <Label>
+            I'm{" "}
+            <Input
+              name="name"
+              contentEditable="true"
+              placeholder="Milhouse Van Houten"
+              onKeyDown={this.handleKeyDown}
+              onKeyUp={this.handleKeyUp}
+            />{" "}
+            from{" "}
+            <Input
+              name="location"
+              contentEditable="true"
+              placeholder="Springfield"
+              onKeyDown={this.handleKeyDown}
+              onKeyUp={this.handleKeyUp}
+            />{" "}
+            reaching out about an opportunity to:
+          </Label>
+          <div>
+            <Textarea
+              name="body"
+              contentEditable
+              onInput={this.handleKeyUp}
+              placeholder="Win Lisa's love"
+              value={body}
+            ></Textarea>
+          </div>
+          <Label>You can reach me via email on:</Label>
           <Input
             name="email"
             contentEditable="true"
