@@ -37,7 +37,9 @@ const Text = styled.div`
 
   h2 {
     ${fontSize(18, 20)}
-    font-family: 'NeutrifPro-Regular', sans-serif;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
     color: #000;
   }
 

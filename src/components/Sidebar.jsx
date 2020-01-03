@@ -43,11 +43,13 @@ const Nav = styled.nav`
 
 const NavItem = styled(NavLink)`
   display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 15px;
   font-weight: normal;
   margin-right: 63px;
   color: #74747b;
-  font-family: "NeutrifPro-Regular", sans-serif;
   ${breakpoint.down`display: table; margin: 8vw 0; ${fontSize(24, 32)}`};
 
   position: relative;
@@ -76,6 +78,9 @@ const Logo = styled(Link)`
   font-size: 15px;
   color: #000;
   text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   ${breakpoint.down`position: fixed; top: 8vw; left: 8vw;`};
 `;
 

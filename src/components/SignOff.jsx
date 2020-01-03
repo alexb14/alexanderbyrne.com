@@ -22,7 +22,6 @@ const Root = styled.div`
   a {
     ${fontSize(18, 24)}
     color: #9a6a00;
-    font-family: "NeutrifPro-Regular", sans-serif;
   }
 `;
 
@@ -42,9 +41,12 @@ const NavItem = styled(NavLink)`
 `;
 
 const NavItemBottom = styled(NavLink)`
-  ${fontSize(14, 20)}
+  ${fontSize(18, 24)}
   margin-right: 0%;
   text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
 
   &:hover {
     border-bottom: 1px solid #2c2c2f;
@@ -56,7 +58,7 @@ const SignOff = () => (
   <Root>
     <p>Let's make something great together</p>
     <Nav>
-      <NavItemBottom to="/contact">Get in touch →</NavItemBottom>
+      <NavItemBottom to="/contact">Get in touch ⟶</NavItemBottom>
     </Nav>
   </Root>
 );

@@ -11,6 +11,9 @@ injectGlobal`
     box-sizing: border-box;
   }
 
+  @import url('https://rsms.me/inter/inter.css');
+  html { font-family: 'Inter', sans-serif; }
+
   html,
   body {
     margin: 0;
@@ -19,14 +22,16 @@ injectGlobal`
     font-size: 17px;
     line-height: 1.3;
     color: #323235;
-    font-family: 'NeutrifPro-Regular', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
   }
   
   html {
     overflow-y: scroll;
     background-color: #fff;
+  }
+
+  .content {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   h1 {
@@ -92,7 +97,7 @@ const Layout = ({ children, location }) => (
   <ScrollToTop>
     <Root>
       <Sidebar />
-      {children}
+      <div className="content">{children}</div>
       <SocialLinks />
     </Root>
   </ScrollToTop>

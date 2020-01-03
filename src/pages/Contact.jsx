@@ -37,6 +37,8 @@ const Intro = styled.p`
 `;
 
 const Input = styled.span`
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
   border-bottom: 1px dashed #74747b;
   display: inline-block;
   line-height: 1;
@@ -50,6 +52,8 @@ const Input = styled.span`
 
 const Textarea = styled.textarea`
   ${fontSize(21, 32)}
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
   display: block;
   background-color: #fff;
   height: 20vh;
@@ -59,7 +63,8 @@ const Textarea = styled.textarea`
   margin: 0;
   border: 0;
   outline: 0;
-  line-height: 2;
+  line-height: 1.5;
+  margin-top: 0.5em;
 
   &:placeholder {
     color: #74747b;
