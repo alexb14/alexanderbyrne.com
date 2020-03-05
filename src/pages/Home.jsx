@@ -38,12 +38,14 @@ const SeeMoreLink = styled(NavLink)`
   text-align: center;
   padding: 12px 40px;
   text-decoration: none;
-  margin-bottom: 20vh;
+  margin-bottom: 12%;
 
   &:hover {
     color: #fff;
     background: #2c2c2c;
   }
+
+  ${breakpoint.down`margin-bottom: 24%; background: #2c2c2c; color: #fff;`}
 
   &[disabled] {
     opacity: 0.3;
@@ -53,8 +55,7 @@ const SeeMoreLink = styled(NavLink)`
 const Home = () => (
   <div>
     <h1>
-      Experience and Interaction
-      <br /> designer in <em>London</em>.
+      Experience and Interaction designer in <em>London</em>.
     </h1>
     <TextMediaGrid columns={2}>
       <TextMedia

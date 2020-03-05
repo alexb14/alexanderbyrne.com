@@ -90,7 +90,8 @@ const Textarea = styled.div`
 `;
 
 const Actions = styled.div`
-  margin-top: 12vh;
+  margin-top: 8%;
+  text-align: right;
 `;
 
 const Button = styled.button`
@@ -111,6 +112,8 @@ const Button = styled.button`
     color: #fff;
     background: #2c2c2c;
   }
+
+  ${breakpoint.down`margin-bottom: 24%; background: #2c2c2c; color: #fff;`}
 
   &[disabled] {
     opacity: 0.3;

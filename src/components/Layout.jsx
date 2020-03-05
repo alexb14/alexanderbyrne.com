@@ -85,7 +85,7 @@ injectGlobal`
 const Root = styled.div`
   max-width: 1680px;
   padding: 0 11.5%;
-  margin: 0 auto 16vh;
+  margin: 0 auto 6%;
   text-align: center;
 
   ${breakpoint.down`padding-right: 8vw;`}

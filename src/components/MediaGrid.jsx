@@ -55,11 +55,7 @@ const Column = styled.div`
     `
     &:first-child {
       width: 75%;
-      
-      > * {
-        border-top: 16px solid #e8e8e8;
-        border-radius: 6px 6px 0 0;
-      }
+      border-radius: 6px;
     }
     
     &:last-child > * {

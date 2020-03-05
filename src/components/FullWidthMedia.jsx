@@ -5,8 +5,7 @@ import Video from "./Video";
 import { breakpoint } from "../utils/styled";
 
 const DesktopStyle = `
-  border-top: 16px solid #e8e8e8;
-  border-radius: 6px 6px 0 0;
+  border-radius: 6px;
 `;
 
 const Root = styled.div`
