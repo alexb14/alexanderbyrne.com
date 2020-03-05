@@ -36,16 +36,15 @@ injectGlobal`
 
   h1 {
     ${fontSize(30, 76)}
-    line-height: 1.25;
+    line-height: 1.2;
     ${breakpoint.up`line-height: 1.1;`}
-    letter-spacing: -1px;
+    letter-spacing: -1.1px;
     font-weight: normal;
     color: #323235;
     text-align: left;
-    margin: 18vh 0 2vh;
+    margin: 13.25% 0 1.5%;
     font-family: 'FFTisaWebLight', serif;
-    
-    max-width: 990px;
+    max-width: 1200px;
   }
 
   h2 {
@@ -84,8 +83,8 @@ injectGlobal`
 `;
 
 const Root = styled.div`
-  max-width: 1800px;
-  padding: 0 8vw;
+  max-width: 1680px;
+  padding: 0 11.5%;
   margin: 0 auto 16vh;
   text-align: center;
 

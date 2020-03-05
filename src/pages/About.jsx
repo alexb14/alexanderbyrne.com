@@ -4,7 +4,7 @@ import FullWidthMedia from "../components/FullWidthMedia";
 
 const About = () => (
   <div>
-    <h1>About</h1>
+    <h1>I’m a designer of digital experiences and buttery interactions.</h1>
     <FullWidthMedia
       media="https://www.placecage.com/c/800/300"
       width="800"

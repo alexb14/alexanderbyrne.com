@@ -6,7 +6,7 @@ import { breakpoint, fontSize } from "../utils/styled";
 const Form = styled.form`
   ${fontSize(18, 24)}
   text-align: left;
-  margin-top: 16vh;
+  margin-top: 14%;
   max-width: 60%;
   line-height: 2;
   color: #202123;
@@ -31,7 +31,6 @@ const CopyButton = styled.button`
 `;
 
 const Intro = styled.p`
-  color: #74747b;
   text-align: left;
   line-height: 1.5;
 `;
@@ -103,10 +102,15 @@ const Button = styled.button`
   box-sizing: border-box;
   border-radius: 32px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
   text-align: center;
-  padding: 13px 34px;
+  padding: 12px 40px;
+
+  &:hover {
+    color: #fff;
+    background: #2c2c2c;
+  }
 
   &[disabled] {
     opacity: 0.3;

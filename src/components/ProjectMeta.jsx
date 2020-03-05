@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { fontSize, breakpoint } from "../utils/styled";
 
 const Root = styled.div`
-  margin: 12vh 0 0;
+  margin: 12% 0 0;
   ${breakpoint.up`display: flex;
   justify-content: space-between;`}
 `;

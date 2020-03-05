@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { fontSize } from "../utils/styled";
 
 const Root = styled.div`
-  margin: 12vh 0 0;
+  margin: 14% 0 0;
 `;
 
 const Title = styled.p`

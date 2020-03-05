@@ -8,7 +8,7 @@ const Root = styled.div`
   line-height: 1.6;
   color: #202123;
   letter-spacing: -0.7;
-  margin-top: 194px;
+  margin-top: 16%;
 `;
 
 const List = styled.ul`

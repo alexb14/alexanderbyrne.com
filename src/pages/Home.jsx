@@ -11,7 +11,7 @@ const Introduction = styled.div`
   color: #2c2c2f;
   text-align: left;
   max-width: 750px;
-  margin: 30vh auto 0;
+  margin: 20% auto 0;
   font-family: "FFTisaWebLight", serif;
 
   > p {
@@ -33,12 +33,17 @@ const SeeMoreLink = styled(NavLink)`
   box-sizing: border-box;
   border-radius: 32px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
   text-align: center;
-  padding: 13px 34px;
+  padding: 12px 40px;
   text-decoration: none;
   margin-bottom: 20vh;
+
+  &:hover {
+    color: #fff;
+    background: #2c2c2c;
+  }
 
   &[disabled] {
     opacity: 0.3;
@@ -48,7 +53,8 @@ const SeeMoreLink = styled(NavLink)`
 const Home = () => (
   <div>
     <h1>
-      Experience and Interaction designer in <em>London</em>.
+      Experience and Interaction
+      <br /> designer in <em>London</em>.
     </h1>
     <TextMediaGrid columns={2}>
       <TextMedia
@@ -101,7 +107,7 @@ const Home = () => (
       </TextMedia>
     </TextMediaGrid>
 
-    <SeeMoreLink to="/work">See all projects</SeeMoreLink>
+    <SeeMoreLink to="/work">See all projects ⟶</SeeMoreLink>
 
     <h3>Exercises</h3>
     <p>Small and simple pieces focusing on a single problem</p>

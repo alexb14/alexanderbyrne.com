@@ -1,12 +1,14 @@
-import React from 'react';
-import styled from 'styled-components';
-import Image from './Image';
-import Video from './Video';
+import React from "react";
+import styled from "styled-components";
+import Image from "./Image";
+import Video from "./Video";
 
 const Root = styled.div`
-  margin: 16vh 0 0;
-  
-  ${props => props.type === 'mobile' && `
+  margin: 16% 0 0;
+
+  ${props =>
+    props.type === "mobile" &&
+    `
     max-width: 850px;
     margin-left: auto;
     margin-right: auto;
@@ -19,34 +21,38 @@ const Wrapper = styled.div`
 `;
 
 const Item = styled.div`
-  margin-bottom: 8vh;
-  margin-right: 4vh;
+  margin-bottom: 8%;
+  margin-right: 8%;
 `;
 
 const Column = styled.div`
   display: table-cell;
   vertical-align: top;
-  
+
   &:last-child > * {
-    margin-left: 4vh;
+    margin-left: 8%;
     margin-right: 0;
   }
-  
+
   &:last-child {
     margin-bottom: 0;
   }
-  
-  ${props => props.type === 'mobile' && `
+
+  ${props =>
+    props.type === "mobile" &&
+    `
     &:first-child {
-      padding-top: 8vh;
+      padding-top: 8%;
     }
     
     &:last-child {
-      padding-bottom: 8vh;
+      padding-bottom: 8%;
     }
   `}
-  
-  ${props => props.type === 'responsive' && `
+
+  ${props =>
+    props.type === "responsive" &&
+    `
     &:first-child {
       width: 75%;
       
@@ -66,7 +72,7 @@ const renderItem = (item, index) => (
   <Item key={index}>
     {item.video ? <Video {...item} /> : <Image {...item} />}
   </Item>
-  );
+);
 
 const MediaGrid = ({ items, type }) => (
   <Root type={type}>
@@ -74,9 +80,7 @@ const MediaGrid = ({ items, type }) => (
       <Column type={type}>
         {items.splice(0, Math.floor(items.length / 2)).map(renderItem)}
       </Column>
-      <Column type={type}>
-        {items.map(renderItem)}
-      </Column>
+      <Column type={type}>{items.map(renderItem)}</Column>
     </Wrapper>
   </Root>
 );

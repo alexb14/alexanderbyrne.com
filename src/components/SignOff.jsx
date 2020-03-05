@@ -7,7 +7,7 @@ const Root = styled.div`
   color: #2c2c2f;
   text-align: left;
   max-width: 750px;
-  margin: 30vh 0 0;
+  margin: 16% 0 0;
   font-family: "FFTisaWebLight", serif;
 
   > p {

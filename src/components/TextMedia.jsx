@@ -63,10 +63,11 @@ const Text = styled.div`
 `;
 
 const RootStyle = css`
-  margin: 31vh auto 0;
+  margin: 0 auto 0;
   max-width: 900px;
   text-decoration: none;
   color: #2c2c2f;
+  display: block;
 `;
 
 const RootWrapper = styled.div`
