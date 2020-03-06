@@ -7,7 +7,7 @@ const Form = styled.form`
   ${fontSize(18, 24)}
   text-align: left;
   margin-top: 14%;
-  max-width: 60%;
+  max-width: 845px;
   line-height: 2;
   color: #202123;
 
@@ -36,18 +36,24 @@ const Intro = styled.p`
 `;
 
 const Label = styled.p`
+  ${fontSize(16, 20)}
+  line-height: 24px;
   margin: 0;
-  padding-top: 3vw;
+  padding-top: 12%;
 `;
 
 const Input = styled.span`
   ${fontSize(18, 24)}
   font-family: "Inter", sans-serif;
   font-weight: normal;
-  border-bottom: 1px dashed #74747b;
-  display: inline-block;
+  border-bottom: 1px solid #9a6a00;
+  display: block;
   line-height: 1.5;
   outline: 0;
+
+  &:empty {
+    border-bottom: 1px solid #000;
+  }
 
   &:empty::before {
     content: attr(placeholder);
@@ -68,15 +74,10 @@ const Textarea = styled.div`
   border: 0;
   outline: 0;
   line-height: 1.5;
-  margin-top: 3vw;
-  border-bottom: 1px solid transparent;
-  margin-bottom: 5px;
+  border-bottom: 1px solid #9a6a00;
 
   &:empty {
-    display: inline-block;
-    width: auto;
-    border-bottom: 1px dashed #74747b;
-    margin-bottom: 0;
+    border-bottom: 1px solid #000;
   }
 
   &:empty::before {
@@ -253,36 +254,15 @@ class Contact extends Component {
           and send me a message.
         </Intro>
         <Form onSubmit={this.handleSubmit}>
-          Hi Alex, <br />
-          <Label>
-            I'm{" "}
-            <Input
-              name="name"
-              contentEditable="true"
-              placeholder="Milhouse Van Houten"
-              onKeyDown={this.handleKeyDown}
-              onKeyUp={this.handleKeyUp}
-            />{" "}
-            from{" "}
-            <Input
-              name="location"
-              contentEditable="true"
-              placeholder="Springfield"
-              onKeyDown={this.handleKeyDown}
-              onKeyUp={this.handleKeyUp}
-            />{" "}
-            reaching out about an opportunity to:
-          </Label>
-          <div>
-            <Textarea
-              name="body"
-              contentEditable
-              onInput={this.handleKeyUp}
-              placeholder="Win Lisa's love"
-              value={body}
-            ></Textarea>
-          </div>
-          <Label>You can reach me via email on:</Label>
+          <Label>Your name</Label>
+          <Input
+            name="name"
+            contentEditable="true"
+            placeholder="Milhouse Van Houten"
+            onKeyDown={this.handleKeyDown}
+            onKeyUp={this.handleKeyUp}
+          />
+          <Label>Your email</Label>
           <Input
             name="email"
             contentEditable="true"
@@ -290,6 +270,23 @@ class Contact extends Component {
             onKeyDown={this.handleKeyDown}
             onKeyUp={this.handleKeyUp}
           />
+          <Label>Your location</Label>
+          <Input
+            name="location"
+            contentEditable="true"
+            placeholder="Springfield"
+            onKeyDown={this.handleKeyDown}
+            onKeyUp={this.handleKeyUp}
+          />
+          <Label>Project or opportunity</Label>
+          <Textarea
+            name="body"
+            contentEditable
+            onInput={this.handleKeyUp}
+            placeholder="Win Lisa's love"
+            value={body}
+          ></Textarea>
+
           <Actions>
             {success ? (
               <p>Thanks! I'll get back to you shortly.</p>
