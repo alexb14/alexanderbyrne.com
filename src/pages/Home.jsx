@@ -197,7 +197,7 @@ const Home = () => (
       ]}
     />
 
-    <SignOff />
+    <SignOff title="Let's make something great together" />
   </div>
 );
 

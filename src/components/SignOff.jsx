@@ -54,9 +54,16 @@ const NavItemBottom = styled(NavLink)`
   }
 `;
 
-const SignOff = () => (
+const SignOff = ({ title }) => (
   <Root>
-    <p>Let's make something great together</p>
+    {title && <p>{title}</p>}
+    {!title && (
+      <p>
+        I’m on the hunt for exciting ideas being made possible by{" "}
+        <em>amazing</em> people.
+      </p>
+    )}
+
     <Nav>
       <NavItemBottom to="/contact">Get in touch ⟶</NavItemBottom>
     </Nav>

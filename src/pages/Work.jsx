@@ -152,7 +152,7 @@ const Work = () => (
       </TextMedia>
     </TextMediaGrid>
 
-    <SignOff />
+    <SignOff title="Let's make something great together" />
   </div>
 );
 

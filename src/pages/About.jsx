@@ -3,6 +3,7 @@ import Chart from "../components/Chart";
 import Copy from "../components/Copy";
 import Quote from "../components/Quote";
 import FullWidthMedia from "../components/FullWidthMedia";
+import SignOff from "../components/SignOff";
 
 const About = () => (
   <div>
@@ -42,6 +43,7 @@ const About = () => (
       Todo - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
       sollicitudin ligula vel convallis suscipit
     </Copy>
+    <SignOff />
   </div>
 );
 
