@@ -6,13 +6,14 @@ import { breakpoint, fontSize } from "../utils/styled";
 const Root = styled.div`
   color: #2c2c2f;
   text-align: left;
-  max-width: 750px;
+  max-width: 1270px;
   margin: 16% 0 0;
   font-family: "FFTisaWebLight", serif;
 
   > p {
     ${fontSize(26, 76)}
     line-height: 1.1;
+    letter-spacing: -1px;
   }
 
   p + p {

@@ -86,10 +86,22 @@ const Root = styled(({ className, ...props }) =>
   props.to ? <NavWrapper {...props} /> : <RootWrapper {...props} />
 )``;
 
-const TextMedia = ({ link, flip, video, children, ...props }) => (
+const TextMedia = ({ link, disabled, flip, video, children, ...props }) => (
   <div>
-    <Root to={link} style={{ direction: flip && "rtl" }}>
-      <Media>{video ? <Video {...props} /> : <Image {...props} />}</Media>
+    <Root
+      to={link}
+      style={{
+        direction: flip && "rtl",
+        "pointer-events": disabled && "none"
+      }}
+    >
+      <Media
+        style={{
+          opacity: disabled && "0.25"
+        }}
+      >
+        {video ? <Video {...props} /> : <Image {...props} />}
+      </Media>
       <Text flip={flip}>{children}</Text>
     </Root>
   </div>

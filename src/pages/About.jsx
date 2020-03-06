@@ -1,6 +1,7 @@
 import React from "react";
 import Chart from "../components/Chart";
 import Copy from "../components/Copy";
+import Heading from "../components/Heading";
 import Quote from "../components/Quote";
 import FullWidthMedia from "../components/FullWidthMedia";
 import SignOff from "../components/SignOff";
@@ -9,11 +10,10 @@ const About = () => (
   <div>
     <h1>I’m a designer of digital experiences and buttery interactions.</h1>
     <Chart />
-
-    <Copy>
+    <Heading>
       The above describes my career quicker than I could in words. I’ve helped
       brands tailor experiences and move their digital products forward.
-    </Copy>
+    </Heading>
     <Quote
       avatar="https://www.placecage.com/c/96/96"
       citation="Tim Kotsiakos — Founder & Creative Director, M A S S"
@@ -25,11 +25,11 @@ const About = () => (
       would have him back in our studio in a heartbeat. We wish him all the best
       in whatever he does next.”
     </Quote>
-    <Copy>
+    <Heading>
       More recently I began freelancing to broaden my experience at different
       organisations, collaborating with diverse minds and solving exciting and
       unique problems.
-    </Copy>
+    </Heading>
     <Quote
       avatar="https://www.placecage.com/c/96/96"
       citation="Courtney Hunt — Design Manager, MYER"

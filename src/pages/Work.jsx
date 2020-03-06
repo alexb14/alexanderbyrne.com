@@ -86,6 +86,7 @@ const Work = () => (
         media="/images/airmaxday/tile/airmax-tile-2.jpg"
         width="1000"
         height="900"
+        disabled={true}
       >
         <h2>Nike Air Max Day</h2>
         <p>
@@ -99,6 +100,7 @@ const Work = () => (
         media="/images/metcon-mack/Tile/metcon-2.png"
         width="1100"
         height="1100"
+        disabled={true}
         flip
       >
         <h2>NikeWomen Metcon Mack</h2>
@@ -152,7 +154,7 @@ const Work = () => (
       </TextMedia>
     </TextMediaGrid>
 
-    <SignOff title="Let's make something great together" />
+    <SignOff title="Let's make something great together." />
   </div>
 );
 

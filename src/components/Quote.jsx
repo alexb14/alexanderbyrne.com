@@ -9,7 +9,7 @@ const Root = styled.div`
   line-height: 1.6;
   color: #202123;
   margin: 18% auto 0;
-  max-width: 950px;
+  max-width: 834px;
   text-align: center;
   letter-spacing: -0.7;
 `;
