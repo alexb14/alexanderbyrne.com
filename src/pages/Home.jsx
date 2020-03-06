@@ -158,35 +158,35 @@ const Home = () => (
 
     <TextMediaGrid columns={3} flush={true}>
       <TextMedia
-        link="/officeworks"
-        media="https://www.placecage.com/800/300"
-        width="800"
-        height="300"
+        link="/"
+        media="/images/writing/writing-1.jpg"
+        width="773"
+        height="610"
         flip
       >
-        <h2>Freelancing: Part 1</h2>
-        <p>An exercise in improving the car share experience.</p>
+        <h2>Preparing for real life as a freelancer</h2>
+        <p>8 secrets no one tells you.</p>
       </TextMedia>
-
       <TextMedia
-        link="/air-max-day"
-        media="https://www.placecage.com/1000/1100"
-        width="1000"
-        height="1100"
+        link="/"
+        media="/images/writing/writing-3.jpg"
+        width="610"
+        height="520"
       >
         <h2>Agency vs Client side</h2>
-        <p>An exercise in improving the car share experience.</p>
+        <p>
+          An elevated digital workout experience for a Mack truck turned
+          crossfit gym.
+        </p>
       </TextMedia>
-
       <TextMedia
-        link="/metcon-mack"
-        media="https://www.placecage.com/800/450"
-        width="800"
-        height="450"
-        flip
+        link="/"
+        media="/images/writing/writing-2.jpg"
+        width="610"
+        height="520"
       >
-        <h2>Tweaking my portfolio — a mature change</h2>
-        <p>An exercise in improving the car share experience.</p>
+        <h2>Tweaking my portfolio — A mature change</h2>
+        <p>Continuous improvement and recycling what worked.</p>
       </TextMedia>
     </TextMediaGrid>
 
