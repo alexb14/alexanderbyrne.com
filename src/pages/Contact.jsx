@@ -33,6 +33,7 @@ const CopyButton = styled.button`
 const Intro = styled.p`
   text-align: left;
   line-height: 1.5;
+  ${breakpoint.down`margin-top: 12%;`}
 `;
 
 const Label = styled.p`

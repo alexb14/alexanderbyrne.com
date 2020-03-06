@@ -59,7 +59,7 @@ injectGlobal`
 
   h1 {
     ${fontSize(30, 76)}
-    animation: headingFadeIn 500ms 550ms ease both;
+    animation: headingFadeIn 500ms 480ms ease both;
 
     line-height: 1.2;
     ${breakpoint.up`line-height: 1.1;`}
@@ -67,7 +67,7 @@ injectGlobal`
     font-weight: normal;
     color: #323235;
     text-align: left;
-    margin: 13.25% 0 1.5%;
+    margin: 13.25% 0 5%;
     font-family: 'FFTisaWebLight', serif;
     max-width: 1200px;
   }
