@@ -26,9 +26,17 @@ const Link = styled.a`
   color: #323235;
   text-decoration: none;
   padding: 0 0 8px 0;
-
+  &:after {
+    content: "↗";
+    display: inline-block;
+    transition: transform 200ms ease;
+    transform: translateX(10px) translateY(0);
+  }
   &:hover {
-    border-bottom: 1px solid #2c2c2f;
+    border-bottom: 0;
+    &:after {
+      transform: translateX(20px) translateY(-10px);
+    }
   }
 `;
 
@@ -37,17 +45,17 @@ const SocialLinks = () => (
     <List>
       <Item>
         <Link href="https://dribbble.com/AlexByrne" target="_blank">
-          Dribbble ↗
+          Dribbble
         </Link>
       </Item>
       <Item>
         <Link href="https://medium.com" target="_blank">
-          Medium ↗
+          Medium
         </Link>
       </Item>
       <Item>
         <Link href="https://www.linkedin.com/in/byrnealex" target="_blank">
-          LinkedIn ↗
+          LinkedIn
         </Link>
       </Item>
     </List>

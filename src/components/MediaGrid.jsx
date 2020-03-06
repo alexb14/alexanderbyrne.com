@@ -41,6 +41,9 @@ const Column = styled.div`
   ${props =>
     props.type === "mobile" &&
     `
+    img {
+      border-radius: 6px;
+    }
     &:first-child {
       padding-top: 8%;
     }
