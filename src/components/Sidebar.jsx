@@ -21,7 +21,7 @@ const Wrapper = styled.div`
     width: 100%;
     left: 0;
     text-align: left;
-    padding: 0 8vw;
+    padding: 0 11.5%;
     position: fixed;
     top: 0;
     right: 0;
@@ -83,7 +83,30 @@ const Logo = styled(Link)`
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  ${breakpoint.down`font-size: 14px; position: fixed; top: 8vw; left: 8vw; padding-right: 4vw; &:after {color: #74747B; content: '  —  Experience and Interaction designer in London.'}`};
+  ${breakpoint.down`font-size: 14px; position: fixed; top: 44px; left: 11.5%; padding-right: 11.5%; &:after {color: #74747B; content: '  —  Experience and Interaction designer in London.'}`};
+`;
+
+const Path = styled.div`
+  display: none;
+  color: #000;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
+  * {
+    display: inline;
+    padding-right: 0;
+    position: static;
+    &:after {
+      display: none;
+    }
+  }
+  ${breakpoint.down`display: block; font-size: 14px; padding-top: 44px; padding-bottom: 88px;`};
+`;
+
+const Tail = styled.span`
+  color: #9a6a00;
 `;
 
 const Toggle = styled.div`
@@ -126,9 +149,24 @@ class Sidebar extends Component {
   render() {
     const { visible } = this.state;
     const { location } = this.props;
-
+    const { pathname } = location;
+    console.log(pathname);
     return (
       <Root>
+        <Path>
+          <Logo to="/">Alexander Byrne</Logo>
+          <Tail>
+            {pathname !== "/"
+              ? ` — ${pathname
+                  .substr(1)
+                  .replace(/-/g, " ")
+                  .toLowerCase()
+                  .split(" ")
+                  .map(word => word.charAt(0).toUpperCase() + word.substring(1))
+                  .join(" ")}`
+              : ""}
+          </Tail>
+        </Path>
         <Toggle>
           <Hamburger toggle={visible} onClick={this.handleToggle} />
         </Toggle>

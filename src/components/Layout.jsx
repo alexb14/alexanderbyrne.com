@@ -95,7 +95,7 @@ const Root = styled.div`
 const Layout = ({ children, location }) => (
   <ScrollToTop>
     <Root>
-      <Sidebar />
+      <Sidebar location={location} />
       <div className="content">{children}</div>
       <SocialLinks />
     </Root>
