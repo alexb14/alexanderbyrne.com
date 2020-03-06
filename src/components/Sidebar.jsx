@@ -28,7 +28,7 @@ const Wrapper = styled.div`
     bottom: 0;
     left: 0;
     background-color: #fff;
-    z-index: 1;
+    z-index: 98;
     align-items: center;
   `};
 `;
@@ -38,6 +38,8 @@ const Nav = styled.nav`
 
   ${breakpoint.down`
     transform: none;
+    width: 100%;
+    text-align: right;
   `}
 `;
 
@@ -50,7 +52,7 @@ const NavItem = styled(NavLink)`
   font-weight: normal;
   margin-right: 63px;
   color: #74747b;
-  ${breakpoint.down`display: table; margin: 8vw 0; ${fontSize(24, 32)}`};
+  ${breakpoint.down`display: block; margin: 12px 0; ${fontSize(22, 32)}`};
 
   position: relative;
 
@@ -81,7 +83,7 @@ const Logo = styled(Link)`
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  ${breakpoint.down`position: fixed; top: 8vw; left: 8vw;`};
+  ${breakpoint.down`font-size: 14px; position: fixed; top: 8vw; left: 8vw; padding-right: 4vw; &:after {color: #74747B; content: '  —  Experience and Interaction designer in London.'}`};
 `;
 
 const Toggle = styled.div`
@@ -89,7 +91,7 @@ const Toggle = styled.div`
   position: fixed;
   bottom: 4vw;
   right: 4vw;
-  z-index: 2;
+  z-index: 99;
 
   ${breakpoint.down`display: block;`}
 `;
