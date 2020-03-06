@@ -10,10 +10,10 @@ const About = () => (
     <h1>I’m a designer of digital experiences and buttery interactions.</h1>
     <Chart />
 
-    <h2>
+    <Copy>
       The above describes my career quicker than I could in words. I’ve helped
       brands tailor experiences and move their digital products forward.
-    </h2>
+    </Copy>
     <Quote
       avatar="https://www.placecage.com/c/96/96"
       citation="Tim Kotsiakos — Founder & Creative Director, M A S S"
@@ -25,6 +25,11 @@ const About = () => (
       would have him back in our studio in a heartbeat. We wish him all the best
       in whatever he does next.”
     </Quote>
+    <Copy>
+      More recently I began freelancing to broaden my experience at different
+      organisations, collaborating with diverse minds and solving exciting and
+      unique problems.
+    </Copy>
     <Quote
       avatar="https://www.placecage.com/c/96/96"
       citation="Courtney Hunt — Design Manager, MYER"
@@ -39,10 +44,6 @@ const About = () => (
       proactive in identifying design opportunities and able to autonomously
       manage his work. I would love any opportunity to work with Alex again.”
     </Quote>
-    <Copy>
-      Todo - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-      sollicitudin ligula vel convallis suscipit
-    </Copy>
     <SignOff />
   </div>
 );
