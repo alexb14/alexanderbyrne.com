@@ -109,6 +109,7 @@ const Button = styled.button`
   line-height: 24px;
   text-align: center;
   padding: 12px 40px;
+  transition: all 200ms ease;
 
   &:hover {
     color: #fff;

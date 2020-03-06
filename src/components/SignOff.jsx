@@ -66,7 +66,7 @@ const NavItemBottom = styled(NavLink)`
   text-align: center;
   padding: 12px 40px;
   text-decoration: none;
-  background: #2c2c2c; 
+  background: #2c2c2c;
   color: #fff!important;
   margin-bottom: 12%;`};
 `;

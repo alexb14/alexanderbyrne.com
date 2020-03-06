@@ -39,6 +39,7 @@ const SeeMoreLink = styled(NavLink)`
   padding: 12px 40px;
   text-decoration: none;
   margin-bottom: 12%;
+  transition: all 200ms ease;
 
   &:hover {
     color: #fff;

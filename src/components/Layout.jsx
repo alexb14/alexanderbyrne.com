@@ -28,14 +28,39 @@ injectGlobal`
     overflow-y: scroll;
     background-color: #fff;
   }
+  @keyframes contentFadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  animation: contentFadeIn 1100ms 400ms ease both;
 
   .content {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    div {
+      animation: contentFadeIn 1000ms 200ms ease both;
+    }
+  }
+
+  @keyframes headingFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   h1 {
     ${fontSize(30, 76)}
+    animation: headingFadeIn 500ms 550ms ease both;
+
     line-height: 1.2;
     ${breakpoint.up`line-height: 1.1;`}
     letter-spacing: -1.1px;

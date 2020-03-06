@@ -13,7 +13,17 @@ const Wrapper = styled.div`
   padding: 46px 0;
   align-items: center;
   justify-content: space-between;
-
+  position: relative;
+  &:after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    height: 40px;
+  }
   ${breakpoint.up`display: flex !important;`}
 
   ${breakpoint.down`
@@ -52,6 +62,36 @@ const NavItem = styled(NavLink)`
   font-weight: normal;
   margin-right: 63px;
   color: #74747b;
+  ${breakpoint.up`animation: navFadeIn 500ms ease both;
+  &:nth-of-type(1) {
+    animation-delay: 50ms;
+  }
+  &:nth-of-type(2) {
+    animation-delay: 100ms;
+  }
+  &:nth-of-type(3) {
+    animation-delay: 150ms;
+  }
+  &:nth-of-type(4) {
+    animation-delay: 200ms;
+  }
+  @keyframes navFadeIn {
+    from {
+      transform: translateY(-40px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  @keyframes navLineFadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }`};
+
   ${breakpoint.down`display: block; margin: 12px 0; ${fontSize(22, 32)}`};
 
   position: relative;
@@ -65,17 +105,20 @@ const NavItem = styled(NavLink)`
     height: 1px;
     background-color: #323235;
     opacity: 0;
-    transition: opacity 220ms ease;
+    transition: opacity 220ms ease both;
   }
 
   &.active {
     &:after {
+      animation: navLineFadeIn 450ms 450ms ease both;
       opacity: 1;
     }
   }`};
 `;
 
 const Logo = styled(Link)`
+  position: relative;
+  ${breakpoint.up`animation: navFadeIn 500ms 250ms ease;`};
   display: inline-block;
   font-size: 15px;
   color: #000;
