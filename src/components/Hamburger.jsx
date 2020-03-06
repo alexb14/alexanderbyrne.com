@@ -18,6 +18,8 @@ const Root = styled.button`
 
 const Text = styled.span`
   display: block;
+  font-size: 14px;
+  line-height: 26px;
 `;
 
 const Hamburger = ({ toggle, onClick }) => (

@@ -6,12 +6,12 @@ import { breakpoint, fontSize } from "../utils/styled";
 const Form = styled.form`
   ${fontSize(18, 24)}
   text-align: left;
-  margin-top: 14%;
+  margin-top: 8%;
   max-width: 845px;
   line-height: 2;
   color: #202123;
 
-  ${breakpoint.down`max-width: 100%;`}
+  ${breakpoint.down`max-width: 100%; margin-top: 14%;`}
 `;
 
 const CopyButton = styled.button`
@@ -40,6 +40,7 @@ const Label = styled.p`
   line-height: 24px;
   margin: 0;
   padding-top: 12%;
+  margin-bottom: 16px;
 `;
 
 const Input = styled.span`

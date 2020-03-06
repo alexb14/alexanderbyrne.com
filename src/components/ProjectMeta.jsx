@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 import { fontSize, breakpoint } from "../utils/styled";
 
 const Root = styled.div`
-  margin: 12% 0 0;
-  ${breakpoint.up`display: flex;
-  justify-content: space-between;`}
+  margin: 12% 0 22%;
+  ${breakpoint.up`display: flex; margin: 12% 0 0;
+  justify-content: space-between; align-items: flex-end;`}
 `;
 
 const Label = styled.p`
@@ -19,6 +20,18 @@ const Label = styled.p`
 const Value = styled.p`
   font-weight: normal;
   margin: 0;
+`;
+
+const Back = styled(NavLink)`
+  font-size: 17px;
+  text-align: left;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 0;
+  color: #74747b;
+  text-decoration: none;
+  border: 0;
+  ${breakpoint.down`display: none;`}
 `;
 
 const Role = styled.div`
@@ -37,6 +50,8 @@ const ProjectMeta = ({ details }) => (
         <Value>{detail.value}</Value>
       </Role>
     ))}
+
+    <Back to="/work">⟵ Back to Projects</Back>
   </Root>
 );
 

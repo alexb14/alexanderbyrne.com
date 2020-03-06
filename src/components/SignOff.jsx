@@ -12,7 +12,7 @@ const Root = styled.div`
 
   > p {
     ${fontSize(26, 76)}
-    line-height: 1.1;
+    line-height: 1.2;
     letter-spacing: -1px;
   }
 
