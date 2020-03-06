@@ -16,7 +16,7 @@ const Root = styled.div`
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  ${breakpoint.down`margin: 14% 0 0;`}
+  ${breakpoint.down`margin: 14% -52vw 0;`}
   ${props => props.type === "desktop" && DesktopStyle}
 `;
 
