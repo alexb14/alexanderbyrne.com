@@ -92,6 +92,31 @@ const NavItem = styled(NavLink)`
     }
   }`};
 
+  ${breakpoint.down`animation: navFadeInSmall 500ms ease both;
+  &:nth-of-type(1) {
+    animation-delay: 50ms;
+  }
+  &:nth-of-type(2) {
+    animation-delay: 100ms;
+  }
+  &:nth-of-type(3) {
+    animation-delay: 150ms;
+  }
+  &:nth-of-type(4) {
+    animation-delay: 200ms;
+  }
+  @keyframes navFadeInSmall {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  `};
+
   ${breakpoint.down`display: block; margin: 12px 0; ${fontSize(22, 32)}`};
 
   position: relative;
