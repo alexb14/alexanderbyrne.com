@@ -193,7 +193,6 @@ class Sidebar extends Component {
     const { visible } = this.state;
     const { location } = this.props;
     const { pathname } = location;
-    console.log(pathname);
     return (
       <Root>
         <Path>

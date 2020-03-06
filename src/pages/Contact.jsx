@@ -206,8 +206,6 @@ class Contact extends Component {
       target.tagName === "SPAN" ? target.textContent : target.textContent;
     const name = target.getAttribute("name");
 
-    console.log(value);
-
     this.setState({
       [name]: value
     });
@@ -246,59 +244,65 @@ class Contact extends Component {
     return (
       <div>
         <h1>Have a project or opportunity of your own?</h1>
-        <Intro>
-          Use the form below or{" "}
-          <CopyButton type="button" disabled={copied} onClick={this.handleCopy}>
-            {copied
-              ? "copy my email address (copied!)"
-              : "copy my email address"}
-          </CopyButton>{" "}
-          and send me a message.
-        </Intro>
-        <Form onSubmit={this.handleSubmit}>
-          <Label>Your name</Label>
-          <Input
-            name="name"
-            contentEditable="true"
-            placeholder="Milhouse Van Houten"
-            onKeyDown={this.handleKeyDown}
-            onKeyUp={this.handleKeyUp}
-          />
-          <Label>Your email</Label>
-          <Input
-            name="email"
-            contentEditable="true"
-            placeholder="thrillhouse@gmail.com"
-            onKeyDown={this.handleKeyDown}
-            onKeyUp={this.handleKeyUp}
-          />
-          <Label>Your location</Label>
-          <Input
-            name="location"
-            contentEditable="true"
-            placeholder="Springfield"
-            onKeyDown={this.handleKeyDown}
-            onKeyUp={this.handleKeyUp}
-          />
-          <Label>Project or opportunity</Label>
-          <Textarea
-            name="body"
-            contentEditable
-            onInput={this.handleKeyUp}
-            placeholder="Win Lisa's love"
-            value={body}
-          ></Textarea>
+        <div>
+          <Intro>
+            Use the form below or{" "}
+            <CopyButton
+              type="button"
+              disabled={copied}
+              onClick={this.handleCopy}
+            >
+              {copied
+                ? "copy my email address (copied!)"
+                : "copy my email address"}
+            </CopyButton>{" "}
+            and send me a message.
+          </Intro>
+          <Form onSubmit={this.handleSubmit}>
+            <Label>Your name</Label>
+            <Input
+              name="name"
+              contentEditable="true"
+              placeholder="Milhouse Van Houten"
+              onKeyDown={this.handleKeyDown}
+              onKeyUp={this.handleKeyUp}
+            />
+            <Label>Your email</Label>
+            <Input
+              name="email"
+              contentEditable="true"
+              placeholder="thrillhouse@gmail.com"
+              onKeyDown={this.handleKeyDown}
+              onKeyUp={this.handleKeyUp}
+            />
+            <Label>Your location</Label>
+            <Input
+              name="location"
+              contentEditable="true"
+              placeholder="Springfield"
+              onKeyDown={this.handleKeyDown}
+              onKeyUp={this.handleKeyUp}
+            />
+            <Label>Project or opportunity</Label>
+            <Textarea
+              name="body"
+              contentEditable
+              onInput={this.handleKeyUp}
+              placeholder="Win Lisa's love"
+              value={body}
+            ></Textarea>
 
-          <Actions>
-            {success ? (
-              <p>Thanks! I'll get back to you shortly.</p>
-            ) : (
-              <Button type="submit" disabled={sending || !isValid}>
-                Send message
-              </Button>
-            )}
-          </Actions>
-        </Form>
+            <Actions>
+              {success ? (
+                <p>Thanks! I'll get back to you shortly.</p>
+              ) : (
+                <Button type="submit" disabled={sending || !isValid}>
+                  Send message
+                </Button>
+              )}
+            </Actions>
+          </Form>
+        </div>
       </div>
     );
   }

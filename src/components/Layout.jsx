@@ -41,7 +41,7 @@ injectGlobal`
   .content {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    div {
+    div:first-of-type > div:first-of-type {
       animation: contentFadeIn 1000ms 200ms ease both;
     }
   }
