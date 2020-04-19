@@ -12,7 +12,7 @@ const Introduction = styled.div`
   font-family: 'FFTisaWebLight', serif;
   
   > p {
-    ${fontSize(22, 27)}
+    ${fontSize(34, 34)}
     line-height: 1.75;
   }
     
@@ -29,7 +29,7 @@ const Signoff = styled.div`
   font-family: 'FFTisaWebLight', serif;
   
   > p {
-    ${fontSize(26, 40)}
+    ${fontSize(27, 40)}
     line-height: 1.75;
   }
     
@@ -68,40 +68,51 @@ const NavItemBottom = styled(NavLink)`
 const Home = () => (
   <div>
     <Introduction>
-      <p>Hi, I'm Alexander.</p>
-      <p>
-      I’m an Experience and Interaction designer based in Melbourne. Over the past six years, I’ve designed products and helped tailor experiences for some amazing brands.
-      </p>
+      <p>Hi, I'm Alexander. An Experience and Interaction designer in London.</p>
+      
       <Nav>
         <NavItem to="/work">See my work</NavItem>
         
         <NavItem to="/contact">Get in touch</NavItem>
       </Nav>
     </Introduction>
-    <TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900" flip>
-      <h2>Officeworks</h2>
-      <p>Modernising a national legacy brand website.</p>
+
+    <TextMedia link="/nab" media="/images/nab/tile/nab-tile.png" width="610" height="649" >
+      <h2>National Australia Bank</h2>
+      <p>iOS + Android App — A re-imagining of the core mobile banking experience for today and into the future</p>
     </TextMedia>
 
-    <TextMedia link="/air-max-day" media="/images/airmaxday/tile/airmax-tile-2.jpg" width="1000" height="900">
-      <h2>Nike Air Max Day</h2>
-      <p>A multi-layered digital experience for the most anticipated shoe drop of the year.</p>
+    <TextMedia link="/unlockmelb" media="/images/UnlockMelb/tile/UnlockMelb-tile.png" width="610" height="520" flip>
+      <h2>Unlock Melbourne</h2>
+      <p>iOS + Android App — Giving international students a fun and informative way to enjoy their new city</p>
+    </TextMedia>
+
+    <TextMedia link="/officeworks" media="/images/officeworks/tile/ow-tile.png" width="800" height="900" >
+      <h2>Officeworks</h2>
+      <p>Responsive eCommerce — Modernising a national legacy brand website</p>
+    </TextMedia>
+
+    <TextMedia link="/workwell" media="/images/workwell/Tile/ww-tile.png" width="610" height="680" flip>
+      <h2>WorkWell</h2>
+      <p>Web Toolkit — Helping businesses take the first steps towards a mentally health workplace</p>
+    </TextMedia>
+
+    <TextMedia link="/Sidney" media="/images/sidney/tile/sidney-tile.png" width="610" height="647" >
+      <h2>Sidney Sans & Elcon Serif</h2>
+      <p>Typeface Design — Custom typefaces for Australias largest department store</p>
     </TextMedia>
     
-    <TextMedia link="/metcon-mack" media="/images/metcon-mack/Tile/metcon-2.png" width="1100" height="1100" flip>
+    <TextMedia link="/metcon-mack-new" media="/images/metcon-mack-2020/Tile/MM-Tile.png" width="1220" height="1320" flip>
       <h2>NikeWomen Metcon Mack</h2>
-      <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
+      <p>App + Event activation — An elevated digital workout experience for a Mack truck turned crossfit gym</p>
+    </TextMedia>
+    
+    <TextMedia link="/" media="/images/myer/tile/myer-tile.png" width="610" height="736">
+      <h2>Myer ~ Coming soon</h2>
+      <p>Design System + Responsive eCommerce — A brightened shopping experience for Australia’s largest home and fashion retailer</p>
     </TextMedia>
 
-    <TextMedia link="/ibl" media="/images/ibl/tile/tile@2x.png" width="600" height="600">
-      <h2>IBL</h2>
-      <p>Creating a new chapter for a historic name in British lighting.</p>
-    </TextMedia>
-
-    <TextMedia link="/Hypervenom" media="/images/hypervenom/tile/hypervenom-tile-2.jpg" width="1000" height="900" flip>
-      <h2>Nike HyperVenom</h2>
-      <p>A page takeover for Nike’s most aggressive football boot.</p>
-    </TextMedia>
+    
     <Signoff>
       <p>Let's make something great together</p>
       

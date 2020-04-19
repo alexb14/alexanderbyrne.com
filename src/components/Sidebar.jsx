@@ -112,7 +112,7 @@ class Sidebar extends Component {
         <Wrapper style={{ display: visible ? 'block' : 'none' }}>
           <Logo to="/">
           <img 
-            src="images/logo-gay.svg" 
+            src="images/logo.svg" 
             alt="logo"
             height="22px"
             width="20px" />
