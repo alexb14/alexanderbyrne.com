@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import AirMaxDay from "./pages/AirMaxDay";
 import Officeworks from "./pages/Officeworks";
+import Myer from "./pages/Myer";
 import MetconMack from "./pages/MetconMack";
 import ibl from "./pages/ibl";
 import Hypervenom from "./pages/Hypervenom";
@@ -21,6 +22,7 @@ render(
       <Route path="/projects" component={Projects} />
       <Route path="/air-max-day" component={AirMaxDay} />
       <Route path="/officeworks" component={Officeworks} />
+      <Route path="/myer" component={Myer} />
       <Route path="/metcon-mack" component={MetconMack} />
       <Route path="/ibl" component={ibl} />
       <Route path="/hypervenom" component={Hypervenom} />

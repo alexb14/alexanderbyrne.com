@@ -12,10 +12,10 @@ const Wrapper = styled.div`
   width: 100%;
   ${breakpoint.up`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;`}
-  width: 110%;
-  margin-left: -5%;
+  width: 116%;
+  margin-left: -8%;
 `;
 
 const Caption = styled.p`
@@ -43,6 +43,7 @@ const Column = styled.div`
   ${(props) =>
     props.type === "mobile" &&
     `
+    width: ${props.width}px;
     img {
       border-radius: 6px;
     }
@@ -71,7 +72,7 @@ const Column = styled.div`
 `;
 
 const renderItem = (item, index) => (
-  <Column type={item.type}>
+  <Column type={item.type} width={item.width}>
     <Item key={index}>
       {item.video ? <Video {...item} /> : <Image {...item} />}
       {item.caption ? <Caption>{item.caption}</Caption> : ""}
