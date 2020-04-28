@@ -1,9 +1,7 @@
 import React from "react";
 import Chart from "../components/Chart";
-import Copy from "../components/Copy";
 import Heading from "../components/Heading";
 import Quote from "../components/Quote";
-import FullWidthMedia from "../components/FullWidthMedia";
 import SignOff from "../components/SignOff";
 
 const About = () => (

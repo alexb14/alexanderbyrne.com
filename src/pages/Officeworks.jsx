@@ -6,6 +6,7 @@ import MyRole from "../components/MyRole";
 import ProjectMeta from "../components/ProjectMeta";
 import TextMedia from "../components/TextMedia";
 import TextMediaGrid from "../components/TextMediaGrid";
+import Devices from "../components/Devices";
 
 const Officeworks = () => (
   <div>
@@ -27,7 +28,6 @@ const Officeworks = () => (
           },
         ]}
       />
-
       <FullWidthMedia
         type="hero"
         media="/images/officeworks/hero/ow-hero@2x.png"
@@ -38,7 +38,87 @@ const Officeworks = () => (
         Officeworks needed to refresh the functioning of their website. With
         that, came an overhaul of their digital style
       </Copy>
+      <Devices
+        items={[
+          {
+            media: "/images/myer/myer-1-test.png",
+            width: 375,
+            height: 1014,
+            border: "#E6EFF2",
+            caption: "Caption. Inter Regular — 15/22 — #74747B",
+            type: "mobile",
+          },
+          {
+            media: "/images/myer/myer-2-test.png",
+            width: 375,
+            height: 1014,
+            border: "#F2E6E6",
+            caption: "Caption. Inter Regular — 15/22 — #74747B",
+            type: "mobile",
+          },
+          {
+            media: "/images/myer/myer-3-test.png",
+            width: 375,
+            height: 1014,
+            border: "#F2EFE6",
+            caption: "Caption. Inter Regular — 15/22 — #74747B",
+            type: "mobile",
+          },
+        ]}
+      />
+      <Devices
+        items={[
+          {
+            media: "/images/myer/myer-tall-test-1.png",
+            width: 780,
+            height: 1975,
+            border: "#E6EFF2",
+            caption: "Caption. Inter Regular — 15/22 — #74747B",
+            type: "desktop",
+          },
+          {
+            media: "/images/myer/myer-2-test.png",
+            width: 375,
+            height: 1014,
+            border: "#F2E6E6",
+            caption: "Caption. Inter Regular — 15/22 — #74747B",
+            type: "mobile",
+          },
+        ]}
+      />
+      <Devices
+        items={[
+          {
+            media: "/images/myer/myer-full-test.png",
+            width: 1620,
+            height: 934,
+            border: "#E6EFF2",
+            caption: "Caption. Inter Regular — 15/22 — #74747B",
+            type: "full",
+          },
+        ]}
+      />
 
+      <Devices
+        items={[
+          {
+            media: "/images/myer/myer-full-test.png",
+            width: 1620,
+            height: 934,
+            border: "#E6EFF2",
+            caption: "Caption. Inter Regular — 15/22 — #74747B",
+            type: "split",
+          },
+          {
+            media: "/images/myer/myer-full-test.png",
+            width: 1620,
+            height: 934,
+            border: "#E6EFF2",
+            caption: "Caption. Inter Regular — 15/22 — #74747B",
+            type: "split",
+          },
+        ]}
+      />
       <FullWidthMedia
         media="/images/officeworks/other/ow-colour@2x.png"
         width="1800"

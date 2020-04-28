@@ -6,7 +6,7 @@ import Video from "./Video";
 const Root = styled.div`
   margin: 16% 0 0;
 
-  ${props =>
+  ${(props) =>
     props.type === "mobile" &&
     `
     max-width: 850px;
@@ -38,7 +38,7 @@ const Column = styled.div`
     margin-bottom: 0;
   }
 
-  ${props =>
+  ${(props) =>
     props.type === "mobile" &&
     `
     img {
@@ -53,7 +53,7 @@ const Column = styled.div`
     }
   `}
 
-  ${props =>
+  ${(props) =>
     props.type === "responsive" &&
     `
     &:first-child {

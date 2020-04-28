@@ -7,23 +7,6 @@ import List from "../components/List";
 import SignOff from "../components/SignOff";
 import { breakpoint, fontSize } from "../utils/styled";
 
-const Introduction = styled.div`
-  color: #2c2c2f;
-  text-align: left;
-  max-width: 750px;
-  margin: 20% auto 0;
-  font-family: "FFTisaWebLight", serif;
-
-  > p {
-    ${fontSize(22, 27)}
-    line-height: 1.75;
-  }
-
-  p + p {
-    color: #2c2c2f;
-  }
-`;
-
 const SeeMoreLink = styled(NavLink)`
   ${fontSize(24, 32)}
   display: inline-block;

@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import Image from "./Image";
 import Video from "./Video";
-import { breakpoint } from "../utils/styled";
 
 const DesktopStyle = `
   border-radius: 6px;

@@ -5,7 +5,6 @@ import Copy from "../components/Copy";
 import MyRole from "../components/MyRole";
 import TextMedia from "../components/TextMedia";
 import TextMediaGrid from "../components/TextMediaGrid";
-import Video from "../components/Video";
 
 const MetconMack = () => (
   <div>

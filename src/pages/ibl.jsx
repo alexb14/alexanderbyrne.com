@@ -1,6 +1,5 @@
 import React from "react";
 import FullWidthMedia from "../components/FullWidthMedia";
-import MediaGrid from "../components/MediaGrid";
 import Copy from "../components/Copy";
 import MyRole from "../components/MyRole";
 import TextMedia from "../components/TextMedia";

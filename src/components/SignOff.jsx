@@ -30,17 +30,6 @@ const Nav = styled.nav`
   margin-top: 0;
 `;
 
-const NavItem = styled(NavLink)`
-  ${fontSize(14, 20)}
-  margin-right: 15%;
-  text-decoration: none;
-
-  &:hover {
-    border-bottom: 1px solid #2c2c2f;
-    padding: 0 0 8px 0;
-  }
-`;
-
 const NavItemBottom = styled(NavLink)`
   ${fontSize(18, 24)}
   margin-right: 0%;
