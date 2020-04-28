@@ -6,7 +6,6 @@ import MyRole from "../components/MyRole";
 import ProjectMeta from "../components/ProjectMeta";
 import TextMedia from "../components/TextMedia";
 import TextMediaGrid from "../components/TextMediaGrid";
-import Devices from "../components/Devices";
 
 const Officeworks = () => (
   <div>

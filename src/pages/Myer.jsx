@@ -1,6 +1,5 @@
 import React from "react";
 import FullWidthMedia from "../components/FullWidthMedia";
-import MediaGrid from "../components/MediaGrid";
 import Copy from "../components/Copy";
 import MyRole from "../components/MyRole";
 import ProjectMeta from "../components/ProjectMeta";
@@ -49,6 +48,7 @@ const Myer = () => (
             border: "#E6EFF2",
             caption: "Caption. Inter Regular — 15/22 — #74747B",
             type: "mobile",
+            radius: 30,
           },
           {
             media: "/images/myer/myer-2-test.png",
@@ -57,6 +57,7 @@ const Myer = () => (
             border: "#F2E6E6",
             caption: "Caption. Inter Regular — 15/22 — #74747B",
             type: "mobile",
+            radius: 30,
           },
           {
             media: "/images/myer/myer-3-test.png",
@@ -65,6 +66,7 @@ const Myer = () => (
             border: "#F2EFE6",
             caption: "Caption. Inter Regular — 15/22 — #74747B",
             type: "mobile",
+            radius: 30,
           },
         ]}
       />
@@ -77,6 +79,7 @@ const Myer = () => (
             border: "#E6EFF2",
             caption: "Caption. Inter Regular — 15/22 — #74747B",
             type: "full",
+            radius: 30,
           },
         ]}
       />
@@ -89,6 +92,7 @@ const Myer = () => (
             border: "#E6EFF2",
             caption: "Large Text enabled",
             type: "mobile",
+            radius: 30,
           },
           {
             media: "/images/myer/nab-horizontal-test.png",
@@ -98,6 +102,7 @@ const Myer = () => (
             caption:
               "Improving the range of the app’s accessiblility with orientation support",
             type: "mobile",
+            radius: 30,
           },
         ]}
       />
@@ -110,6 +115,7 @@ const Myer = () => (
             border: "#E6EFF2",
             caption: "Caption. Inter Regular — 15/22 — #74747B",
             type: "full",
+            radius: 30,
           },
         ]}
       />
@@ -122,6 +128,7 @@ const Myer = () => (
             border: "#E6EFF2",
             caption: "Caption. Inter Regular — 15/22 — #74747B",
             type: "split",
+            radius: 30,
           },
           {
             media: "/images/myer/myer-desktop-split.jpg",
@@ -130,6 +137,7 @@ const Myer = () => (
             border: "#E6EFF2",
             caption: "Caption. Inter Regular — 15/22 — #74747B",
             type: "split",
+            radius: 30,
           },
         ]}
       />
@@ -142,6 +150,7 @@ const Myer = () => (
             border: "#E6EFF2",
             caption: "Caption. Inter Regular — 15/22 — #74747B",
             type: "desktop",
+            radius: 30,
           },
           {
             media: "/images/myer/myer-2-test.png",
@@ -150,6 +159,7 @@ const Myer = () => (
             border: "#F2E6E6",
             caption: "Caption. Inter Regular — 15/22 — #74747B",
             type: "mobile",
+            radius: 30,
           },
         ]}
       />

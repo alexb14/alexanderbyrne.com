@@ -15,15 +15,12 @@ const Media = styled.img`
   height: 100%;
 `;
 
-const Image = ({ media, width, height, border }) => {
+const Image = ({ media, width, height }) => {
   const ratio = (height / width) * 100;
 
   return (
     <Root style={{ paddingBottom: `${ratio}%` }}>
-      <Media
-        style={{ borderColor: `${border ? border : "transparent"}` }}
-        src={media}
-      />
+      <Media src={media} />
     </Root>
   );
 };
