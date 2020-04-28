@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { fontSize } from "../utils/styled";
+import { breakpoint, fontSize } from "../utils/styled";
 
 const Root = styled.div`
   ${fontSize(22, 36)}
@@ -15,42 +15,48 @@ const Root = styled.div`
 `;
 
 const Avatar = styled.img`
-  display: inline-block;
-  vertical-align: middle;
   margin-right: 16px;
   width: 48px;
   height: 48px;
   border-radius: 100%;
+  ${breakpoint.down`width: 44px; height: 44px;`};
 `;
 
 const Cite = styled.cite`
+  display: flex;
+  align-items: center;
+`;
+
+const Name = styled.p`
+  ${fontSize(14, 20)}
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
+  line-height: 1.1;
   display: inline-block;
   vertical-align: middle;
-  font-size: 20px;
   font-style: normal;
+  text-align: left;
+  margin: 0;
 `;
 
 const BlockQuote = styled.blockquote`
+  ${fontSize(17, 28)}
   margin: 0;
   margin-bottom: 64px;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 46px;
+  font-weight: 400;
+  line-height: 1.65;
   text-align: left;
 `;
 
 const Quote = ({ children, ...props }) => (
   <Root>
     <BlockQuote>{children}</BlockQuote>
-
     <Cite>
       <Avatar src={props.avatar}></Avatar>
-      {props.citation}
+      <Name>{props.citation}</Name>
     </Cite>
   </Root>
 );

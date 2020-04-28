@@ -12,6 +12,7 @@ const MetconMack = () => (
     <h1>Metcon Mack</h1>
     <div>
       <FullWidthMedia
+        type="hero"
         media="/images/metcon-mack/hero/iPhone-2.jpg"
         width="2000"
         height="1333"
@@ -47,23 +48,23 @@ const MetconMack = () => (
           {
             media: "/images/metcon-mack/tablet/iPad-Home@2x.png",
             width: 2048,
-            height: 1536
+            height: 1536,
           },
           {
             media: "/images/metcon-mack/tablet/Summary@2x.png",
             width: 2048,
-            height: 1536
+            height: 1536,
           },
           {
             media: "/images/metcon-mack/tablet/Athletes@2x.png",
             width: 2048,
-            height: 1536
+            height: 1536,
           },
           {
             media: "/images/metcon-mack/tablet/Shoe-2@2x.png",
             width: 2048,
-            height: 1536
-          }
+            height: 1536,
+          },
         ]}
       />
 
@@ -87,23 +88,23 @@ const MetconMack = () => (
           {
             media: "/images/metcon-mack/Workout-Start@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/metcon-mack/Workout-End@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/metcon-mack/Workout-Live@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/metcon-mack/Workout-Finish@2x 2.png",
             width: 375,
-            height: 667
-          }
+            height: 667,
+          },
         ]}
       />
 

@@ -55,9 +55,7 @@ const SeeMoreLink = styled(NavLink)`
 
 const Home = () => (
   <div>
-    <h1>
-      Experience and Interaction designer in <em>London</em>.
-    </h1>
+    <h1>Experience and Interaction designer in London.</h1>
     <TextMediaGrid columns={2}>
       <TextMedia
         link="/officeworks"
@@ -109,7 +107,7 @@ const Home = () => (
       </TextMedia>
     </TextMediaGrid>
 
-    <SeeMoreLink to="/work">See all projects ⟶</SeeMoreLink>
+    <SeeMoreLink to="/projects">See all projects ⟶</SeeMoreLink>
 
     <h3>Exercises</h3>
     <p>Small and simple pieces focusing on a single problem</p>
@@ -194,7 +192,7 @@ const Home = () => (
       bullets={[
         "Make the transition from Photoshop to Sketch.",
         "Create a design and development process built on communication and piggy-backed by Zeplin",
-        "Understand the importance of animated interactions to help story-telling in products and clarity in build."
+        "Understand the importance of animated interactions to help story-telling in products and clarity in build.",
       ]}
     />
 

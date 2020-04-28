@@ -44,14 +44,14 @@ const Role = styled.div`
 
 const ProjectMeta = ({ details }) => (
   <Root>
-    {details.map(detail => (
+    {details.map((detail) => (
       <Role key={detail.label}>
         <Label>{detail.label}</Label>
         <Value>{detail.value}</Value>
       </Role>
     ))}
 
-    <Back to="/work">⟵ Back to Projects</Back>
+    <Back to="/projects">⟵ Back to Projects</Back>
   </Root>
 );
 

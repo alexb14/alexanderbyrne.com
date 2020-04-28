@@ -11,6 +11,7 @@ const ibl = () => (
     <h1>IBL</h1>
     <div>
       <FullWidthMedia
+        type="hero"
         media="/images/ibl/hero/hero@2x.png"
         width="1800"
         height="1040"

@@ -15,20 +15,21 @@ const Officeworks = () => (
         details={[
           {
             label: "Role",
-            value: "Designer"
+            value: "Designer",
           },
           {
             label: "When",
-            value: "September, 2015 — April, 2016"
+            value: "September, 2015 — April, 2016",
           },
           {
             label: "Heavy rotation",
-            value: "Rocketship by Marcus Marr "
-          }
+            value: "Rocketship by Marcus Marr ",
+          },
         ]}
       />
 
       <FullWidthMedia
+        type="hero"
         media="/images/officeworks/hero/ow-hero@2x.png"
         width="1800"
         height="1040"
@@ -67,23 +68,23 @@ const Officeworks = () => (
           {
             media: "/images/officeworks/mobile/homepage@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/officeworks/mobile/Search.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/officeworks/mobile/PDP-1@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/officeworks/mobile/Filters.png",
             width: 375,
-            height: 667
-          }
+            height: 667,
+          },
         ]}
       />
 

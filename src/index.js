@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Writing from "./pages/Writing";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
-import Work from "./pages/Work";
+import Projects from "./pages/Projects";
 import AirMaxDay from "./pages/AirMaxDay";
 import Officeworks from "./pages/Officeworks";
 import MetconMack from "./pages/MetconMack";
@@ -18,7 +18,7 @@ render(
   <Router>
     <Layout>
       <Route exact path="/" component={Home} />
-      <Route path="/work" component={Work} />
+      <Route path="/projects" component={Projects} />
       <Route path="/air-max-day" component={AirMaxDay} />
       <Route path="/officeworks" component={Officeworks} />
       <Route path="/metcon-mack" component={MetconMack} />

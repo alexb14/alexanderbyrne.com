@@ -6,7 +6,7 @@ import { breakpoint, fontSize } from "../utils/styled";
 
 const Root = styled.div`
   text-align: center;
-  ${props => props.hide && breakpoint.up`display:none;`}
+  ${(props) => props.hide && breakpoint.up`display:none;`}
 `;
 
 const Wrapper = styled.div`
@@ -194,12 +194,12 @@ class Sidebar extends Component {
     this.handleToggle = this.handleToggle.bind(this);
 
     this.state = {
-      visible: false
+      visible: false,
     };
 
     this.unlisten = this.props.history.listen(() => {
       this.setState({
-        visible: false
+        visible: false,
       });
     });
   }
@@ -210,7 +210,7 @@ class Sidebar extends Component {
 
   handleToggle() {
     this.setState({
-      visible: !this.state.visible
+      visible: !this.state.visible,
     });
   }
 
@@ -218,28 +218,34 @@ class Sidebar extends Component {
     const { visible } = this.state;
     const { location } = this.props;
     const { pathname } = location;
+
+    const mobileTitleHeading = (urlPath) => {
+      switch (urlPath) {
+        case "/":
+          return "";
+        case "/about":
+          return " — About";
+        case "/writing":
+          return " — Writing";
+        case "/contact":
+          return " — Contact";
+        default:
+          return " — Projects";
+      }
+    };
+
     return (
       <Root>
         <Path>
           <Logo to="/">Alexander Byrne</Logo>
-          <Tail>
-            {pathname !== "/"
-              ? ` — ${pathname
-                  .substr(1)
-                  .replace(/-/g, " ")
-                  .toLowerCase()
-                  .split(" ")
-                  .map(word => word.charAt(0).toUpperCase() + word.substring(1))
-                  .join(" ")}`
-              : ""}
-          </Tail>
+          <Tail>{mobileTitleHeading(pathname)}</Tail>
         </Path>
         <Toggle>
           <Hamburger toggle={visible} onClick={this.handleToggle} />
         </Toggle>
         <Wrapper style={{ display: visible ? "flex" : "none" }}>
           <Nav>
-            <NavItem to="/work" activeClassName="active">
+            <NavItem to="/projects" activeClassName="active">
               Projects
             </NavItem>
             <NavItem to="/about" activeClassName="active">

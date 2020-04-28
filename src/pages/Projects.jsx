@@ -4,7 +4,7 @@ import TextMedia from "../components/TextMedia";
 import TextMediaGrid from "../components/TextMediaGrid";
 import SignOff from "../components/SignOff";
 
-const Work = () => (
+const Projects = () => (
   <div>
     <h1>A curation of works spanning freelance and full-time.</h1>
     <TextMediaGrid columns={2}>
@@ -158,4 +158,4 @@ const Work = () => (
   </div>
 );
 
-export default Work;
+export default Projects;

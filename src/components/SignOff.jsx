@@ -9,7 +9,7 @@ const Root = styled.div`
   max-width: 1270px;
   margin: 16% 0 0;
   font-family: "FFTisaWebLight", serif;
-
+  ${breakpoint.down`margin: 32% 0 0;`};
   > p {
     ${fontSize(26, 76)}
     line-height: 1.2;

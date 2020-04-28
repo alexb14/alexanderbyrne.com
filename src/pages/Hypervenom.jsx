@@ -11,6 +11,7 @@ const Hypervenom = () => (
     <h1>Nike HyperVenom</h1>
     <div>
       <FullWidthMedia
+        type="hero"
         media="/images/hypervenom/other/hyper-hero.png"
         width="2400"
         height="1500"
@@ -36,13 +37,13 @@ const Hypervenom = () => (
           {
             media: "/images/hypervenom/desktop/Rebel-HyperVenom@2x.jpg",
             width: 3000,
-            height: 9100
+            height: 9100,
           },
           {
             media: "/images/hypervenom/mobile/Rebel-HyperVenom.png",
             width: 750,
-            height: 7598
-          }
+            height: 7598,
+          },
         ]}
       />
 
@@ -60,23 +61,23 @@ const Hypervenom = () => (
           {
             media: "/images/hypervenom/mobile/Modal-1@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/hypervenom/mobile/Modal-3@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/hypervenom/mobile/Modal-2@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/hypervenom/mobile/Modal-4@2x.png",
             width: 375,
-            height: 667
-          }
+            height: 667,
+          },
         ]}
       />
 

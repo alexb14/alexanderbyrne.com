@@ -57,19 +57,23 @@ injectGlobal`
     }
   }
 
+  .page-contact .social {
+    display: none;
+  }
+
   h1 {
     ${fontSize(30, 76)}
     animation: headingFadeIn 500ms 480ms ease both;
 
     line-height: 1.2;
-    ${breakpoint.up`line-height: 1.1;`}
     letter-spacing: -1.1px;
     font-weight: normal;
     color: #323235;
     text-align: left;
-    margin: 13.25% 0 5%;
+    margin: 13.25% 0 42%;
     font-family: 'FFTisaWebLight', serif;
     max-width: 1200px;
+    ${breakpoint.up`line-height: 1.1; margin: 13.25% 0 5%`}
   }
 
   h2 {
@@ -112,17 +116,17 @@ const Root = styled.div`
   padding: 0 11.5%;
   margin: 0 auto 6%;
   text-align: center;
-
-  ${breakpoint.down`padding-right: 8vw;`}
-  ${props => props.hideSidebar && breakpoint.up`padding-right: 8vw;`}
 `;
 
 const Layout = ({ children, location }) => (
   <ScrollToTop>
-    <Root>
+    <Root className={`page-${location.pathname.substr(1)}`}>
       <Sidebar location={location} />
+
       <div className="content">{children}</div>
-      <SocialLinks />
+      <div className="social">
+        <SocialLinks />
+      </div>
     </Root>
   </ScrollToTop>
 );

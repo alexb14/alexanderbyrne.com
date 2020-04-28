@@ -11,6 +11,7 @@ const AirMaxDay = () => (
     <h1>Air Max Day</h1>
     <div>
       <FullWidthMedia
+        type="hero"
         media="/images/airmaxday/hero/airmax-hero.gif"
         width="1920"
         height="1080"
@@ -34,23 +35,23 @@ const AirMaxDay = () => (
           {
             media: "/images/airmaxday/desktop/OG-1.png",
             width: 1800,
-            height: 1024
+            height: 1024,
           },
           {
             media: "/images/airmaxday/desktop/Atmos-1.png",
             width: 1800,
-            height: 1024
+            height: 1024,
           },
           {
             media: "/images/airmaxday/desktop/Master-1.png",
             width: 1800,
-            height: 1024
+            height: 1024,
           },
           {
             media: "/images/airmaxday/desktop/Vapor-1.png",
             width: 1800,
-            height: 1024
-          }
+            height: 1024,
+          },
         ]}
       />
       <MediaGrid
@@ -59,23 +60,23 @@ const AirMaxDay = () => (
           {
             media: "/images/airmaxday/mobile/Mockup-OG@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/airmaxday/mobile/Mockup-Master@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/airmaxday/mobile/Mockup-Atmos@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/airmaxday/mobile/Mockup-VaporMax@2x.png",
             width: 375,
-            height: 667
-          }
+            height: 667,
+          },
         ]}
       />
       <MediaGrid
@@ -83,23 +84,23 @@ const AirMaxDay = () => (
           {
             media: "/images/airmaxday/desktop/Vapor-1.png",
             width: 1800,
-            height: 1024
+            height: 1024,
           },
           {
             media: "/images/airmaxday/desktop/Vapor-2.png",
             width: 1800,
-            height: 1024
+            height: 1024,
           },
           {
             media: "/images/airmaxday/desktop/Vapor-3.png",
             width: 1800,
-            height: 1024
+            height: 1024,
           },
           {
             media: "/images/airmaxday/desktop/Vapor-4.png",
             width: 1800,
-            height: 1024
-          }
+            height: 1024,
+          },
         ]}
       />
 
@@ -109,23 +110,23 @@ const AirMaxDay = () => (
           {
             media: "/images/airmaxday/mobile/V-1@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/airmaxday/mobile/V-3@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/airmaxday/mobile/V-2@2x.png",
             width: 375,
-            height: 667
+            height: 667,
           },
           {
             media: "/images/airmaxday/mobile/V-4@2x.png",
             width: 375,
-            height: 667
-          }
+            height: 667,
+          },
         ]}
       />
 

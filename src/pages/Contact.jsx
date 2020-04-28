@@ -1,15 +1,18 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import request from "superagent";
+import SocialLinks from "../components/SocialLinks";
 import { breakpoint, fontSize } from "../utils/styled";
 
 const Form = styled.form`
   ${fontSize(18, 24)}
   text-align: left;
-  margin-top: 8%;
+  margin-top: 4%;
   max-width: 845px;
+  width: 100%;
   line-height: 2;
   color: #202123;
+  position: relative;
 
   ${breakpoint.down`max-width: 100%; margin-top: 14%;`}
 `;
@@ -77,6 +80,7 @@ const Textarea = styled.div`
   outline: 0;
   line-height: 1.5;
   border-bottom: 1px solid #9a6a00;
+  min-height: 5em;
 
   &:empty {
     border-bottom: 1px solid #000;
@@ -95,6 +99,10 @@ const Textarea = styled.div`
 const Actions = styled.div`
   margin-top: 8%;
   text-align: right;
+`;
+
+const SocialWrapper = styled.div`
+  ${breakpoint.up`display: flex; justify-content: space-between; align-content: flex-start; & > div { margin-top: 12%; width: 200px; padding-left: 50px; }`}
 `;
 
 const Button = styled.button`
@@ -141,7 +149,7 @@ class Contact extends Component {
       name: "",
       location: "",
       body: "",
-      email: ""
+      email: "",
     };
   }
 
@@ -163,7 +171,7 @@ class Contact extends Component {
     document.body.removeChild(el);
 
     this.setState({
-      copied: true
+      copied: true,
     });
   }
 
@@ -173,7 +181,7 @@ class Contact extends Component {
     const { name, location, body, email } = this.state;
 
     this.setState({
-      sending: true
+      sending: true,
     });
 
     request
@@ -182,13 +190,13 @@ class Contact extends Component {
         name,
         email,
         location,
-        body
+        body,
       })
       .end((error, response) => {
         if (error) {
           this.setState({
             sending: false,
-            error: true
+            error: true,
           });
 
           return;
@@ -196,7 +204,7 @@ class Contact extends Component {
 
         this.setState({
           sending: false,
-          success: true
+          success: true,
         });
       });
   }
@@ -208,7 +216,7 @@ class Contact extends Component {
     const name = target.getAttribute("name");
 
     this.setState({
-      [name]: value
+      [name]: value,
     });
   }
 
@@ -234,7 +242,7 @@ class Contact extends Component {
       name,
       location,
       body,
-      email
+      email,
     } = this.state;
     const isValid =
       name.trim() !== "" &&
@@ -259,50 +267,45 @@ class Contact extends Component {
             </CopyButton>{" "}
             and send me a message.
           </Intro>
-          <Form onSubmit={this.handleSubmit}>
-            <Label>Your name</Label>
-            <Input
-              name="name"
-              contentEditable="true"
-              placeholder="Milhouse Van Houten"
-              onKeyDown={this.handleKeyDown}
-              onKeyUp={this.handleKeyUp}
-            />
-            <Label>Your email</Label>
-            <Input
-              name="email"
-              contentEditable="true"
-              placeholder="thrillhouse@gmail.com"
-              onKeyDown={this.handleKeyDown}
-              onKeyUp={this.handleKeyUp}
-            />
-            <Label>Your location</Label>
-            <Input
-              name="location"
-              contentEditable="true"
-              placeholder="Springfield"
-              onKeyDown={this.handleKeyDown}
-              onKeyUp={this.handleKeyUp}
-            />
-            <Label>Project or opportunity</Label>
-            <Textarea
-              name="body"
-              contentEditable
-              onInput={this.handleKeyUp}
-              placeholder="Win Lisa's love"
-              value={body}
-            ></Textarea>
+          <SocialWrapper>
+            <Form onSubmit={this.handleSubmit}>
+              <Label>Your name</Label>
+              <Input
+                name="name"
+                contentEditable="true"
+                placeholder="Milhouse Van Houten"
+                onKeyDown={this.handleKeyDown}
+                onKeyUp={this.handleKeyUp}
+              />
+              <Label>Your email</Label>
+              <Input
+                name="email"
+                contentEditable="true"
+                placeholder="thrillhouse@gmail.com"
+                onKeyDown={this.handleKeyDown}
+                onKeyUp={this.handleKeyUp}
+              />
+              <Label>Project or opportunity</Label>
+              <Textarea
+                name="body"
+                contentEditable
+                onInput={this.handleKeyUp}
+                placeholder="Win Lisa's love"
+                value={body}
+              ></Textarea>
 
-            <Actions>
-              {success ? (
-                <p>Thanks! I'll get back to you shortly.</p>
-              ) : (
-                <Button type="submit" disabled={sending || !isValid}>
-                  Send message
-                </Button>
-              )}
-            </Actions>
-          </Form>
+              <Actions>
+                {success ? (
+                  <p>Thanks! I'll get back to you shortly.</p>
+                ) : (
+                  <Button type="submit" disabled={sending || !isValid}>
+                    Send message
+                  </Button>
+                )}
+              </Actions>
+            </Form>
+            <SocialLinks />
+          </SocialWrapper>
         </div>
       </div>
     );
