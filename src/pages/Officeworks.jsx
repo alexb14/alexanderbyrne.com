@@ -45,17 +45,14 @@ const Officeworks = () => (
     />
 
    
-<TextMedia link="/nab" media="/images/nab/tile/nab-tile.png" width="610" height="649" flip>
-      <h2>National Australia Bank</h2>
-      <p>iOS + Android App — A re-imagining of the core mobile banking experience for today and into the future</p>
-    </TextMedia>
 
-    <TextMedia link="/unlockmelb" media="/images/UnlockMelb/tile/UnlockMelb-tile.png" width="610" height="520" flip>
+
+    <TextMedia link="/unlockmelb" media="/images/UnlockMelb/tile/UnlockMelb-tile.png" width="610" height="520" >
       <h2>Unlock Melbourne</h2>
       <p>iOS + Android App — Giving international students a fun and informative way to enjoy their new city</p>
     </TextMedia>
 
-    <TextMedia link="/workwell" media="/images/workwell/Tile/ww-tile.png" width="610" height="680" >
+    <TextMedia link="/workwell" media="/images/workwell/Tile/ww-tile.png" width="610" height="680" flip>
       <h2>WorkWell</h2>
       <p>Web Toolkit — Helping businesses take the first steps towards a mentally health workplace</p>
     </TextMedia>
