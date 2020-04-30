@@ -23,6 +23,7 @@ const Projects = () => (
         media="/images/airmaxday/tile/airmax-tile-2.jpg"
         width="1000"
         height="900"
+        locked
       >
         <h2>Nike Air Max Day</h2>
         <p>
