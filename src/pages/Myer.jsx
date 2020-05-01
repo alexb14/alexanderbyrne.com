@@ -1,6 +1,8 @@
 import React from "react";
 import FullWidthMedia from "../components/FullWidthMedia";
 import Copy from "../components/Copy";
+import IntroText from "../components/IntroText";
+import BodyText from "../components/BodyText";
 import MyRole from "../components/MyRole";
 import ProjectMeta from "../components/ProjectMeta";
 import TextMedia from "../components/TextMedia";
@@ -10,6 +12,11 @@ import Devices from "../components/Devices";
 const Myer = () => (
   <div>
     <h1>Myer</h1>
+    <IntroText>
+      A brightened e-commerce experience for Australia’s largest home and
+      fashion retailer. From content to checkout, all is new in the world of
+      Myer.
+    </IntroText>
     <div>
       <ProjectMeta
         details={[
@@ -33,12 +40,14 @@ const Myer = () => (
         width="2000"
         height="1225"
       />
-      <Copy>
-        A brightened e-commerce experience for Australia’s largest home and
-        fashion retailer. From content to checkout, all is new in the world of
-        Myer.
-      </Copy>
 
+      <BodyText heading="Getting the basics right">
+        We worked with Study Melbourne to create a set of tasks to guide
+        international students through studying in Victoria. These tasks
+        included everything from how to say “hello 👋”, where to find
+        accommodation 🏡, how to catch a tram 🚊 and even how to make ANZAC
+        biscuits 🍪 (an Australian delicacy).
+      </BodyText>
       <Devices
         items={[
           {
