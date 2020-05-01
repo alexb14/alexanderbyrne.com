@@ -11,8 +11,7 @@ import Devices from "../components/Devices";
 
 const Myer = () => (
   <div>
-    <h1>Myer</h1>
-    <IntroText>
+    <IntroText heading="Myer">
       A brightened e-commerce experience for Australia’s largest home and
       fashion retailer. From content to checkout, all is new in the world of
       Myer.
@@ -42,11 +41,10 @@ const Myer = () => (
       />
 
       <BodyText heading="Getting the basics right">
-        We worked with Study Melbourne to create a set of tasks to guide
-        international students through studying in Victoria. These tasks
-        included everything from how to say “hello 👋”, where to find
-        accommodation 🏡, how to catch a tram 🚊 and even how to make ANZAC
-        biscuits 🍪 (an Australian delicacy).
+        Myer undertook a mammoth task by launching a new site from build to
+        design. Each part of the website underwent a transformation from their
+        Services to the Checkout experience to the typefaces and everything
+        in-between.
       </BodyText>
       <Devices
         items={[
