@@ -1,6 +1,5 @@
 import React from "react";
 import FullWidthMedia from "../components/FullWidthMedia";
-import Copy from "../components/Copy";
 import IntroText from "../components/IntroText";
 import BodyText from "../components/BodyText";
 import MyRole from "../components/MyRole";
