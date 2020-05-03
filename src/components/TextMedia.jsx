@@ -47,7 +47,7 @@ const Text = styled.div`
       `
       padding-right: 100px;
       &:after {
-        font-size: 15px!important;
+        font-size: 17px!important;
         ${breakpoint.down`font-size: 13px!important;`}
         content: 'Private';
         line-height: 1;

@@ -6,7 +6,7 @@ import { breakpoint, fontSize } from "../utils/styled";
 const Root = styled.div`
   color: #2c2c2f;
   text-align: left;
-  max-width: 1000px;
+  max-width: 1270px;
   margin: 16% 0 0;
   font-family: "FFTisaWebLight", serif;
   ${breakpoint.down`margin: 32% 0 0;`};
