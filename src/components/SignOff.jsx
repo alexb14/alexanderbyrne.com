@@ -6,7 +6,7 @@ import { breakpoint, fontSize } from "../utils/styled";
 const Root = styled.div`
   color: #2c2c2f;
   text-align: left;
-  max-width: 1270px;
+  max-width: 1000px;
   margin: 16% 0 0;
   font-family: "FFTisaWebLight", serif;
   ${breakpoint.down`margin: 32% 0 0;`};
@@ -14,6 +14,11 @@ const Root = styled.div`
     ${fontSize(26, 76)}
     line-height: 1.2;
     letter-spacing: -1px;
+  }
+
+  br {
+    ${breakpoint.down`
+    display: none;`}
   }
 
   p + p {
@@ -91,7 +96,7 @@ const NavItemBottom = styled(NavLink)`
 
 const SignOff = ({ title }) => (
   <Root>
-    {title && <p>{title}</p>}
+    {title && <p dangerouslySetInnerHTML={{ __html: title }}></p>}
     {!title && (
       <p>
         I’m on the hunt for <em>exciting</em> ideas being made possible by{" "}

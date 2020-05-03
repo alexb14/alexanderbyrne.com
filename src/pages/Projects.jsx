@@ -154,7 +154,7 @@ const Projects = () => (
       </TextMedia>
     </TextMediaGrid>
 
-    <SignOff title="Let's make something great together." />
+    <SignOff title="Let's make something great<br/> together." />
   </div>
 );
 
