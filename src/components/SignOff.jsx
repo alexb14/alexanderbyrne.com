@@ -56,7 +56,7 @@ const NavItemBottom = styled(NavLink)`
   &:hover {
     padding: 0 0 8px 0;
     &:after {
-      transform: translateX(10px);
+      transform: translateX(16px);
       background-image: url("data:image/svg+xml,%3Csvg width='60' height='16' viewBox='0 0 60 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M52.045 16L59.682 8.36359L52.045 0.727264L50.733 2.02272L56.136 7.42613H0.688004V9.30109H56.136L50.733 14.6875L52.045 16Z' fill='%232c2c2f'/%3E%3C/svg%3E%0A");
     }
   }`}

@@ -7,7 +7,7 @@ class TextMediaGrid extends Component {
     const Root = styled.div`
       column-count: ${this.props.columns ? this.props.columns : "2"};
       column-gap: 0;
-      column-gap: ${this.props.columns === "3" ? "60px" : "80px"};
+      column-gap: ${this.props.columns === "3" ? "60px" : "60px"};
       margin: ${this.props.flush ? "4% 0 4%" : "16.1% 0 0"};
       & > div {
         break-inside: avoid;
