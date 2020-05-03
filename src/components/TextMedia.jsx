@@ -47,7 +47,7 @@ const Text = styled.div`
       `
       padding-right: 100px;
       &:after {
-        ${fontSize(14, 17)}
+        ${fontSize(14, 14)}
         content: 'Private';
         display: inline-block;
         color: #74747B;
