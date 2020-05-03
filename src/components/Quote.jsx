@@ -32,7 +32,7 @@ const Name = styled.p`
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.5;
   display: inline-block;
   vertical-align: middle;
   font-style: normal;
@@ -49,6 +49,7 @@ const BlockQuote = styled.blockquote`
   font-weight: 400;
   line-height: 1.65;
   text-align: left;
+  ${breakpoint.down`margin-bottom: 30px`};
 `;
 
 const Quote = ({ children, ...props }) => (

@@ -172,7 +172,10 @@ const Myer = () => (
 
       <MyRole roles={["Lead Designer"]} />
 
-      <TextMediaGrid>
+      <h3>Exercises</h3>
+      <p>Small and simple pieces focusing on a single problem</p>
+
+      <TextMediaGrid flush={true}>
         <TextMedia
           link="/air-max-day"
           media="/images/airmaxday/tile/airmax-tile-2.jpg"
