@@ -48,16 +48,16 @@ const Myer = () => (
       <Devices
         items={[
           {
-            media: "/images/myer/myer-1-test.png",
+            media: "/images/myer/Mobile-CLP Women.png",
             width: 375,
             height: 1014,
             border: "#E6EFF2",
-            caption: "Caption. Inter Regular — 15/22 — #74747B",
+            caption: " ",
             type: "mobile",
             radius: 30,
           },
           {
-            media: "/images/myer/myer-2-test.png",
+            media: "/images/myer/Mobile-CLP Toys.png",
             width: 375,
             height: 1014,
             border: "#F2E6E6",
@@ -66,7 +66,7 @@ const Myer = () => (
             radius: 30,
           },
           {
-            media: "/images/myer/myer-3-test.png",
+            media: "/images/myer/Mobile-CLP Beauty.png",
             width: 375,
             height: 1014,
             border: "#F2EFE6",

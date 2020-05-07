@@ -40,144 +40,97 @@ const Home = () => (
   <div>
     <h1>Experience and Interaction designer in London.</h1>
     <TextMediaGrid columns={2}>
-      <TextMedia
-        link="/officeworks"
-        media="/images/officeworks/tile/ow-tile.png"
-        width="800"
-        height="900"
-        flip
+    <TextMedia
+        link="/nab"
+        media="/images/projects/nab-tile.png"
+        width="610"
+        height="649"
+        locked
       >
-        <h2>Officeworks</h2>
-        <p>Modernising a national legacy brand website.</p>
+        <h2>National Australia Bank — App</h2>
+        <p>A re-imagining of the core mobile banking experience for today and into the future.</p>
       </TextMedia>
 
       <TextMedia
-        link="/air-max-day"
-        media="/images/airmaxday/tile/airmax-tile-2.jpg"
-        width="1000"
-        height="900"
+        link="/myer"
+        media="/images/projects/sidney-tile.png"
+        width="610"
+        height="647"
+        
       >
-        <h2>Nike Air Max Day</h2>
+        <h2>Sidney & Elcon — Typeface design</h2>
+        <p>Two custom typefaces for Australias largest department store.</p>
+      </TextMedia>
+
+      
+      <TextMedia
+        link="/unlockmelbourne"
+        media="/images/projects/unlockmelb-tile.png"
+        width="610"
+        height="520"
+        flip
+      >
+        <h2>Unlock Melbourne — App</h2>
         <p>
-          A multi-layered digital experience for the most anticipated shoe drop
-          of the year.
+        Giving international students a fun and informative way to enjoy their new city.
         </p>
       </TextMedia>
 
       <TextMedia
         link="/metcon-mack"
-        media="/images/metcon-mack/Tile/metcon-2.png"
-        width="1100"
-        height="1100"
+        media="/images/projects/metconmack-tile2.png"
+        width="610"
+        height="736"
         flip
       >
-        <h2>NikeWomen Metcon Mack</h2>
-        <p>
-          An elevated digital workout experience for a Mack truck turned
-          crossfit gym.
-        </p>
+        <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
+        <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
       </TextMedia>
 
       <TextMedia
-        link="/Hypervenom"
-        media="/images/hypervenom/tile/hypervenom-tile-2.jpg"
-        width="1000"
-        height="900"
+        link="/metcon-mack"
+        media="/images/projects/metconmack-tile2.png"
+        width="610"
+        height="736"
         flip
       >
-        <h2>Nike HyperVenom</h2>
-        <p>A page takeover for Nike’s most aggressive football boot.</p>
+        <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
+        <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
+      </TextMedia>
+
+      <TextMedia
+        link="/metcon-mack"
+        media="/images/projects/metconmack-tile2.png"
+        width="610"
+        height="736"
+        flip
+      >
+        <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
+        <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
       </TextMedia>
     </TextMediaGrid>
 
     <SeeMoreLink to="/projects">See all projects ⟶</SeeMoreLink>
 
-    <h3>Exercises</h3>
-    <p>Small and simple pieces focusing on a single problem</p>
-
-    <TextMediaGrid columns={3} flush={true}>
-      <TextMedia
-        link="/officeworks"
-        media="/images/officeworks/tile/ow-tile.png"
-        width="800"
-        height="900"
-        flip
-      >
-        <h2>Officeworks</h2>
-        <p>Modernising a national legacy brand website.</p>
-      </TextMedia>
-
-      <TextMedia
-        link="/air-max-day"
-        media="/images/airmaxday/tile/airmax-tile-2.jpg"
-        width="1000"
-        height="900"
-      >
-        <h2>Nike Air Max Day</h2>
-        <p>
-          A multi-layered digital experience for the most anticipated shoe drop
-          of the year.
-        </p>
-      </TextMedia>
-
-      <TextMedia
-        link="/metcon-mack"
-        media="/images/metcon-mack/Tile/metcon-2.png"
-        width="1100"
-        height="1100"
-        flip
-      >
-        <h2>NikeWomen Metcon Mack</h2>
-        <p>
-          An elevated digital workout experience for a Mack truck turned
-          crossfit gym.
-        </p>
-      </TextMedia>
-    </TextMediaGrid>
+    
 
     <h3>Writing</h3>
 
-    <TextMediaGrid columns={3} flush={true}>
+    <TextMediaGrid columns={2} flush={true}>
       <TextMedia
-        link="/"
-        media="/images/writing/writing-1.jpg"
-        width="773"
-        height="610"
+        link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
+        media="/images/writing/covid19-small2.png"
+        width="772"
+        height="474"
         flip
       >
-        <h2>Preparing for real life as a freelancer</h2>
-        <p>8 secrets no one tells you.</p>
+        <h2>The evolving design of the coronavirus</h2>
+        <p>The podium placard has been the silent messenger of the daily Coronavirus briefings. </p>
       </TextMedia>
-      <TextMedia
-        link="/"
-        media="/images/writing/writing-3.jpg"
-        width="610"
-        height="520"
-      >
-        <h2>Agency vs Client side</h2>
-        <p>
-          An elevated digital workout experience for a Mack truck turned
-          crossfit gym.
-        </p>
-      </TextMedia>
-      <TextMedia
-        link="/"
-        media="/images/writing/writing-2.jpg"
-        width="610"
-        height="520"
-      >
-        <h2>Tweaking my portfolio — A mature change</h2>
-        <p>Continuous improvement and recycling what worked.</p>
-      </TextMedia>
+
     </TextMediaGrid>
 
-    <List
-      bullets={[
-        "Make the transition from Photoshop to Sketch.",
-        "Create a design and development process built on communication and piggy-backed by Zeplin",
-        "Understand the importance of animated interactions to help story-telling in products and clarity in build.",
-      ]}
-    />
+   
 
     <SignOff title="Let's make something great<br/> together." />
   </div>

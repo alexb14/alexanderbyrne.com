@@ -14,7 +14,7 @@ const Heading = styled.h3`
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  color: #000;
+  color: #323235;
   margin: 0;
   margin-bottom: 34px;
 `;
@@ -25,7 +25,7 @@ const Text = styled.p`
   line-height: 1.7;
   font-style: normal;
   font-weight: 400;
-  color: #000;
+  color: #323235;
   margin: 0;
 `;
 
