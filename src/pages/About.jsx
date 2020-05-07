@@ -14,7 +14,7 @@ const About = () => (
         brands tailor experiences and move their digital products forward.
       </Heading>
       <Quote
-        avatar="https://www.placecage.com/c/96/96"
+        avatar="images/quotes/tim.jpeg"
         citation="Tim Kotsiakos — Founder & Creative Director, M A S S"
       >
         “Alex has been brilliant to work with. He has a keen eye for detail,
@@ -30,7 +30,7 @@ const About = () => (
         unique problems.
       </Heading>
       <Quote
-        avatar="https://www.placecage.com/c/96/96"
+        avatar="images/quotes/courtney.jpeg"
         citation="Courtney Hunt — Design Manager, MYER"
       >
         “Alex is an exceptionally talented designer and all round good human

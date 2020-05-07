@@ -1,43 +1,25 @@
 import React from "react";
 import TextMedia from "../components/TextMedia";
 import TextMediaGrid from "../components/TextMediaGrid";
+import SignOff from "../components/SignOff";
 
 const Writing = () => (
   <div>
     <h1>Sharing my thoughts, advice, struggles and successes.</h1>
     <TextMediaGrid columns={2}>
       <TextMedia
-        link="/"
-        media="/images/writing/writing-1.jpg"
-        width="773"
-        height="610"
+        link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
+        media="/images/writing/covid19.png"
+        width="610"
+        height="452"
         flip
       >
-        <h2>Preparing for real life as a freelancer</h2>
+        <h2>The evolcing design of the Coronavirus</h2>
         <p>8 secrets no one tells you.</p>
       </TextMedia>
-      <TextMedia
-        link="/"
-        media="/images/writing/writing-3.jpg"
-        width="610"
-        height="520"
-      >
-        <h2>Agency vs Client side</h2>
-        <p>
-          An elevated digital workout experience for a Mack truck turned
-          crossfit gym.
-        </p>
-      </TextMedia>
-      <TextMedia
-        link="/"
-        media="/images/writing/writing-2.jpg"
-        width="610"
-        height="520"
-      >
-        <h2>Tweaking my portfolio — A mature change</h2>
-        <p>Continuous improvement and recycling what worked.</p>
-      </TextMedia>
+      
     </TextMediaGrid>
+    <SignOff title="Let's make something great<br/> together." />
   </div>
 );
 

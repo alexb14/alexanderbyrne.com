@@ -99,8 +99,8 @@ const SignOff = ({ title }) => (
     {title && <p dangerouslySetInnerHTML={{ __html: title }}></p>}
     {!title && (
       <p>
-        I’m on the hunt for <em>exciting</em> ideas being made possible by{" "}
-        <em>amazing</em> people.
+        I’m on the hunt for exciting ideas being made possible by{" "}
+        amazing people.
       </p>
     )}
 
