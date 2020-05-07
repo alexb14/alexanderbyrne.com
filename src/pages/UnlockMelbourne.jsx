@@ -196,32 +196,26 @@ Unlock Melbourne launched on both iOS and Android at the start of 2018 just in t
       <h3>Here's a few more projects</h3>
 
     <TextMediaGrid columns={2} flush={true}>
-      <TextMedia
-        link="/air-max-day"
-        media="/images/airmaxday/tile/airmax-tile-2.jpg"
-        width="1000"
-        height="900"
-      
+    <TextMedia
+        link="/nab"
+        media="/images/projects/nab-tile2.png"
+        width="610"
+        height="649"
+        locked
       >
-        <h2>Nike Air Max Day</h2>
-        <p>
-          A multi-layered digital experience for the most anticipated shoe drop
-          of the year.
-        </p>
+        <h2>National Australia Bank — App</h2>
+        <p>A re-imagining of the core mobile banking experience for today and into the future.</p>
       </TextMedia>
 
       <TextMedia
-        link="/metcon-mack"
-        media="/images/metcon-mack/Tile/metcon-2.png"
-        width="1100"
-        height="1100"
-        flip
+        link="/myer"
+        media="/images/projects/sidney-tile2.png"
+        width="610"
+        height="647"
+        
       >
-        <h2>NikeWomen Metcon Mack</h2>
-        <p>
-          An elevated digital workout experience for a Mack truck turned
-          crossfit gym.
-        </p>
+        <h2>Sidney & Elcon — Typeface design</h2>
+        <p>Two custom typefaces for Australias largest department store.</p>
       </TextMedia>
     </TextMediaGrid>
 
