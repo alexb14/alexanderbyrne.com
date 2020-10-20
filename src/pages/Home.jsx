@@ -59,7 +59,7 @@ const Home = () => (
         
       >
         <h2>Sidney & Elcon — Typeface design</h2>
-        <p>Two custom typefaces for Australias largest department store.</p>
+        <p>Two custom typefaces for Australia's largest department store.</p>
       </TextMedia>
 
       

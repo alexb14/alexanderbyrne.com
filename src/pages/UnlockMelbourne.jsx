@@ -153,8 +153,8 @@ gesture based navigation we created an experience that could be done one handed 
         avatar="/images/unlockmelb/dhani.jpg"
         citation="Dhani — Google Play Store review - ★★★★★ "
       >
-        ““Awesome app which explores all important things in Melb, helpful for foreigners. 
-        I never gave review to any applpication, this is first time I’m giving review. Love the app. Good work 😍”
+        “Awesome app which explores all important things in Melb, helpful for foreigners. 
+        I never gave review to any application, this is first time I’m giving review. Love the app. Good work 😍”
       </Quote>
 
       <Devices

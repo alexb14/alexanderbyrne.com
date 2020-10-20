@@ -11,6 +11,7 @@ import AirMaxDay from "./pages/AirMaxDay";
 import Officeworks from "./pages/Officeworks";
 import Myer from "./pages/Myer";
 import UnlockMelbourne from "./pages/UnlockMelbourne";
+import nab from "./pages/nab";
 import MetconMack from "./pages/MetconMack";
 import ibl from "./pages/ibl";
 import Hypervenom from "./pages/Hypervenom";
@@ -25,6 +26,7 @@ render(
       <Route path="/officeworks" component={Officeworks} />
       <Route path="/myer" component={Myer} />
       <Route path="/unlockmelbourne" component={UnlockMelbourne} />
+      <Route path="/nab" component={nab} />
       <Route path="/metcon-mack" component={MetconMack} />
       <Route path="/ibl" component={ibl} />
       <Route path="/hypervenom" component={Hypervenom} />
