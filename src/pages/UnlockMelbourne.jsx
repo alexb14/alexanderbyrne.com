@@ -143,10 +143,10 @@ gesture based navigation we created an experience that could be done one handed 
       </BodyText>
 
       <FullWidthMedia
-        type="desktop"
+        type="hero"
         media="/images/unlockmelb/services-mock.jpg"
-        width="2637"
-        height="1649"
+        width="2000"
+        height="1100"
       />
 
 <Quote
