@@ -17,6 +17,18 @@ const Writing = () => (
         <h2>The evolcing design of the Coronavirus</h2>
         <p>8 secrets no one tells you.</p>
       </TextMedia>
+
+      <TextMedia
+        link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
+        media="/images/writing/pm-design.png"
+        width="610"
+        height="400"
+        flip
+      >
+        <h2>Little Features: Project management in Design Tools</h2>
+        <p>What would it look like if the techniques and practices of Project/Product Management made their way into design tools.</p>
+      </TextMedia>
+
       
     </TextMediaGrid>
     <SignOff title="Let's make something great<br/> together." />

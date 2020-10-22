@@ -111,16 +111,7 @@ const Home = () => (
         <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
       </TextMedia>
 
-      <TextMedia
-        link="/officeworks"
-        media="/images/projects/officeworks-tile2.png"
-        width="610"
-        height="664"
-        flip
-      >
-        <h2>Officeworks — eCommerce website</h2>
-        <p>Modernising a national legacy brand.</p>
-      </TextMedia>
+      
     </TextMediaGrid>
 
     <SeeMoreLink to="/projects">See all projects ⟶</SeeMoreLink>
@@ -133,15 +124,27 @@ const Home = () => (
       <TextMedia
         link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
         media="/images/writing/covid19-small2.png"
-        width="772"
-        height="474"
+        width="610"
+        height="452"
         flip
       >
         <h2>The evolving design of the Coronavirus</h2>
         <p>The podium placard has been the silent messenger of the daily Coronavirus briefings. </p>
       </TextMedia>
 
+      <TextMedia
+        link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
+        media="/images/writing/pm-design.png"
+        width="610"
+        height="400"
+        flip
+      >
+        <h2>Little Features: Project management in Design Tools</h2>
+        <p>What would it look like if the techniques and practices of Project/Product Management made their way into design tools.</p>
+      </TextMedia>
+
     </TextMediaGrid>
+    <SeeMoreLink to="/writing">See all writing ⟶</SeeMoreLink>
 
    
 
