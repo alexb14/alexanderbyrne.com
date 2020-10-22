@@ -61,7 +61,7 @@ const Column = styled.div`
       border-style: solid;
       border-color: ${props.border ? props.border : "transparent"};
       border-radius: ${props.radius ? props.radius : "0"}px;
-      border-width: 20px;
+      border-width: 8px;
     }
   `}
     ${(props) =>

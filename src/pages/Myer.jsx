@@ -45,6 +45,15 @@ const Myer = () => (
         Services to the Checkout experience to the typefaces and everything
         in-between.
       </BodyText>
+
+      <FullWidthMedia
+        type="hero"
+        media="/images/myer/base.jpg"
+        width="2000"
+        height="1320"
+      />
+
+
       <Devices
         items={[
           {

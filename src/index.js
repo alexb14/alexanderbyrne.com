@@ -15,6 +15,8 @@ import nab from "./pages/nab";
 import MetconMack from "./pages/MetconMack";
 import ibl from "./pages/ibl";
 import Hypervenom from "./pages/Hypervenom";
+import sidneyelcon from "./pages/sidneyelcon";
+import polk from "./pages/polk";
 import registerServiceWorker from "./registerServiceWorker";
 
 render(
@@ -30,6 +32,8 @@ render(
       <Route path="/metcon-mack" component={MetconMack} />
       <Route path="/ibl" component={ibl} />
       <Route path="/hypervenom" component={Hypervenom} />
+      <Route path="/polk" component={polk} />
+      <Route path="/sidneyelcon" component={sidneyelcon} />
       <Route path="/about" component={About} />
       <Route path="/writing" component={Writing} />
       <Route path="/contact" component={Contact} />

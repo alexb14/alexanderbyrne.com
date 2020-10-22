@@ -14,7 +14,8 @@ import Video from "../components/Video";
 const nab = () => (
   <div>
     <IntroText heading="National Australia Bank">
-    Bringing an accessible and aspirational experience to over 6 million mobile banking customers today and into the future.  
+    A heritage audio brand known for it’s craftmanship and unbeatable sound tasked me with creating 
+    a forward-thinking eCommerce experience that spoke to their new customer base whilst not leaving their loyal ‘Polkies’ behind.
     </IntroText>
     <div>
       <ProjectMeta
@@ -217,6 +218,7 @@ Replacing a disjointed experience we focused on better ways to manage the small 
             caption: " ",
             type: "mobile",
             radius: 30,
+            
           },
         ]}
       />

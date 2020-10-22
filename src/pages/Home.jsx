@@ -38,7 +38,7 @@ const SeeMoreLink = styled(NavLink)`
 
 const Home = () => (
   <div>
-    <h1>Experience and Interaction designer in London.</h1>
+    <h1>Product, App and eCommerce Design Lead in London.</h1>
     <TextMediaGrid columns={2}>
     <TextMedia
         link="/nab"
@@ -52,7 +52,7 @@ const Home = () => (
       </TextMedia>
 
       <TextMedia
-        link="/myer"
+        link="/sidneyelcon"
         media="/images/projects/sidney-tile2.png"
         width="610"
         height="647"
@@ -68,11 +68,24 @@ const Home = () => (
         media="/images/projects/myer-tile2.png"
         width="610"
         height="736"
-        flip
+        
       >
         <h2>Myer — eCommerce website</h2>
         <p>
         A brightened e-commerce experience for Australia’s largest home and fashion retailer.
+        </p>
+      </TextMedia>
+
+      <TextMedia
+        link="/polk"
+        media="/images/polk/tile/Asset.png"
+        width="610"
+        height="590"
+        flip
+      >
+        <h2>Polk Audio — eCommerce website</h2>
+        <p>
+        A product-first redesign for a heritage American audio company.
         </p>
       </TextMedia>
 
