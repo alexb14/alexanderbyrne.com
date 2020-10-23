@@ -8,6 +8,8 @@ const Root = styled.div`
   ${breakpoint.down`margin: 25% auto`};
 `;
 
+
+
 const Heading = styled.h3`
   ${fontSize(24, 28)}
   line-height: 1.14;

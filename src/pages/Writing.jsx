@@ -14,8 +14,8 @@ const Writing = () => (
         height="452"
         flip
       >
-        <h2>The evolcing design of the Coronavirus</h2>
-        <p>8 secrets no one tells you.</p>
+        <h2>The evolving design of the Coronavirus</h2>
+        <p>The podium placard has been the silent messenger of the daily Coronavirus briefings. • Featured in UXDesign CC</p>
       </TextMedia>
 
       <TextMedia

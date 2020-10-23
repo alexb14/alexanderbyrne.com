@@ -5,7 +5,7 @@ import { fontSize, breakpoint } from "../utils/styled";
 
 const Root = styled.div`
   margin: 12% 0 22%;
-  ${breakpoint.up`display: flex; margin: 12% 0 0;
+  ${breakpoint.up`display: flex; margin: 6% 0 0;
   justify-content: space-between; align-items: flex-end;`}
 `;
 

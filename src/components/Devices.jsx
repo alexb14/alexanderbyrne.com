@@ -14,8 +14,8 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;`}
-  width: 150%;
-  margin-left: -25%;
+  width: 120%;
+  margin-left: -10%;
 `;
 
 const Caption = styled.p`
@@ -73,7 +73,7 @@ const Column = styled.div`
     img {
       border-color: ${props.border ? props.border : "transparent"};
       border-radius: ${props.radius ? props.radius : "0"}px;
-      border-width: 20px;
+      border-width: 12px;
     }
   `}
     ${(props) =>

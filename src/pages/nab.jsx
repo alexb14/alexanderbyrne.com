@@ -14,8 +14,7 @@ import Video from "../components/Video";
 const nab = () => (
   <div>
     <IntroText heading="National Australia Bank">
-    A heritage audio brand known for it’s craftmanship and unbeatable sound tasked me with creating 
-    a forward-thinking eCommerce experience that spoke to their new customer base whilst not leaving their loyal ‘Polkies’ behind.
+    Bringing an accessible and aspirational experience to over 6 million mobile banking customers. 
     </IntroText>
     <div>
       <ProjectMeta

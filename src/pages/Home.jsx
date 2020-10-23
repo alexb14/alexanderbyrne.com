@@ -45,7 +45,7 @@ const Home = () => (
         media="/images/projects/nab-tile2.png"
         width="610"
         height="649"
-        locked
+        
       >
         <h2>National Australia Bank — App</h2>
         <p>A re-imagining of the core mobile banking experience for today and into the future.</p>
@@ -129,7 +129,7 @@ const Home = () => (
         flip
       >
         <h2>The evolving design of the Coronavirus</h2>
-        <p>The podium placard has been the silent messenger of the daily Coronavirus briefings. </p>
+        <p>The podium placard has been the silent messenger of the daily Coronavirus briefings. • Featured in UXDesign CC</p>
       </TextMedia>
 
       <TextMedia

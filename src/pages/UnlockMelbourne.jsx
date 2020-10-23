@@ -39,7 +39,7 @@ const UnlockMelbourne = () => (
         height="1140"
       />
 
-      <BodyText heading="Making studying abroad easier">
+      <BodyText heading="The goal: Making studying abroad easier">
       We worked with Study Melbourne to create a set of tasks to guide international 
       students through studying in Victoria. These tasks included everything from 
       how to say “hello 👋”, where to find accommodation 🏡, how to catch a tram 🚊 
@@ -80,6 +80,7 @@ const UnlockMelbourne = () => (
 <BodyText heading="Language 🗣 and design 🎨">
 We designed the Unlock Melbourne app around the universal language of emojis 😎. 
 This allowed us to reach all students in an accessible, familiar and friendly way.
+
       </BodyText>
 
       <FullWidthMedia

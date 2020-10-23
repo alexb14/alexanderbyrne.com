@@ -5,7 +5,7 @@ import { fontSize, breakpoint } from "../utils/styled";
 const Root = styled.div`
   max-width: 830px;
   margin: 13.25% 0 42%;
-  ${breakpoint.up`margin: 13.25% 0 5%`}
+  ${breakpoint.up`margin: 10% 0 5%`}
 `;
 
 const Heading = styled.h1`

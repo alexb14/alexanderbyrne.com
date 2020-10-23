@@ -20,8 +20,8 @@ const polk = () => (
       <ProjectMeta
         details={[
           {
-            label: "Role",
-            value: "Design Lead",
+            label: "Design Lead",
+            value: "Analysis, Research, UX, Prototyping, UI and Mentorship",
           },
           {
             label: "When",
@@ -63,7 +63,7 @@ const polk = () => (
       </BodyText>
 
       <FullWidthMedia
-        type="hero"
+        type="desktop"
         media="/images/polk/sitemap.png"
         width="4202"
         height="3732"

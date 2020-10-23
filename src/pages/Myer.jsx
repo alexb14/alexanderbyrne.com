@@ -7,6 +7,8 @@ import ProjectMeta from "../components/ProjectMeta";
 import TextMedia from "../components/TextMedia";
 import TextMediaGrid from "../components/TextMediaGrid";
 import Devices from "../components/Devices";
+import Video from "../components/Video";
+import SignOff from "../components/SignOff";
 
 const Myer = () => (
   <div>
@@ -39,11 +41,23 @@ const Myer = () => (
         height="1225"
       />
 
+      <BodyText heading="The Problem">
+      Myer's e Commerce infrastructure and design weren't providing customers with a inspiring and easy to use experience. 
+      I was brought in to hero the design and lead a team of 3 designers to undertake a complete overhaul of Myer's website. 
+      </BodyText>
+
+      <BodyText heading="Project Goals">
+        1. Updated colour palette to improve accessibility<br></br><br></br>
+        2. Structured colour usage ration to mantain a clean and consistent experience<br></br><br></br>
+        3. Meticulously designed iconography<br></br><br></br>
+        4. Updated typography and styles
+      </BodyText>
+
       <BodyText heading="Getting the basics right">
-        Myer undertook a mammoth task by launching a new site from build to
-        design. Each part of the website underwent a transformation from their
-        Services to the Checkout experience to the typefaces and everything
-        in-between.
+        • Updated colour palette to improve accessibility<br></br>
+        • Structured colour usage ration to mantain a clean and consistent experience<br></br>
+        • Meticulously designed iconography<br></br>
+        • Updated typography and styles
       </BodyText>
 
       <FullWidthMedia
@@ -53,6 +67,31 @@ const Myer = () => (
         height="1320"
       />
 
+      <BodyText heading="Homepage - Mobile">
+        Text
+      </BodyText>
+
+      <FullWidthMedia
+        type="hero"
+        media="/images/myer/home-mobile.jpg"
+        width="2000"
+        height="1405"
+      />
+
+      <BodyText heading="Homepage - desktop">
+        We also created a robust sturcture allowing the marketing team...
+      </BodyText>
+
+      <FullWidthMedia
+        type="hero"
+        media="/images/myer/home-desktop.jpg"
+        width="2000"
+        height="1405"
+      />
+
+      <BodyText heading="Category pages">
+        Immersive feeling
+      </BodyText>
 
       <Devices
         items={[
@@ -85,154 +124,110 @@ const Myer = () => (
           },
         ]}
       />
+      
+      <BodyText heading="A brand new Checkout experience">
+        Text
+      
+      </BodyText>
       <Devices
         items={[
           {
-            media: "/images/myer/myer-full-test.png",
-            width: 1620,
-            height: 934,
-            border: "#E6EFF2",
-            caption: "Caption. Inter Regular — 15/22 — #74747B",
+            media: "/images/myer/Desktop_Checkout",
+            width: 1680,
+            height: 968,
+            border: "#efefef",
+            caption: "We created a full checkout prototype for customers to test",
             type: "full",
-            radius: 30,
-          },
-        ]}
-      />
-      <Devices
-        items={[
-          {
-            media: "/images/myer/nab-vertical-test.png",
-            width: 375,
-            height: 812,
-            border: "#E6EFF2",
-            caption: "Large Text enabled",
-            type: "mobile",
-            radius: 30,
-          },
-          {
-            media: "/images/myer/nab-horizontal-test.png",
-            width: 812,
-            height: 375,
-            border: "#F2E6E6",
-            caption:
-              "Improving the range of the app’s accessiblility with orientation support",
-            type: "mobile",
-            radius: 30,
-          },
-        ]}
-      />
-      <Devices
-        items={[
-          {
-            media: "/images/myer/myer-full-test.png",
-            width: 1620,
-            height: 934,
-            border: "#E6EFF2",
-            caption: "Caption. Inter Regular — 15/22 — #74747B",
-            type: "full",
-            radius: 30,
-          },
-        ]}
-      />
-      <Devices
-        items={[
-          {
-            media: "/images/myer/myer-tall-test-1.png",
-            width: 780,
-            height: 1975,
-            border: "#E6EFF2",
-            caption: "Caption. Inter Regular — 15/22 — #74747B",
-            type: "split",
-            radius: 30,
-          },
-          {
-            media: "/images/myer/myer-desktop-split.jpg",
-            width: 780,
-            height: 1328,
-            border: "#E6EFF2",
-            caption: "Caption. Inter Regular — 15/22 — #74747B",
-            type: "split",
-            radius: 30,
-          },
-        ]}
-      />
-      <Devices
-        items={[
-          {
-            media: "/images/myer/myer-tall-test-1.png",
-            width: 780,
-            height: 1975,
-            border: "#E6EFF2",
-            caption: "Caption. Inter Regular — 15/22 — #74747B",
-            type: "desktop",
-            radius: 30,
-          },
-          {
-            media: "/images/myer/myer-2-test.png",
-            width: 375,
-            height: 1014,
-            border: "#F2E6E6",
-            caption: "Caption. Inter Regular — 15/22 — #74747B",
-            type: "mobile",
-            radius: 30,
+            radius: 40,
+            
+          
           },
         ]}
       />
 
-      <MyRole roles={["Lead Designer"]} />
+      <BodyText heading="Rounding out the purchasing experience">
+        EDMs
+      </BodyText>
+          
+      <FullWidthMedia
+        type="hero"
+        media="/images/myer/edms.jpg"
+        width="2000"
+        height="1405"
+      />  
+      
+      <BodyText heading="Learnings and Outcomes">
+      Myer's e Commerce infrastructure and design weren't providing customers with a inspiring and easy to use experience. 
+      I was brought in to hero the design and lead a team of 3 designers to undertake a complete overhaul of Myer's website. 
+      </BodyText>
 
-      <h3>Exercises</h3>
-      <p>Small and simple pieces focusing on a single problem</p>
+      
 
-      <TextMediaGrid flush={true}>
-        <TextMedia
-          link="/air-max-day"
-          media="/images/airmaxday/tile/airmax-tile-2.jpg"
-          width="1000"
-          height="900"
-        >
-          <h2>Nike Air Max Day</h2>
-          <p>
-            A multi-layered digital experience for the most anticipated shoe
-            drop of the year.
-          </p>
-        </TextMedia>
+      <h3>Here's a few more projects</h3>
 
-        <TextMedia
-          link="/metcon-mack"
-          media="/images/metcon-mack/Tile/metcon-2.png"
-          width="1100"
-          height="1100"
-          flip
-        >
-          <h2>NikeWomen Metcon Mack</h2>
-          <p>
-            An elevated digital workout experience for a Mack truck turned
-            crossfit gym.
-          </p>
-        </TextMedia>
+    <TextMediaGrid columns={2} flush={true}>
+    <TextMedia
+        link="/nab"
+        media="/images/tiles/nab-2.jpg"
+        width="610"
+        height="649"
+        
+      >
+        <h2>National Australia Bank — App</h2>
+        <p>A re-imagining of the core mobile banking experience for today and into the future.</p>
+      </TextMedia>
 
-        <TextMedia
-          link="/ibl"
-          media="/images/ibl/tile/tile@2x.png"
-          width="600"
-          height="600"
-        >
-          <h2>IBL</h2>
-          <p>Creating a new chapter for a historic name in British lighting.</p>
-        </TextMedia>
+      <TextMedia
+        link="/unlockmelbourne"
+        media="/images/projects/unlockmelb-tile.png"
+        width="610"
+        height="520"
+        flip
+      >
+        <h2>Unlock Melbourne — App</h2>
+        <p>Giving international students a fun and informative way to enjoy their new city.</p>
+      </TextMedia>
 
-        <TextMedia
-          link="/Hypervenom"
-          media="/images/hypervenom/tile/hypervenom-tile-2.jpg"
-          width="1000"
-          height="900"
-          flip
-        >
-          <h2>Nike Hypervenom</h2>
-          <p>A page takeover for Nike’s most aggressive football boot.</p>
-        </TextMedia>
-      </TextMediaGrid>
+      <TextMedia
+        link="/polk"
+        media="/images/tiles/polk-2.jpg"
+        width="610"
+        height="590"
+        flip
+      >
+        <h2>Polk Audio — eCommerce website</h2>
+        <p>
+        A product-first redesign for a heritage American audio company.
+        </p>
+      </TextMedia>
+
+      <TextMedia
+        link="/metcon-mack"
+        media="/images/tiles/nike-2.jpg"
+        width="610"
+        height="736"
+        flip
+      >
+        <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
+        <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
+      </TextMedia>
+
+      
+
+      <TextMedia
+        link="/sidneyelcon"
+        media="/images/tiles/sidney-2.jpg"
+        width="610"
+        height="647"
+        
+      >
+        <h2>Sidney & Elcon — Typeface design</h2>
+        <p>Two custom typefaces for Australia's largest department store.</p>
+      </TextMedia>
+
+    </TextMediaGrid>
+
+    <SignOff title="Let's make something great<br/> together." />
     </div>
   </div>
 );
