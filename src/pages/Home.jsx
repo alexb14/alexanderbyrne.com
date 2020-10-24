@@ -42,7 +42,7 @@ const Home = () => (
     <TextMediaGrid columns={2}>
     <TextMedia
         link="/nab"
-        media="/images/projects/nab-tile2.png"
+        media="/images/tiles/nab-1.png"
         width="610"
         height="649"
         
@@ -53,7 +53,7 @@ const Home = () => (
 
       <TextMedia
         link="/sidneyelcon"
-        media="/images/projects/sidney-tile2.png"
+        media="/images/tiles/sidney-2.jpg"
         width="610"
         height="647"
         
@@ -65,7 +65,7 @@ const Home = () => (
       
       <TextMedia
         link="/myer"
-        media="/images/projects/myer-tile2.png"
+        media="/images/tiles/myer-2.jpg"
         width="610"
         height="736"
         
@@ -78,7 +78,7 @@ const Home = () => (
 
       <TextMedia
         link="/polk"
-        media="/images/polk/tile/Asset.png"
+        media="/images/tiles/polk-2.jpg"
         width="610"
         height="590"
         flip
@@ -91,7 +91,7 @@ const Home = () => (
 
       <TextMedia
         link="/unlockmelbourne"
-        media="/images/projects/unlockmelb-tile.png"
+        media="/images/tiles/um-3.jpg"
         width="610"
         height="520"
         flip

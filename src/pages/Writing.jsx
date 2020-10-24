@@ -23,11 +23,26 @@ const Writing = () => (
         media="/images/writing/pm-design.png"
         width="610"
         height="400"
-        flip
+    
       >
         <h2>Little Features: Project management in Design Tools</h2>
         <p>What would it look like if the techniques and practices of Project/Product Management made their way into design tools.</p>
       </TextMedia>
+
+      <TextMedia
+        link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
+        media="/images/writing/maps.png"
+        width="890"
+        height="660"
+    
+      >
+        <h2>Little Features: Project management in Design Tools</h2>
+        <p>What would it look like if the techniques and practices of Project/Product Management made their way into design tools.</p>
+      </TextMedia>
+
+      
+
+      
 
       
     </TextMediaGrid>
