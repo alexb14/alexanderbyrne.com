@@ -32,6 +32,7 @@ const Media = styled.div`
 
 const Eyebrow = styled.h4`
   ${fontSize(14, 20)};
+  margin-top: 12px;
   text-align: left;
   font-weight: 400;
   ${(props) => `color: ${props.accent};`}
