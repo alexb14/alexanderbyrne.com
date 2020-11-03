@@ -2,18 +2,9 @@ import React, { Component } from 'react';
 import { findDOMNode } from 'react-dom';
 import styled from 'styled-components';
 
-const Root = styled.div`
-  position: relative;
-  width: 100%;
-  height: 0;
-`;
-
 const Media = styled.video`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
 `;
 
 class Video extends Component {
@@ -30,11 +21,9 @@ class Video extends Component {
     const ratio = Math.round((height / width) * 100);
 
     return (
-      <Root style={{ paddingBottom: `${ratio}%` }}>
-        <Media ref={el => this.el = el} loop="true">
-          <source src={`${media}`} type="video/mp4" />
-        </Media>
-      </Root>
+      <Media ref={el => this.el = el} width={width} height={height} loop="true">
+        <source src={`${media}`} type="video/mp4" />
+      </Media>
     );
   }
 }
