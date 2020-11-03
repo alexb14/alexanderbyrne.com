@@ -39,56 +39,49 @@ const Item = styled.div`
 const Column = styled.div`
   display: table-cell;
   vertical-align: middle;
-  img {
-    border-style: solid;
-  }
-  video {
-    background: #eeeeee;
-    padding: 8px;
-    border-radius: 30px;
-  }
     ${(props) =>
       props.type === "mobile" &&
       `
     width: ${props.width}px;
-    img {
-      border-radius: 6px;
-      border-color: ${props.border ? props.border : "transparent"};
+    img,
+    video {
       border-radius: ${props.radius ? props.radius : "0"}px;
-      border-width: 8px;
+      background-color: ${props.border ? props.border : "transparent"};
+      padding: 8px;
     }
   `}
     ${(props) =>
       props.type === "desktop" &&
       `
     width: 75%;
-    img {
-      border-style: solid;
-      border-color: ${props.border ? props.border : "transparent"};
+    img,
+    video {
+      background-color: ${props.border ? props.border : "transparent"};
       border-radius: ${props.radius ? props.radius : "0"}px;
-      border-width: 8px;
+      padding: 8px;
     }
   `}
     ${(props) =>
       props.type === "full" &&
       `
-
     display: block;
     width: 100%;
-    img {
-      border-color: ${props.border ? props.border : "transparent"};
+    img,
+    video {
+      background-color: ${props.border ? props.border : "transparent"};
       border-radius: ${props.radius ? props.radius : "0"}px;
-      border-width: 12px;
+      padding: 12px;
     }
   `}
     ${(props) =>
       props.type === "split" &&
       `
     width: 50%;
-    img {
-      border-color: ${props.border ? props.border : "transparent"};
+    img,
+    video {
+      background-color: ${props.border ? props.border : "transparent"};
       border-radius: ${props.radius ? props.radius : "0"}px;
-      border-width: 20px;
+      padding: 20px;
     }
   `};
 `;
