@@ -8,7 +8,13 @@ const Root = styled.div`
   ${breakpoint.down`margin: 25% auto`};
 `;
 
-
+const Eyebrow = styled.h4`
+  ${fontSize(14, 20)};
+  margin-bottom: 12px;
+  text-align: left;
+  font-weight: 400;
+  ${(props) => `color: ${props.accent};`}
+`;
 
 const Heading = styled.h3`
   ${fontSize(24, 28)}
@@ -31,8 +37,9 @@ const Text = styled.p`
   margin: 0;
 `;
 
-const Body = ({ heading, children }) => (
+const Body = ({ heading, eyebrow, accent, children }) => (
   <Root>
+    {eyebrow && <Eyebrow accent={accent}>{eyebrow}</Eyebrow>}
     <Heading>{heading}</Heading>
     <Text>{children}</Text>
   </Root>

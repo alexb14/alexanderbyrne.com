@@ -30,6 +30,14 @@ const Media = styled.div`
   `}
 `;
 
+const Eyebrow = styled.h4`
+  ${fontSize(14, 20)};
+  margin-bottom: 12px;
+  text-align: left;
+  font-weight: 400;
+  ${(props) => `color: ${props.accent};`}
+`;
+
 const Text = styled.div`
   position: relative;
   direction: ltr;
@@ -114,6 +122,8 @@ const TextMedia = ({
   flip,
   video,
   locked,
+  accent,
+  eyebrow,
   children,
   ...props
 }) => (
@@ -135,6 +145,7 @@ const TextMedia = ({
       <Text flip={flip} locked={locked}>
         {children}
       </Text>
+      {eyebrow && <Eyebrow accent={accent}>{eyebrow}</Eyebrow>}
     </Root>
   </div>
 );

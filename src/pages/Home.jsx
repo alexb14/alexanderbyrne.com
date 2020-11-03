@@ -126,6 +126,8 @@ const Home = () => (
         media="/images/writing/covid19-small2.png"
         width="610"
         height="452"
+        eyebrow="Example Text" 
+        accent="#666666"
         flip
       >
         <h2>The evolving design of the Coronavirus</h2>

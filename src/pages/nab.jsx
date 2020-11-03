@@ -48,7 +48,7 @@ const nab = () => (
       These discussions and planning boiled down to redesigning key sections of the app as well as small experiences that currently needed improvement. 
       </BodyText>
 
-      <BodyText heading="Accounts">
+      <BodyText heading="Accounts" eyebrow="The Problem" accent="#C70000">
       One of the primary changes within the account screen was hierarchy. NAB’s primary content was small and condensed. 
       That paired with illegible typography and off balanced actions, resulted in a frustrating experience for customers. 
       <br></br>

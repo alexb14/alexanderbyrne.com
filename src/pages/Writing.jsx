@@ -40,11 +40,6 @@ const Writing = () => (
         <p>What would it look like if the techniques and practices of Project/Product Management made their way into design tools.</p>
       </TextMedia>
 
-      
-
-      
-
-      
     </TextMediaGrid>
     <SignOff title="Let's make something great<br/> together." />
   </div>
