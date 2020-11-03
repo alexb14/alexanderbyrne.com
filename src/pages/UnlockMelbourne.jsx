@@ -2,7 +2,6 @@ import React from "react";
 import FullWidthMedia from "../components/FullWidthMedia";
 import IntroText from "../components/IntroText";
 import BodyText from "../components/BodyText";
-import MyRole from "../components/MyRole";
 import ProjectMeta from "../components/ProjectMeta";
 import TextMedia from "../components/TextMedia";
 import TextMediaGrid from "../components/TextMediaGrid";
@@ -42,8 +41,8 @@ const UnlockMelbourne = () => (
       <BodyText heading="The goal: Making studying abroad easier">
       We worked with Study Melbourne to create a set of tasks to guide international 
       students through studying in Victoria. These tasks included everything from 
-      how to say “hello 👋”, where to find accommodation 🏡, how to catch a tram 🚊 
-      and even how to make ANZAC biscuits 🍪 (an Australian delicacy).
+      how to say “hello <span role="img" aria-label="waving hand">👋</span>”, where to find accommodation <span role="img" aria-label="home">🏡</span>, how to catch a tram <span role="img" aria-label="Tram">🚊</span> 
+      and even how to make ANZAC biscuits <span role="img" aria-label="cookie">🍪</span> (an Australian delicacy).
       </BodyText>
       <Devices
         items={[
@@ -78,7 +77,7 @@ const UnlockMelbourne = () => (
       />
 
 <BodyText heading="Language 🗣 and design 🎨">
-We designed the Unlock Melbourne app around the universal language of emojis 😎. 
+We designed the Unlock Melbourne app around the universal language of emojis <span role="img" aria-label="sunglasses on a smiley face">😎</span>. 
 This allowed us to reach all students in an accessible, familiar and friendly way.
 
       </BodyText>
@@ -155,7 +154,7 @@ gesture based navigation we created an experience that could be done one handed 
         citation="Dhani — Google Play Store review - ★★★★★ "
       >
         “Awesome app which explores all important things in Melb, helpful for foreigners. 
-        I never gave review to any application, this is first time I’m giving review. Love the app. Good work 😍”
+        I never gave review to any application, this is first time I’m giving review. Love the app. Good work <span role="img" aria-label="Love heart eyes"></span>😍”
       </Quote>
 
       <Devices

@@ -2,12 +2,10 @@ import React from "react";
 import FullWidthMedia from "../components/FullWidthMedia";
 import IntroText from "../components/IntroText";
 import BodyText from "../components/BodyText";
-import MyRole from "../components/MyRole";
 import ProjectMeta from "../components/ProjectMeta";
 import TextMedia from "../components/TextMedia";
 import TextMediaGrid from "../components/TextMediaGrid";
 import Devices from "../components/Devices";
-import Video from "../components/Video";
 import SignOff from "../components/SignOff";
 
 const Myer = () => (

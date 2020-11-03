@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import TextMedia from "../components/TextMedia";
 import TextMediaGrid from "../components/TextMediaGrid";
-import List from "../components/List";
 import SignOff from "../components/SignOff";
 import { breakpoint, fontSize } from "../utils/styled";
 

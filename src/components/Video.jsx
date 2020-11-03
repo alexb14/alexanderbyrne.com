@@ -18,7 +18,7 @@ class Video extends Component {
 
   render() {
     const { media, width, height } = this.props;
-    const ratio = Math.round((height / width) * 100);
+    
 
     return (
       <Media ref={el => this.el = el} width={width} height={height} loop="true">
