@@ -11,7 +11,7 @@ class TextMediaGrid extends Component {
       margin: ${this.props.flush ? "4% 0 4%" : "16.1% 0 0"};
       & > div {
         break-inside: avoid;
-        padding-bottom: 18%;
+        padding-bottom: 12%;
         ${breakpoint.down`padding-bottom: 30%!important;`};
       }
       ${breakpoint.down`${
