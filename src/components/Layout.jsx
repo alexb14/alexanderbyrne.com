@@ -6,6 +6,7 @@ import SocialLinks from "./SocialLinks";
 import ScrollToTop from "./ScrollToTop";
 import { breakpoint, fontSize } from "../utils/styled";
 
+/* eslint-disable no-unused-expressions */
 injectGlobal`
   *, *::before, *::after {
     box-sizing: border-box;
