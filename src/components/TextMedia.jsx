@@ -31,7 +31,7 @@ const Media = styled.div`
 `;
 
 const Eyebrow = styled.h4`
-  ${fontSize(10, 16)};
+  ${fontSize(9, 14)};
   margin-top: 12px;
   text-align: left;
   font-weight: 400;

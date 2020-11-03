@@ -9,7 +9,7 @@ const Root = styled.div`
 `;
 
 const Eyebrow = styled.h4`
-  ${fontSize(10, 16)};
+  ${fontSize(9, 14)};
   margin-top: 0;
   margin-bottom: 16px;
   text-align: left;
