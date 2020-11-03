@@ -221,9 +221,7 @@ Replacing a disjointed experience we focused on better ways to manage the small 
           },
         ]}
       />
-
-
-
+      
       <h3>Here's a few more projects</h3>
 
     <TextMediaGrid columns={2} flush={true}>

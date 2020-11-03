@@ -27,7 +27,7 @@ class Video extends Component {
 
   render() {
     const { media, width, height } = this.props;
-    const ratio = (height / width) * 100;
+    const ratio = Math.round((height / width) * 100);
 
     return (
       <Root style={{ paddingBottom: `${ratio}%` }}>
