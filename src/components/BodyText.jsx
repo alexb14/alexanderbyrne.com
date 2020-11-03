@@ -9,9 +9,9 @@ const Root = styled.div`
 `;
 
 const Eyebrow = styled.h4`
-  ${fontSize(14, 20)};
+  ${fontSize(10, 16)};
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   text-align: left;
   font-weight: 400;
   ${(props) => `color: ${props.accent};`}

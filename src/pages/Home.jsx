@@ -126,7 +126,7 @@ const Home = () => (
         media="/images/writing/covid19-small2.png"
         width="610"
         height="452"
-        eyebrow="Example Text" 
+        eyebrow="Featured in UX Collective" 
         accent="#666666"
         flip
       >

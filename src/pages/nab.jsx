@@ -40,7 +40,7 @@ const nab = () => (
         height="1250"
       />
 
-      <BodyText heading="Understanding the landscape">
+      <BodyText heading="Understanding the landscape" eyebrow="The Problem" accent="#C70000">
       With over 100 in-house designers, NAB had comprehensive knowledge base containing successes and failures 
       on their digital products. I talked frequently with their app team (both Design and Development) to get 
       a greater understanding of the current build’s strengths, weaknesses and opportunities from customer research.<br></br>
@@ -48,7 +48,7 @@ const nab = () => (
       These discussions and planning boiled down to redesigning key sections of the app as well as small experiences that currently needed improvement. 
       </BodyText>
 
-      <BodyText heading="Accounts" eyebrow="The Problem" accent="#C70000">
+      <BodyText heading="Accounts">
       One of the primary changes within the account screen was hierarchy. NAB’s primary content was small and condensed. 
       That paired with illegible typography and off balanced actions, resulted in a frustrating experience for customers. 
       <br></br>
