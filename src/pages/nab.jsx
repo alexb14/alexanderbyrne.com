@@ -217,7 +217,7 @@ Replacing a disjointed experience we focused on better ways to manage the small 
             caption: " ",
             type: "mobile",
             radius: 30,
-            
+            video: true
           },
         ]}
       />

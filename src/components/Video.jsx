@@ -32,9 +32,7 @@ class Video extends Component {
     return (
       <Root style={{ paddingBottom: `${ratio}%` }}>
         <Media ref={el => this.el = el} loop="true">
-          <source src={`${media}.mp4`} type="video/mp4" />
-          <source src={`${media}.ogv`} type="video/ogg" />
-          <source src={`${media}.webm`} type="video/webm" />
+          <source src={`${media}`} type="video/mp4" />
         </Media>
       </Root>
     );
