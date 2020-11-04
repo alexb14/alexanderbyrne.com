@@ -11,7 +11,7 @@ const Root = styled.div`
 const Eyebrow = styled.h4`
   ${fontSize(9, 14)};
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   text-align: left;
   font-weight: 400;
   ${(props) => `color: ${props.accent};`}
@@ -25,7 +25,7 @@ const Heading = styled.h3`
   font-weight: 500;
   color: #323235;
   margin: 0;
-  margin-bottom: 34px;
+  margin-bottom: 20px;
 `;
 
 const Text = styled.p`

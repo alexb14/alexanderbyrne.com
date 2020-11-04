@@ -12,7 +12,9 @@ import SignOff from "../components/SignOff";
 const UnlockMelbourne = () => (
   <div>
     <IntroText heading="Unlock Melbourne">
-    At its heart, Unlock Melbourne is a way to discover more about a new city in just a tap. With more than 200,000 international students studying in Victoria each year, Unlock Melbourne is a new way for them to discover more about their new home. 
+    At its heart, Unlock Melbourne is a way to discover more about a new city in just a tap. 
+    With more than 200,000 international students studying in Victoria each year, 
+    Unlock Melbourne is the best way for them to discover more about their new home. 
     </IntroText>
     <div>
       <ProjectMeta
@@ -38,11 +40,16 @@ const UnlockMelbourne = () => (
         height="1140"
       />
 
-      <BodyText heading="The goal: Making studying abroad easier">
-      We worked with Study Melbourne to create a set of tasks to guide international 
-      students through studying in Victoria. These tasks included everything from 
-      how to say “hello <span role="img" aria-label="waving hand">👋</span>”, where to find accommodation <span role="img" aria-label="home">🏡</span>, how to catch a tram <span role="img" aria-label="Tram">🚊</span> 
-      and even how to make ANZAC biscuits <span role="img" aria-label="cookie">🍪</span> (an Australian delicacy).
+      <BodyText heading="Make studying abroad easier" eyebrow="The goal" accent="#6650CB">
+      I worked with Today and Study Melbourne to design an iOS and Android app to guide international 
+      students through moving to, living and studying in Victoria.
+      
+      The app needed to help them fit into their new home and have tasks to teach them a variaty of things from: <br></br><br></br>
+
+      <span role="img" aria-label="waving hand">👋</span> How to say “Hello” <br></br>
+      <span role="img" aria-label="home">🏡</span> Where to find accommodation <br></br>
+      <span role="img" aria-label="Tram">🚊</span> How to catch a tram  <br></br>
+      <span role="img" aria-label="cookie">🍪</span> Even how to make ANZAC biscuits (an Australian delicacy).
       </BodyText>
       <Devices
         items={[
@@ -51,7 +58,7 @@ const UnlockMelbourne = () => (
             width: 375,
             height: 812,
             border: "#D5E3E3",
-            caption: " ",
+            caption: "Providing users with context of the app",
             type: "mobile",
             radius: 30,
           },
@@ -60,7 +67,7 @@ const UnlockMelbourne = () => (
             width: 375,
             height: 812,
             border: "#D5E3E3",
-            caption: " ",
+            caption: "Onboarding screen to know their arrival date",
             type: "mobile",
             radius: 30,
           },
@@ -69,14 +76,14 @@ const UnlockMelbourne = () => (
             width: 375,
             height: 812,
             border: "#D5E3E3",
-            caption: " ",
+            caption: "Allowing users to set their notifications",
             type: "mobile",
             radius: 30,
           },
         ]}
       />
 
-<BodyText heading="Language 🗣 and design 🎨">
+<BodyText heading="Language 🗣 and design 🎨" eyebrow="The solution" accent="#6650CB">
 We designed the Unlock Melbourne app around the universal language of emojis <span role="img" aria-label="sunglasses on a smiley face">😎</span>. 
 This allowed us to reach all students in an accessible, familiar and friendly way.
 
