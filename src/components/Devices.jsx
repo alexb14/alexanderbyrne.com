@@ -14,8 +14,8 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;`}
-  width: 120%;
-  margin-left: -10%;
+  width: 125%;
+  margin-left: -12.5%;
 `;
 
 const Caption = styled.p`

@@ -58,7 +58,7 @@ const UnlockMelbourne = () => (
             width: 375,
             height: 812,
             border: "#D5E3E3",
-            caption: "Providing users with context of the app",
+            caption: "Providing new students with context of Unlock Melbourne",
             type: "mobile",
             radius: 30,
           },
@@ -67,7 +67,7 @@ const UnlockMelbourne = () => (
             width: 375,
             height: 812,
             border: "#D5E3E3",
-            caption: "Onboarding screen to know their arrival date",
+            caption: "Capturing their arrival date to personalise the experience",
             type: "mobile",
             radius: 30,
           },
@@ -76,7 +76,7 @@ const UnlockMelbourne = () => (
             width: 375,
             height: 812,
             border: "#D5E3E3",
-            caption: "Allowing users to set their notifications",
+            caption: "Allowing users to set their notifications to decide when to tackle their next task",
             type: "mobile",
             radius: 30,
           },
@@ -109,8 +109,7 @@ gesture based navigation we created an experience that could be done one handed 
       />
 
       <BodyText heading="Done 👍 or Do later ✍️">
-        Students could read more about each of the tasks. From recipe cards, s
-        tudent testimonials, slang meanings, step-by-step tours and events.
+        Students could read more about each of the tasks. From recipe cards, student testimonials, slang meanings, step-by-step tours and events.
       </BodyText>
       <Devices
         items={[

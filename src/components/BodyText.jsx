@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { fontSize, breakpoint } from "../utils/styled";
 
 const Root = styled.div`
-  max-width: 830px;
+  max-width: 750px;
   margin: 16.1% auto;
   ${breakpoint.down`margin: 25% auto`};
 `;
@@ -11,14 +11,14 @@ const Root = styled.div`
 const Eyebrow = styled.h4`
   ${fontSize(9, 14)};
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   text-align: left;
   font-weight: 400;
   ${(props) => `color: ${props.accent};`}
 `;
 
 const Heading = styled.h3`
-  ${fontSize(24, 28)}
+  ${fontSize(22, 26)}
   line-height: 1.14;
   font-family: "Inter", sans-serif;
   font-style: normal;

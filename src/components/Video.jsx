@@ -3,8 +3,10 @@ import { findDOMNode } from 'react-dom';
 import styled from 'styled-components';
 
 const Media = styled.video`
-  max-width: 100%;
+  max-width: 110%;
   height: auto;
+  margin-left: -5%;
+  
 `;
 
 class Video extends Component {
