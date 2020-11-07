@@ -57,7 +57,7 @@ const nab = () => (
       </BodyText>
 
       < FullWidthMedia
-        media="/images/nab/Mock-2.mp4"
+        media="/images/nab/Mock-2.webm"
         width="1920"
         height="1080"
         video
