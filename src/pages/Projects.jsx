@@ -48,7 +48,7 @@ const Projects = () => (
 
       <TextMedia
         link="/sidneyelcon"
-        media="/images/tiles/sidney-2.jpg"
+        media="/images/tiles/sidney-elcon.jpg"
         width="610"
         height="647"
         

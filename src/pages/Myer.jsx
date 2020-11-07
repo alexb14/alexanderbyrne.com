@@ -39,9 +39,9 @@ const Myer = () => (
         height="1225"
       />
 
-      <BodyText heading="The Problem">
-      Myer's e Commerce infrastructure and design weren't providing customers with a inspiring and easy to use experience. 
-      I was brought in to hero the design and lead a team of 3 designers to undertake a complete overhaul of Myer's website. 
+      <BodyText heading="Australia's largest eCommerce retailer was falling behind" eyebrow="The problem" accent="#9A6A00">
+      Myer's eCommerce infrastructure and design weren't providing customers with a inspiring and easy to use experience. 
+      I was brought in to hero the design and lead a team of 3 designers to undertake a complete overhaul of myer.com.au. 
       </BodyText>
 
       <BodyText heading="Project Goals">
@@ -51,7 +51,7 @@ const Myer = () => (
         4. Updated typography and styles
       </BodyText>
 
-      <BodyText heading="Getting the basics right">
+      <BodyText heading="Getting the basics right" eyebrow="The solution" accent="#9A6A00">
         • Updated colour palette to improve accessibility<br></br>
         • Structured colour usage ration to mantain a clean and consistent experience<br></br>
         • Meticulously designed iconography<br></br>
@@ -76,7 +76,7 @@ const Myer = () => (
         height="1405"
       />
 
-      <BodyText heading="Homepage - desktop">
+      <BodyText heading="Homepage - desktop" eyebrow="The solution" accent="#9A6A00">
         We also created a robust sturcture allowing the marketing team...
       </BodyText>
 
@@ -87,7 +87,7 @@ const Myer = () => (
         height="1405"
       />
 
-      <BodyText heading="Category pages">
+      <BodyText heading="Category pages" eyebrow="The solution" accent="#9A6A00">
         Immersive feeling
       </BodyText>
 
@@ -123,27 +123,28 @@ const Myer = () => (
         ]}
       />
       
-      <BodyText heading="A brand new Checkout experience">
+      <BodyText heading="A brand new Checkout experience" eyebrow="The solution" accent="#9A6A00">
         Text
       
       </BodyText>
       <Devices
         items={[
           {
-            media: "/images/myer/Desktop_Checkout",
+            media: "/images/myer/Desktop_Checkout.webm",
             width: 1680,
             height: 968,
             border: "#efefef",
             caption: "We created a full checkout prototype for customers to test",
             type: "full",
             radius: 40,
+            video: true
             
           
           },
         ]}
       />
 
-      <BodyText heading="Rounding out the purchasing experience">
+      <BodyText heading="Rounding out the purchasing experience" eyebrow="The solution" accent="#9A6A00">
         EDMs
       </BodyText>
           
@@ -154,9 +155,12 @@ const Myer = () => (
         height="1405"
       />  
       
-      <BodyText heading="Learnings and Outcomes">
-      Myer's e Commerce infrastructure and design weren't providing customers with a inspiring and easy to use experience. 
-      I was brought in to hero the design and lead a team of 3 designers to undertake a complete overhaul of Myer's website. 
+      <BodyText heading="Leading for the first time" eyebrow="Learnings & Outcomes" accent="#9A6A00">
+      MMyer's new eCommerce experience was met with great excitement from customers and key stakeholders upon release in mid 2019. 
+      Throughout my time as Design Lead I began to learn how to continue to upskill the design team and
+       to push them to not settle on the easy idea. I loved the ongoing challenges of consistently presenting and 
+       showcasing the future direction of the website to key stakeholders and wider product and marketing teams.<br></br><br></br>
+       Understanding how bigger companies work with many moving parts and balancing teams needs was a great experience and one I thoroughly enjoyed.
       </BodyText>
 
       
