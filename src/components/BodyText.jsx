@@ -26,6 +26,7 @@ const Heading = styled.h3`
   color: #323235;
   margin: 0;
   margin-bottom: 20px;
+  
 `;
 
 const Text = styled.p`

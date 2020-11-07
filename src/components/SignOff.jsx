@@ -74,8 +74,8 @@ const NavItemBottom = styled(NavLink)`
   box-sizing: border-box;
   border-radius: 32px;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 20px;
   text-align: center;
   padding: 12px 40px;
   text-decoration: none;

@@ -15,7 +15,7 @@ const About = () => (
       </Heading>
       <Quote
         avatar="images/quotes/tim.jpeg"
-        citation="Tim Kotsiakos — Founder & Creative Director, M A S S"
+        citation="Tim Kotsiakos — Founder, M A S S"
       >
         “Alex has been brilliant to work with. He has a keen eye for detail,
         great taste and very good on the tools. He’s also great at working with

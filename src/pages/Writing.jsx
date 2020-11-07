@@ -7,15 +7,17 @@ const Writing = () => (
   <div>
     <h1>Sharing my thoughts, advice, struggles and successes.</h1>
     <TextMediaGrid columns={2}>
-      <TextMedia
+    <TextMedia
         link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
-        media="/images/writing/covid19.png"
-        width="610"
-        height="452"
+        media="/images/writing/covid19-small2.png"
+        width="960"
+        height="700"
+        eyebrow="Featured by UX Collective ★" 
+        accent="#00add8"
         flip
       >
         <h2>The evolving design of the Coronavirus</h2>
-        <p>The podium placard has been the silent messenger of the daily Coronavirus briefings. • Featured in UXDesign CC</p>
+        <p>The podium placard has been the silent messenger of the daily Coronavirus briefings.</p>
       </TextMedia>
 
       <TextMedia

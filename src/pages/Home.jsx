@@ -122,7 +122,7 @@ const Home = () => (
     <TextMediaGrid columns={2} flush={true}>
       <TextMedia
         link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
-        media="/images/writing/covid-3.png"
+        media="/images/writing/covid19-small2.png"
         width="960"
         height="700"
         eyebrow="Featured by UX Collective ★" 
