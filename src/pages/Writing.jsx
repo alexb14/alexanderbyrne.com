@@ -19,26 +19,18 @@ const Writing = () => (
       </TextMedia>
 
       <TextMedia
-        link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
-        media="/images/writing/pm-design.png"
+        link="https://uxdesign.cc/the-two-google-apps-that-dont-talk-to-each-other-but-should-30770184da4e"
+        media="/images/writing/article-google.jpg"
         width="610"
         height="400"
-    
+        eyebrow="Featured by UX Collective ★" 
+        accent="#00add8"
+        flip
       >
-        <h2>Little Features: Project management in Design Tools</h2>
-        <p>What would it look like if the techniques and practices of Project/Product Management made their way into design tools.</p>
+        <h2>Rapid prototyping calendar Events into Google Maps</h2>
+        <p>Removing the friction between two Google apps.</p>
       </TextMedia>
 
-      <TextMedia
-        link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
-        media="/images/writing/maps.png"
-        width="890"
-        height="660"
-    
-      >
-        <h2>Little Features: Project management in Design Tools</h2>
-        <p>What would it look like if the techniques and practices of Project/Product Management made their way into design tools.</p>
-      </TextMedia>
 
     </TextMediaGrid>
     <SignOff title="Let's make something great<br/> together." />
