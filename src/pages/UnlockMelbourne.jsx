@@ -40,17 +40,18 @@ const UnlockMelbourne = () => (
         height="1140"
       />
 
-      <BodyText heading="Make studying abroad easier" eyebrow="The goal" accent="#6650CB">
+      <BodyText heading="Make studying abroad easier" eyebrow="The goal and key focus areas" accent="#6650CB">
       I worked with Today and Study Melbourne to design an iOS and Android app to guide international 
-      students through moving to, living and studying in Victoria.
+      students through moving to, living and studying in Victoria. With this project we wanted to:<br></br><br></br>
+      • Design a fun and informative experience for International students.<br></br>
       
-      The app needed to help them fit into their new home and have tasks to teach them a variaty of things from: <br></br><br></br>
-
-      <span role="img" aria-label="waving hand">👋</span> How to say “Hello” <br></br>
-      <span role="img" aria-label="home">🏡</span> Where to find accommodation <br></br>
-      <span role="img" aria-label="Tram">🚊</span> How to catch a tram  <br></br>
-      <span role="img" aria-label="cookie">🍪</span> Even how to make ANZAC biscuits (an Australian delicacy).
+      • Create a consistent mobile experience across platforms.<br></br>
+      
+      • Enable internationalisation to improve the experience for everyone.
+      
       </BodyText>
+
+
       <Devices
         items={[
           {
@@ -85,30 +86,32 @@ const UnlockMelbourne = () => (
 
 <BodyText heading="Language 🗣 and design 🎨" eyebrow="The solution" accent="#6650CB">
 We designed the Unlock Melbourne app around the universal language of emojis <span role="img" aria-label="sunglasses on a smiley face">😎</span>. 
-This allowed us to reach all students in an accessible, familiar and friendly way.
+This allowed us to reach all students in an accessible, familiar and friendly way. 
+<br></br><br></br>
+Although the emoji's are different on each platform we shared the duplicate elements to create a consistent design between iOS and Android.  
 
       </BodyText>
 
       <FullWidthMedia
         type="hero"
-        media="/images/unlockmelb/ios-android.png"
+        media="/images/unlockmelb/ios-android.jpg"
         width="2000"
-        height="1245"
+        height="1645"
       />
 
-<BodyText heading="Easy and rewarding tasks">
+<BodyText heading="Easy and rewarding tasks" eyebrow="The solution" accent="#6650CB">
 The tasks were designed to be easy, fun and friendly. Using big buttons and 
 gesture based navigation we created an experience that could be done one handed on the way to class.
       </BodyText>
 
       <FullWidthMedia
         type="hero"
-        media="/images/unlockmelb/card-grid.png"
+        media="/images/unlockmelb/tasks-2.jpg"
         width="2000"
-        height="2186"
+        height="2275"
       />
 
-      <BodyText heading="Done 👍 or Do later ✍️">
+      <BodyText heading="Done 👍 or Do later ✍️" eyebrow="The solution" accent="#6650CB">
         Students could read more about each of the tasks. From recipe cards, student testimonials, slang meanings, step-by-step tours and events.
       </BodyText>
       <Devices
@@ -118,7 +121,7 @@ gesture based navigation we created an experience that could be done one handed 
             width: 375,
             height: 812,
             border: "#D9D4ED",
-            caption: " ",
+            caption: "Fun recipe card task",
             type: "mobile",
             radius: 30,
           },
@@ -127,7 +130,7 @@ gesture based navigation we created an experience that could be done one handed 
             width: 375,
             height: 812,
             border: "#D7E2EF",
-            caption: " ",
+            caption: "Aussie slang task",
             type: "mobile",
             radius: 30,
           },
@@ -136,14 +139,14 @@ gesture based navigation we created an experience that could be done one handed 
             width: 375,
             height: 812,
             border: "#D5E3E3",
-            caption: " ",
+            caption: "Event task",
             type: "mobile",
             radius: 30,
           },
         ]}
       />
 
-      <BodyText heading="More than just tasks">
+      <BodyText heading="More than just tasks" eyebrow="Going above and beyond" accent="#6650CB">
       While getting to know their new city was the primary function of the app, 
       we also designed ways for students to find out more about Study Melbourne and what services were available to them. 
       </BodyText>
@@ -170,33 +173,39 @@ gesture based navigation we created an experience that could be done one handed 
             width: 375,
             height: 812,
             border: "#F1DDCE",
-            caption: " ",
+            caption: "Providing important links and contacts",
             type: "mobile",
             radius: 30,
           },
           {
-            media: "/images/unlockmelb/home-end.jpg",
+            media: "/images/unlockmelb/complete-2.mp4",
             width: 375,
             height: 812,
             border: "#D5E3E3",
-            caption: " ",
+            caption: "Completing a task and unlocking the next",
             type: "mobile",
             radius: 30,
+            video: true
           },
           {
             media: "/images/unlockmelb/about.jpg",
             width: 375,
             height: 812,
             border: "#D6D5E9",
-            caption: " ",
+            caption: "Confidence in their education",
             type: "mobile",
             radius: 30,
           },
         ]}
       />
 
-<BodyText>
-Unlock Melbourne launched on both iOS and Android at the start of 2018 just in time to help the new cohort of university students.
+<BodyText heading="Emoji's can simplify an experience" eyebrow="Learnings & Outcomes" accent="#6650CB">
+Throughout this project I learnt the true power of the emoji and how it can  help an interface tell a better story. 
+Although I came onboard after the planning and strategy had been done, 
+I did my best to talk to the project team to catch up on as much knowledge and direction as possible. 
+This was one of the funnest projects I've ever worked on it's purpose left me with a feeling of making a positive impact.
+<br></br><br></br>
+Unlock Melbourne launched in early 2018 in time for the new university year and sits at a 4.7★ rating on the Google Play Store. 
       </BodyText>
 
       <h3>Here's a few more projects</h3>

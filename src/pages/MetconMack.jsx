@@ -39,7 +39,7 @@ const MetconMack = () => (
       height="1138"
     />
 
-    <BodyText heading="A workout all over">
+    <BodyText heading="A workout all over" eyebrow="The goal" accent="#626262">
     Nike partnered with Australia’s and New Zealand’s best female athletes 
     to set workout targets for everyone to try and reach. In turn, they needed 
     a way to inspire, track and engage their NTC Women throughout the experience.
@@ -54,7 +54,7 @@ const MetconMack = () => (
         height="1958"
       />
 
-      <BodyText heading="Burpees or push-ups?">
+      <BodyText heading="Burpees or push-ups?" eyebrow="The solution" accent="#626262">
       We wanted to design familiar cues into the opponent selection part of the app. 
       Making it feel slightly arcade but balanced with the premium feel or Nike.
     </BodyText>
@@ -62,51 +62,24 @@ const MetconMack = () => (
     <Devices
         items={[
           {
-            media: "/images/metcon-mack/Athletes-Grid.png",
+            media: "/images/metcon-mack/ipad.mp4",
             width: 2048,
             height: 1536,
             border: "#323235",
-            type: "full",
+            type: "desktop",
             radius: 50,
+            video: true
           },
         ]}
       />
 
-<Devices
-        items={[
-          {
-            media: "/images/metcon-mack/Athlete - Moana.png",
-            width: 2048,
-            height: 1536,
-            border: "#323235",
-            type: "full",
-            radius: 50,
-          },
-        ]}
-      />
 
-<Devices
-        items={[
-          {
-            media: "/images/metcon-mack/Shoe Selected.png",
-            width: 2048,
-            height: 1536,
-            border: "#323235",
-            type: "full",
-            radius: 50,
-          },
-        ]}
-      />
-
-<BodyText heading="Armed and ready">
+<BodyText heading="Armed and ready" eyebrow="The solution" accent="#626262">
 The Nike Master trainer was equipted with an app to track the challengers workout. 
 Counting reps, comparing to the target and motivating each challenger to reach their 
 best. With only 1 minute to complete the workout, it’s an intense time for challenger and trainer. 
 <br/><br/>
-We designed to app to be a fluid experience with a lot of margin for the trainers. 
-Once the workout begun, we removed buttons for counting reps, instead, allowing 
-majority of the screen to act as the rep counter.
-    </BodyText>
+</BodyText>
 
     <FullWidthMedia
         type="hero"
@@ -114,6 +87,11 @@ majority of the screen to act as the rep counter.
         width="3000"
         height="2000"
       />
+<BodyText>
+We designed to app to be a fluid experience with a lot of margin for the trainers. 
+Once the workout begun, we removed buttons for counting reps, instead, allowing 
+majority of the screen to act as the rep counter.
+    </BodyText>
 
 <Devices
         items={[
@@ -147,16 +125,29 @@ majority of the screen to act as the rep counter.
         ]}
       />
 
-<BodyText heading="Crowd support">
+<FullWidthMedia
+        type="hero"
+        media="/images/metcon-mack/event.jpg"
+        width="3000"
+        height="2000"
+      />
+
+<BodyText heading="Crowd support" eyebrow="The solution" accent="#626262">
 The experience was completed as the awaiting challengers and crowd watched reps get counted in real time on an external screen.
     </BodyText>
 
     <FullWidthMedia
-        
-        media="/images/metcon-mack/tv.png"
-        width="2430"
-        height="1500"
+        media="/images/metcon-mack/tv.jpg"
+        width="1620"
+        height="915"
       />  
+
+<BodyText heading="Simultaneous experiences" eyebrow="Learnings & outcomes" accent="#626262">
+Anyone who has designed for Nike knows it's not easy, but it's extremely rewarding. 
+This project pushed me to think harder and design more strategically about the 3 simultaneous touch-points, 
+each on a different medium, being used by a separate audience. I would have loved to have tested this in situ 
+before shipping but given the venue was driving down the coast of Australia that proved impossible. 
+    </BodyText>
 
 <h3>Browse more projects</h3>
 

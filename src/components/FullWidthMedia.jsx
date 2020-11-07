@@ -17,7 +17,7 @@ const HeroStyle = `
 `;
 
 const Root = styled.div`
-  margin: 18% 0 0;
+  margin: 12% 0 0;
   ${(props) => props.type === "desktop" && DesktopStyle}
   ${(props) => props.type === "hero" && HeroStyle}
 `;
