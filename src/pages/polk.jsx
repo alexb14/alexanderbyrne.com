@@ -39,13 +39,26 @@ const polk = () => (
         height="1200"
       />
 
-      <BodyText heading="First things first — Analysis">
+      <BodyText heading="An eCommerce experiencing poor results" eyebrow="The problem" accent="#B4442F">
+      In the beginning, we wanted to establish a firm understanding of Polk’s online performance. 
+      We sifted through Google Analytics as well as up to date heat map data.
+      </BodyText>
+
+      <BodyText heading="Out with the old" eyebrow="Project goals" accent="#B4442F">
+      • Redesign the existing Polk website implementing the updated brand.
+      <br></br>
+      • Create a design that tailors to the Polk product range.
+      <br></br>
+      • Design a faster journey to product experience.
+      </BodyText>
+
+      <BodyText heading="Analysing current performance" eyebrow="Approach — Research" accent="#B4442F">
       In the beginning, we wanted to establish a firm understanding of Polk’s online performance. 
       We sifted through Google Analytics as well as up to date heat map data.
       <br></br>
       <br></br>
-      From this we dove into strategising how to improve the bigger problem areas as well as the talking the client 
-      through how the getting the small 1% correct could make a big impact on conversion. 
+      From this we dove into strategising how to improve the bigger problem areas as well as talking the client 
+      through how the getting the small 1% correct could make a positive impact on conversion. 
       </BodyText>
 
 
@@ -56,7 +69,7 @@ const polk = () => (
         height="868"
       />
       
-      <BodyText heading="A simpler foundation">
+      <BodyText heading="A simpler foundation" eyebrow="The solution" accent="#B4442F">
       After our analysis and early customer research we overhauled Polk’s sitemap to create a simpler and more logical structure. 
       Not only did this strengthen the foundation of the new build it also enabled the devlopment team to start bringing the new site to life.
       </BodyText>
@@ -69,7 +82,7 @@ const polk = () => (
       />
 
 
-      <BodyText heading="Adaptive product listsings">
+      <BodyText heading="Adaptive product listsings" eyebrow="The solution" accent="#B4442F">
       We designed product listing components that adapted to Polk’s diverse product range; compact home theatre systems, beautifully wide sound bars and skyscraper-like speakers.
       This enabled us to showcase their products in the best light whilst maintaining a structured grid to ease development.
       </BodyText>
@@ -118,9 +131,9 @@ const polk = () => (
         avatar="/images/polk/ben.jpg"
         citation="Ben Aldred — Chief Design Officer, This Place "
       >
-        ““I am not going to lie, that was one of the most satisfying client reviews I have ever been a part of. 
+        “I am not going to lie, that was one of the most satisfying client reviews I have ever been a part of. 
         It felt incredibly well articulated from start to finish in terms of rationalizing design decisions, 
-        opening up to the client for thoughtful discussion and also pushing them on a project planning perspective.””
+        opening up to the client for thoughtful discussion and also pushing them on a project planning perspective.”
       </Quote>
 
 
@@ -131,7 +144,7 @@ const polk = () => (
         height="1500"
       />
 
-      <BodyText heading="Rethiniking the product experience">
+      <BodyText heading="Rethinking the product experience" eyebrow="The solution" accent="#B4442F">
       With so much information from features, specs, review, companion apps and more we knew we needed to apporach these product pages in a non-traditional way.
       In our analysis we noticed users would return 5 or 6 times before enter the conversion funnel. This made us think about an intuitve experience when landing here for the 1st of 6th time. 
       <br></br>
@@ -194,22 +207,24 @@ const polk = () => (
       <Devices
         items={[
           {
-            media: "/images/polk/mobile-pdp-1.png",
-            width: 375,
-            height: 812,
-            border: "#EBEBEB",
-            caption: " ",
-            type: "mobile",
-            radius: 0,
-          },
-          {
             media: "/images/polk/mobile-pdp-2.png",
             width: 375,
             height: 812,
             border: "#EBEBEB",
             caption: " ",
             type: "mobile",
-            radius: 0,
+            radius: 30,
+            
+          },
+          {
+            media: "/images/polk/mobile-carousel.mp4",
+            width: 375,
+            height: 812,
+            border: "#EBEBEB",
+            caption: " ",
+            type: "mobile",
+            radius: 30,
+            video: true
           },
           {
             media: "/images/polk/mobile-pdp-4.png",
@@ -218,7 +233,7 @@ const polk = () => (
             border: "#EBEBEB",
             caption: " ",
             type: "mobile",
-            radius: 0,
+            radius: 30,
           },
         ]}
       />
@@ -238,9 +253,15 @@ const polk = () => (
         height="1600"
       />
 
-      <BodyText heading="In the end">
-      In the 8 weeks we had to completely overhaul the Polk website we managed to create a fresh and 
-      considered experience. One that was tailored to Polk's brand story and portfolio of over 75 products.
+      <BodyText heading="In the end" eyebrow="Learnings & Outcomes" accent="#B4442F">
+      Like many, this was my first pandemic project. Not only, was I distant from the team, 
+      I also balanced a client and Chief Design Officer (CDO) in a different time zone. 
+      
+      I learnt how to improve my storytelling and presenting and adapt it for tri-weekly zoom calls. 
+      <br></br><br></br>
+      Given the time zone difference there were small windows to check-in with the CDO. 
+      
+      This pushed me to rethink my file structures and allowed the CDO to pop into the file and know exactly where the designs were at. 
       </BodyText>
 
 

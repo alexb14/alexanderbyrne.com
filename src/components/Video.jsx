@@ -3,9 +3,9 @@ import { findDOMNode } from 'react-dom';
 import styled from 'styled-components';
 
 const Media = styled.video`
-  max-width: 102.5%;
+  max-width: 102.9%;
   height: auto;
-  margin-left: -1.25%;
+  margin-left: -1.45%;
   
   
 `;
