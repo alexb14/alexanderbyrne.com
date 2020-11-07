@@ -62,7 +62,7 @@ const MetconMack = () => (
     <Devices
         items={[
           {
-            media: "/images/metcon-mack/ipad.mp4",
+            media: "/images/metcon-mack/ipad.webm",
             width: 2048,
             height: 1536,
             border: "#323235",

@@ -253,7 +253,7 @@ const polk = () => (
         height="1600"
       />
 
-      <BodyText heading="In the end" eyebrow="Learnings & Outcomes" accent="#B4442F">
+      <BodyText heading="Leading a redesign in a pandemic" eyebrow="Learnings & Outcomes" accent="#B4442F">
       Like many, this was my first pandemic project. Not only, was I distant from the team, 
       I also balanced a client and Chief Design Officer (CDO) in a different time zone. 
       
