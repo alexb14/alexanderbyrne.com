@@ -62,7 +62,7 @@ const SocialLinks = () => (
         </Link>
       </Item>
       <Item>
-        <Link href="https://medium.com" target="_blank">
+        <Link href="https://medium.com/@AlexByrne14" target="_blank">
           Medium
         </Link>
       </Item>
