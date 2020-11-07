@@ -44,6 +44,8 @@ const Home = () => (
         media="/images/tiles/nab-1.png"
         width="610"
         height="649"
+        eyebrow="iOS + Android app ◦ Accessibility"
+        accent="#74747B"
         
       >
         <h2>National Australia Bank — App</h2>
@@ -55,6 +57,8 @@ const Home = () => (
         media="/images/tiles/sidney-elcon.jpg"
         width="610"
         height="647"
+        eyebrow="Typography design ◦ Accessibility"
+        accent="#74747B"
         
       >
         <h2>Sidney & Elcon — Typeface design</h2>
@@ -67,6 +71,8 @@ const Home = () => (
         media="/images/tiles/myer-2.jpg"
         width="610"
         height="736"
+        eyebrow="eCommerce redesign ◦ Design system ◦ User Testing ◦ Interaction design"
+        accent="#74747B"
         
       >
         <h2>Myer — eCommerce website</h2>
@@ -80,6 +86,8 @@ const Home = () => (
         media="/images/tiles/polk-2.jpg"
         width="610"
         height="590"
+        eyebrow="eCommerce redesign ◦ Research ◦ Interaction design"
+        accent="#74747B"
         flip
       >
         <h2>Polk Audio — eCommerce website</h2>
@@ -93,6 +101,8 @@ const Home = () => (
         media="/images/tiles/um-3.jpg"
         width="610"
         height="520"
+        eyebrow="iOS + Android app ◦ Interaction design"
+        accent="#74747B"
         flip
       >
         <h2>Unlock Melbourne — App</h2>
@@ -104,6 +114,8 @@ const Home = () => (
         media="/images/projects/metconmack-tile2.png"
         width="610"
         height="736"
+        eyebrow="Mulitchannel experience ◦ Interaction design ◦ Tablet + Mobile App"
+        accent="#74747B"
         flip
       >
         <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
