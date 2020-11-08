@@ -38,16 +38,29 @@ const sidneyelcon = () => (
         height="1138"
       />
 
-      <BodyText>
-      During my time as Design Lead at Myer, we undertook a project to create two new typefaces for the brand. 
-      We aimed to embody the feeling of approachable design and high-end fashion in each typeface. 
-      
+      <BodyText heading="Expensive, inaccessible typefaces" eyebrow="The Problem" accent="#643986">
+      Myer faced growing costs to license typefaces for their digital products, 
+      This, paired with striving to meet greater accessibility compliance, brought Myer 
+      towards creating new custom typefaces that were built with elegance and accessibility in mind. 
       </BodyText>
 
-      <BodyText heading="Sidney Sans">
-      Named after the founder on Myer, Sidney is a geometric sans serif typeface boasting simplified characters 
+      <BodyText heading="Research and partnering with experts" eyebrow="The approach" accent="#643986">
+      As Design Lead, I lead the Art & Creative direction for the two custom typefaces for Myer. 
+      We researched how to make typefaces more accessible and legible at small digital sizes and how to embody the feeling of an approachable yet high-end fashion design.
+      Partnering with amazing team at The Design Foundry we began exploring a Serif and Sans Serif typeface for Australia's largest retailer. 
+      </BodyText>
+
+      <FullWidthMedia
+        type="hero"
+        media="/images/sidney/approach.png"
+        width="2050"
+        height="730"
+      />
+
+      <BodyText heading="Sidney Sans" eyebrow="The Sans Serif solution" accent="#643986">
+      Named after the founder of Myer, Sidney is a geometric sans serif typeface boasting simplified characters 
       that have been designed to increase legibility and acccessibility. Sidney Sans has been designed to work in 
-      both Regular and Bold. Notice the speicialised to keep the typeface simple yet uniquely Myer.
+      both Regular and Bold. Notice the speicialised characters to keep the typeface simple yet uniquely Myer.
       </BodyText>
 
 
@@ -55,8 +68,13 @@ const sidneyelcon = () => (
         type="hero"
         media="/images/sidney/sidney-alpha.jpg"
         width="2000"
-        height="900"
+        height="810"
       />
+      
+      <BodyText heading="Our new primary digital typeface" eyebrow="The Sans Serif solution" accent="#643986">
+      We went through multiple variations and versons of the typeface to find the perfect balance across our digital products. 
+      Sidney needed to work perfectly at small and large sizes, within UI comonents and pair beautifully with typical design assets.
+      </BodyText>
 
       <Devices
         items={[
@@ -90,14 +108,18 @@ const sidneyelcon = () => (
         ]}
       />
 
+      <BodyText heading="The smaller details" eyebrow="The Sans Serif solution" accent="#643986">
+      We stressed over the finer details of this Sans Serif typeface, creating alt characters to use in powerful headings, increasing apertures and adding details to improve accessible and creating a unique & to bring further personality to the typeface.
+      </BodyText>
+
       <FullWidthMedia
         type="hero"
         media="/images/sidney/characters.jpg"
         width="2000"
-        height="600"
+        height="400"
       />
       
-      <BodyText heading="Elcon Serif">
+      <BodyText heading="Elcon Serif" eyebrow="The Serif solution" accent="#643986">
       Partnering Sidney Sans as Myer’s primary typefaces, this type was designed to be used for all things fashion, 
       elegance, beauty and rewards. While Myer has to appeal to a large market we wanted a typeface we could reserve 
       for the luxury and premier aspects of the brand.
@@ -105,22 +127,38 @@ const sidneyelcon = () => (
 
       <FullWidthMedia
         type="hero"
-        media="/images/sidney/eclon-alpha.jpg"
+        media="/images/sidney/eclon-mocks.jpg"
         width="2000"
-        height="940"
+        height="1140"
       />
 
       <FullWidthMedia
         type="hero"
-        media="/images/sidney/eclon-weights.jpg"
+        media="/images/sidney/eclon-weights-2.jpg"
         width="2000"
-        height="940"
+        height="680"
       />
 
+      <Devices
+        items={[
+          {
+            media: "/images/sidney/Cards-Animation.webm",
+            width: 1750,
+            height: 1000,
+            border: "#000",
+            caption: " ",
+            type: "full",
+            radius: 40,
+            video: true
+          },
+        ]}
+      />  
       
 
-      <BodyText>
-      Both typefaces were workshopped, designed and created with the help from the team at The Designers Foundry. 
+      <BodyText heading="An even stronger appreciation" eyebrow="Learnings & Outcomes" accent="#643986">
+      Typeface design is an entire other ball game. The consistency, fine-tuning and scale is an amazing challenge for a designer. 
+      Collaborating closely and talkign often with the team the TDF was crucial for the success of this project for the digital team and wider Myer brand.
+      Both typefaces began rolling out to all digital projects in early 2019. 
       </BodyText>
 
 

@@ -155,53 +155,40 @@ const polk = () => (
       <Devices
         items={[
           {
-            media: "/images/polk/desktop-pdp-1.png",
+            media: "/images/polk/PDP-Desktop-2.webm",
             width: 1920,
-            height: 1400,
+            height: 1080,
             border: "#EBEBEB",
             caption: " ",
             type: "desktop",
-            radius: 0,
+            radius: 20,
+            video: true
           },
-          {
-            media: "/images/polk/desktop-pdp-specs.png",
-            width: 1920,
-            height: 1400,
-            border: "#EBEBEB",
-            caption: " ",
-            type: "desktop",
-            radius: 0,
-          },
-          
-        ]}
-      />
-      <Devices
-        items={[
-          {
-            media: "/images/polk/desktop-pdp-reviews.png",
-            width: 1920,
-            height: 1400,
-            border: "#EBEBEB",
-            caption: " ",
-            type: "desktop",
-            radius: 0,
-          },
-          {
-            media: "/images/polk/desktop-pdp-compare.png",
-            width: 1920,
-            height: 1400,
-            border: "#EBEBEB",
-            caption: " ",
-            type: "desktop",
-            radius: 0,
-          },
-          
         ]}
       />
 
-      <BodyText heading="Consistency between Desktop and Mobile">
+<BodyText heading="High end products, high end design" eyebrow="The solution" accent="#B4442F">
+      We respected the quality, legacy and price difference in Polk's high end product range. We designed a worthy product hero section to showcase their high end speakers.
+      </BodyText>
+
+      <Devices
+        items={[
+          {
+            media: "/images/polk/polk-legend.jpg",
+            width: 1920,
+            height: 2980,
+            border: "#EBEBEB",
+            caption: " ",
+            type: "desktop",
+            radius: 20,
+          },
+        ]}
+      />
+      
+
+      <BodyText heading="Consistency between Desktop and Mobile" eyebrow="The solution" accent="#B4442F">
       We worked through multiple concepts and ideas to create a product experience that was consistent but also purposeful for the platform. 
-      We utilised al areas of the screen to create a scrolliing experience that never left the cutomer far from important actions.
+      We utilised all areas of the screen to create a scrolliing experience that never left the cutomer far from important actions.
       </BodyText>
 
       <Devices
@@ -238,12 +225,9 @@ const polk = () => (
         ]}
       />
 
-        <BodyText heading="A homepage that got customers off the homepage">
-        Micro-onoarding is a big part of banking. Whether it’s opening an account for the 1st or 100th time, 
-        those small moments needed attention in the existing NAB experience. 
-        <br></br>
-        <br></br>
-        We designed a New Account flow allowing customers to feel more guided, knowledgable and in control.
+        <BodyText heading="A homepage that got customers off the homepage" eyebrow="The solution" accent="#B4442F">
+        Whether it be Product launches, Sale events, VIP listening session or everyday in between, 
+        we designed an adaptable homepage hero to drive customers from the homepage into a purchase, research and browsing journey.
         </BodyText>
 
         <FullWidthMedia
@@ -251,6 +235,20 @@ const polk = () => (
         media="/images/polk/desktop-homepage.jpg"
         width="2000"
         height="1600"
+      />
+
+<Devices
+        items={[
+          {
+            media: "/images/polk/polk-home.jpg",
+            width: 1920,
+            height: 10307,
+            border: "#EBEBEB",
+            caption: " ",
+            type: "desktop",
+            radius: 20,
+          },
+        ]}
       />
 
       <BodyText heading="Leading a redesign in a pandemic" eyebrow="Learnings & Outcomes" accent="#B4442F">
