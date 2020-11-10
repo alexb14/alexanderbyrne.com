@@ -81,8 +81,40 @@ const polk = () => (
         height="3732"
       />
 
+<BodyText heading="A homepage that got customers off the homepage" eyebrow="The solution" accent="#B4442F">
+        Whether it be Product launches, Sale events, VIP listening session or everyday in between, 
+        we designed an adaptable homepage hero to drive customers from the homepage into a purchase, research and browsing journey.
+        </BodyText>
 
-      <BodyText heading="Adaptive product listsings" eyebrow="The solution" accent="#B4442F">
+        <FullWidthMedia
+        type="hero"
+        media="/images/polk/desktop-homepage.jpg"
+        width="2000"
+        height="1600"
+      />
+
+      <BodyText heading="Pointed Category + Sub-Category links" eyebrow="The solution" accent="#B4442F">
+        We design shortcuts in the form of a Product Ribbon component, placed right underneath the hero banner to allow customers aother entry point into the site.
+        Studio photography, category groupings and 'from' pricing were locked up together to provide the user with the right amount of information and expectation.
+        </BodyText>
+
+      <Devices
+        items={[
+          {
+            media: "/images/polk/Product-Ribbon-2.webm",
+            width: 1920,
+            height: 1080,
+            border: "#EBEBEB",
+            caption: "Navigating from Homepage to Category through the Product Ribbon.",
+            type: "desktop",
+            radius: 20,
+            video: true
+          },
+        ]}
+      />
+
+
+      <BodyText heading="Adaptive product listings" eyebrow="The solution" accent="#B4442F">
       We designed product listing components that adapted to Polk’s diverse product range; compact home theatre systems, beautifully wide sound bars and skyscraper-like speakers.
       This enabled us to showcase their products in the best light whilst maintaining a structured grid to ease development.
       </BodyText>
@@ -225,31 +257,7 @@ const polk = () => (
         ]}
       />
 
-        <BodyText heading="A homepage that got customers off the homepage" eyebrow="The solution" accent="#B4442F">
-        Whether it be Product launches, Sale events, VIP listening session or everyday in between, 
-        we designed an adaptable homepage hero to drive customers from the homepage into a purchase, research and browsing journey.
-        </BodyText>
-
-        <FullWidthMedia
-        type="hero"
-        media="/images/polk/desktop-homepage.jpg"
-        width="2000"
-        height="1600"
-      />
-
-<Devices
-        items={[
-          {
-            media: "/images/polk/polk-home.jpg",
-            width: 1920,
-            height: 10307,
-            border: "#EBEBEB",
-            caption: " ",
-            type: "desktop",
-            radius: 20,
-          },
-        ]}
-      />
+        
 
       <BodyText heading="Leading a redesign in a pandemic" eyebrow="Learnings & Outcomes" accent="#B4442F">
       Like many, this was my first pandemic project. Not only, was I distant from the team, 

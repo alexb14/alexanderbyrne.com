@@ -52,33 +52,18 @@ const Home = () => (
         <p>A re-imagining of the core mobile banking experience for today and into the future.</p>
       </TextMedia>
 
-      <TextMedia
-        link="/sidneyelcon"
-        media="/images/tiles/sidney-elcon.jpg"
-        width="610"
-        height="647"
-        eyebrow="Typography design ◦ Accessibility"
-        accent="#74747B"
-        
-      >
-        <h2>Sidney & Elcon — Typeface design</h2>
-        <p>Two custom typefaces for Australia's largest department store.</p>
-      </TextMedia>
 
-      
       <TextMedia
-        link="/myer"
-        media="/images/tiles/myer-2.jpg"
+        link="/unlockmelbourne"
+        media="/images/tiles/um-3.jpg"
         width="610"
-        height="736"
-        eyebrow="eCommerce redesign ◦ Design system ◦ User Testing ◦ Interaction design"
+        height="520"
+        eyebrow="iOS + Android app ◦ Interaction design"
         accent="#74747B"
-        
+        flip
       >
-        <h2>Myer — eCommerce website</h2>
-        <p>
-        A brightened e-commerce experience for Australia’s largest home and fashion retailer.
-        </p>
+        <h2>Unlock Melbourne — App</h2>
+        <p>Giving international students a fun and informative way to enjoy their new city.</p>
       </TextMedia>
 
       <TextMedia
@@ -94,19 +79,6 @@ const Home = () => (
         <p>
         A product-first redesign for a heritage American audio company.
         </p>
-      </TextMedia>
-
-      <TextMedia
-        link="/unlockmelbourne"
-        media="/images/tiles/um-3.jpg"
-        width="610"
-        height="520"
-        eyebrow="iOS + Android app ◦ Interaction design"
-        accent="#74747B"
-        flip
-      >
-        <h2>Unlock Melbourne — App</h2>
-        <p>Giving international students a fun and informative way to enjoy their new city.</p>
       </TextMedia>
 
       <TextMedia
