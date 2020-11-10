@@ -246,7 +246,6 @@ class Contact extends Component {
     } = this.state;
     const isValid =
       name.trim() !== "" &&
-      location.trim() !== "" &&
       body.trim() !== "" &&
       email.trim() !== "";
 
