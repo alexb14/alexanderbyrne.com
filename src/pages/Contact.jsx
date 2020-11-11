@@ -240,7 +240,6 @@ class Contact extends Component {
       sending,
       success,
       name,
-      location,
       body,
       email,
     } = this.state;
