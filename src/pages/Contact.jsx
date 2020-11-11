@@ -185,7 +185,7 @@ class Contact extends Component {
     });
 
     request
-      .post("https://formspree.io/hello@alexanderbyrne.com")
+      .post("https://formspree.io/f/hello@alexanderbyrne.com")
       .send({
         name,
         email,
