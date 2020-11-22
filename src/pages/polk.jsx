@@ -263,11 +263,17 @@ const polk = () => (
       Like many, this was my first pandemic project. Not only, was I distant from the team, 
       I also balanced a client and Chief Design Officer (CDO) in a different time zone. 
       
-      I learnt how to improve my storytelling and presenting and adapt it for tri-weekly zoom calls. 
-      <br></br><br></br>
+      I learnt how to improve my storytelling and presenting and adapted it for our tri-weekly zoom calls. 
+      
       Given the time zone difference there were small windows to check-in with the CDO. 
       
       This pushed me to rethink my file structures and allowed the CDO to pop into the file and know exactly where the designs were at. 
+
+      <br></br><br></br>
+
+      Following the launch of the new website in October, Polk Audio saw a 500% increase in online sales on the first Tuesday post launch. A stat that the entire team was very proud of.
+
+
       </BodyText>
 
 

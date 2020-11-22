@@ -44,18 +44,18 @@ const Myer = () => (
       I was brought in to hero the design and lead a team of 3 designers to undertake a complete overhaul of myer.com.au. 
       </BodyText>
 
-      <BodyText heading="Project Goals">
-        1. Updated colour palette to improve accessibility<br></br><br></br>
-        2. Structured colour usage ration to mantain a clean and consistent experience<br></br><br></br>
-        3. Meticulously designed iconography<br></br><br></br>
-        4. Updated typography and styles
+      <BodyText heading="What we wanted to achieve" eyebrow="Project goals" accent="#9A6A00">
+        • A robust eCommerce experience helping drive the entire online business. <br></br><br></br>
+        • Close relationships between Design and Marketing, Loyalty, Merchandising and development teams to set a positive working foundation to take Myer into the future.<br></br><br></br>
+        • An accessible experience that enables the current and future customers to enjoy, navigate and be inspired by the Myer website. <br></br><br></br>
+        • An awe-inspiring experience that matched the joy and wonder of in store.
       </BodyText>
 
       <BodyText heading="Getting the basics right" eyebrow="The solution" accent="#9A6A00">
-        • Updated colour palette to improve accessibility<br></br>
-        • Structured colour usage ration to mantain a clean and consistent experience<br></br>
-        • Meticulously designed iconography<br></br>
-        • Updated typography and styles
+      Before jumping into buttons, interactions, page layouts and more we focused one getting the smaller details right to 
+      enable us to move at pace later in the project. We improved colour usage ratios, making them more accessible and premium. 
+      We completely rethought iconography across the Myer website to create a custom icon suite which was more obvious and clean. 
+      And finally, we obsessed over the typography across sizes, devices and hierarchy. 
       </BodyText>
 
       <FullWidthMedia
@@ -65,8 +65,11 @@ const Myer = () => (
         height="1320"
       />
 
-      <BodyText heading="Homepage - Mobile">
-        Text
+      <BodyText heading="A welcoming homepage experience on mobile" eyebrow="The solution" accent="#9A6A00">
+      With mobile traffic vastly overtaking desktop we knew creating a welcoming experience for customers was crucial. 
+      Instead of simply copying competitor approaches we dug deep and provided shoppers with a page that allowed them to 
+      quickly and easily dive into relevant categories, shop sales, imagine themselves in an entire look and effortlessly see 
+      what Myer had from their favourite brands.
       </BodyText>
 
       <FullWidthMedia
@@ -76,8 +79,13 @@ const Myer = () => (
         height="1405"
       />
 
-      <BodyText heading="Homepage - desktop" eyebrow="The solution" accent="#9A6A00">
-        We also created a robust sturcture allowing the marketing team...
+      <BodyText heading="...and Desktop too" eyebrow="The solution" accent="#9A6A00">
+      A large part of Myer's business strategy was around themed sale events. 
+      Their in store and marketing collateral were always consistent and relevant to the event. 
+      However, the online experience traditionally stayed neutral all year round. This was a key area they 
+      wanted to invest in to create a consistent omni-channel experience. <br></br><br></br>
+      From this, I designed a robust Homepage structure which enabled themes, events and relevant media to shine through. 
+      All while keeping the user experience at the forefront.
       </BodyText>
 
       <FullWidthMedia
@@ -87,8 +95,12 @@ const Myer = () => (
         height="1405"
       />
 
-      <BodyText heading="Category pages" eyebrow="The solution" accent="#9A6A00">
-        Immersive feeling
+      <BodyText heading="An immersive experience wherever you land" eyebrow="The solution" accent="#9A6A00">
+      I was well aware from Analytics and Data that not all users simply landed on the homepage and started navigating the site. 
+      Large percentages on users were landing at Category level pages and were met with an underwhelming first impression. 
+      I imagined an experience that balanced immersing the user in their desired category with a structured, componentised 
+      approach the development team could implement. This resulted in a design that made the user feel like they had arrived at a 
+      site that deeply cared about the category they were interested in.
       </BodyText>
 
       <Devices
@@ -124,7 +136,14 @@ const Myer = () => (
       />
       
       <BodyText heading="A brand new Checkout experience" eyebrow="The solution" accent="#9A6A00">
-        Text
+      The final piece of the puzzle was the purchasing journey. All too often checkouts experience the same 
+      friction points and don't feel like they are developed for the nuances of the customers. For the Myer 
+      checkout I had multiple user expectations to juggle: <br></br><br></br>
+      • Delivery or Click & Collect, <br></br>
+      • Picking up in Person or sending a verified person, <br></br>
+      • Paying with credit card, instalments or multiple gift cards. <br></br><br></br>
+      
+      We tested early and often which resulted in a considered checkout experience specifically designed to serve the Myer shopper.
       
       </BodyText>
       <Devices
@@ -145,7 +164,9 @@ const Myer = () => (
       />
 
       <BodyText heading="Rounding out the purchasing experience" eyebrow="The solution" accent="#9A6A00">
-        EDMs
+      A current overlooked element were the post-purchase EDMs. An integral part of reducing customers anxiety and keeping them informed. 
+      I reimagined what the EDM experience could be for Myer. I realised the importance of relevance and organised photoshoots with Myer's 
+      delivery packaging to create a connection from the real world to online. 
       </BodyText>
           
       <FullWidthMedia
