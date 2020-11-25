@@ -131,7 +131,7 @@ const Home = () => (
       </TextMedia>
 
     </TextMediaGrid>
-    <SeeMoreLink to="/writing">See all writing ⟶</SeeMoreLink>
+    
 
    
 

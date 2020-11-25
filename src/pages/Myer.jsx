@@ -164,7 +164,7 @@ const Myer = () => (
       />
 
       <BodyText heading="Rounding out the purchasing experience" eyebrow="The solution" accent="#9A6A00">
-      A current overlooked element were the post-purchase EDMs. An integral part of reducing customers anxiety and keeping them informed. 
+      A currently overlooked element were the post-purchase EDMs. An integral part of reducing customers anxiety and keeping them informed. 
       I reimagined what the EDM experience could be for Myer. I realised the importance of relevance and organised photoshoots with Myer's 
       delivery packaging to create a connection from the real world to online. 
       </BodyText>
@@ -177,7 +177,7 @@ const Myer = () => (
       />  
       
       <BodyText heading="Leading for the first time" eyebrow="Learnings & Outcomes" accent="#9A6A00">
-      MMyer's new eCommerce experience was met with great excitement from customers and key stakeholders upon release in mid 2019. 
+      Myer's new eCommerce experience was met with great excitement from customers and key stakeholders upon release in mid 2019. 
       Throughout my time as Design Lead I began to learn how to continue to upskill the design team and
        to push them to not settle on the easy idea. I loved the ongoing challenges of consistently presenting and 
        showcasing the future direction of the website to key stakeholders and wider product and marketing teams.<br></br><br></br>

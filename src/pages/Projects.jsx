@@ -8,18 +8,23 @@ const Projects = () => (
     <h1>A curation of works spanning freelance and full-time.</h1>
     <TextMediaGrid columns={2}>
     
+
     <TextMedia
-        link="/nab"
-        media="/images/tiles/nab-1.png"
+        link="/myer"
+        media="/images/tiles/myer-2.jpg"
         width="610"
-        height="649"
-        eyebrow="iOS + Android app ◦ Accessibility"
+        height="736"
+        eyebrow="eCommerce redesign ◦ Design system ◦ User Testing ◦ Interaction design"
         accent="#74747B"
         
       >
-        <h2>National Australia Bank — App</h2>
-        <p>A re-imagining of the core mobile banking experience for today and into the future.</p>
-      </TextMedia>
+        <h2>Myer — eCommerce website</h2>
+        <p>
+        A brightened e-commerce experience for Australia’s largest home and fashion retailer.
+        </p>
+        </TextMedia>
+
+   
 
       <TextMedia
         link="/sidneyelcon"
@@ -35,19 +40,33 @@ const Projects = () => (
       </TextMedia>
 
       
+     
+      
+
       <TextMedia
-        link="/myer"
-        media="/images/tiles/myer-2.jpg"
+        link="/metcon-mack"
+        media="/images/projects/metconmack-tile2.png"
         width="610"
         height="736"
-        eyebrow="eCommerce redesign ◦ Design system ◦ User Testing ◦ Interaction design"
+        eyebrow="Mulitchannel experience ◦ Interaction design ◦ Tablet + Mobile App"
+        accent="#74747B"
+        flip
+      >
+        <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
+        <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
+      </TextMedia>
+
+      <TextMedia
+        link="/nab"
+        media="/images/tiles/nab-1.png"
+        width="610"
+        height="649"
+        eyebrow="iOS + Android app ◦ Accessibility"
         accent="#74747B"
         
       >
-        <h2>Myer — eCommerce website</h2>
-        <p>
-        A brightened e-commerce experience for Australia’s largest home and fashion retailer.
-        </p>
+        <h2>National Australia Bank — App</h2>
+        <p>A re-imagining of the core mobile banking experience for today and into the future.</p>
       </TextMedia>
 
       <TextMedia
@@ -78,18 +97,7 @@ const Projects = () => (
         <p>Giving international students a fun and informative way to enjoy their new city.</p>
       </TextMedia>
 
-      <TextMedia
-        link="/metcon-mack"
-        media="/images/projects/metconmack-tile2.png"
-        width="610"
-        height="736"
-        eyebrow="Mulitchannel experience ◦ Interaction design ◦ Tablet + Mobile App"
-        accent="#74747B"
-        flip
-      >
-        <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
-        <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
-      </TextMedia>
+      
       
     </TextMediaGrid>
 
