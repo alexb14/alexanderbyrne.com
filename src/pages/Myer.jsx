@@ -40,7 +40,7 @@ const Myer = () => (
       />
 
       <BodyText heading="Australia's largest eCommerce retailer was falling behind" eyebrow="The problem" accent="#9A6A00">
-      Myer's eCommerce infrastructure and design weren't providing customers with a inspiring and easy to use experience. 
+      Myer's eCommerce infrastructure and design weren't providing customers with an inspiring and easy to use experience. 
       I was brought in to hero the design and lead a team of 3 designers to undertake a complete overhaul of myer.com.au. 
       </BodyText>
 
@@ -52,7 +52,7 @@ const Myer = () => (
       </BodyText>
 
       <BodyText heading="Getting the basics right" eyebrow="The solution" accent="#9A6A00">
-      Before jumping into buttons, interactions, page layouts and more we focused one getting the smaller details right to 
+      Before jumping into buttons, interactions, page layouts and more we focused on getting the smaller details right to 
       enable us to move at pace later in the project. We improved colour usage ratios, making them more accessible and premium. 
       We completely rethought iconography across the Myer website to create a custom icon suite which was more obvious and clean. 
       And finally, we obsessed over the typography across sizes, devices and hierarchy. 

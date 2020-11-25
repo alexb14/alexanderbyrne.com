@@ -203,7 +203,7 @@ gesture based navigation we created an experience that could be done one handed 
 Throughout this project I learnt the true power of the emoji and how it can  help an interface tell a better story. 
 Although I came onboard after the planning and strategy had been done, 
 I did my best to talk to the project team to catch up on as much knowledge and direction as possible. 
-This was one of the funnest projects I've ever worked on it's purpose left me with a feeling of making a positive impact.
+This was one of the most enjoyable projects I've ever worked on. Its purpose left me with a feeling of making a positive impact.
 <br></br><br></br>
 Unlock Melbourne launched in early 2018 in time for the new university year and sits at a 4.7★ rating on the Google Play Store. 
       </BodyText>

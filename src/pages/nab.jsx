@@ -78,7 +78,7 @@ const nab = () => (
       
       <BodyText heading="Transaction details" eyebrow="The solution" accent="#C70000">
       When designing the Transaction Details we hand to juggle a lot of elements and configuration. We aimed to make a template that worked for over 
-      10 Account types. All with thier own information, actions and details.
+      10 Account types. All with their own information, actions and details.
       </BodyText>
 
       <Devices
@@ -114,11 +114,11 @@ const nab = () => (
       />
 
 <BodyText heading="Improving the small moments" eyebrow="The solution" accent="#C70000">
-        Micro-onoarding is a big part of banking. Whether it’s opening an account for the 1st or 100th time, 
+        Micro-onboarding is a big part of banking. Whether it’s opening an account for the 1st or 100th time, 
         those small moments needed attention in the existing NAB experience. 
         <br></br>
         <br></br>
-        We designed a New Account flow allowing customers to feel more guided, knowledgable and in control.
+        We designed a New Account flow allowing customers to feel more guided, knowledgeable and in control.
         This in turn enabled the business to gain a greater understanding of personalisation and the secondary features customers use the most.
         </BodyText>
 
@@ -215,9 +215,9 @@ We introduced new structures, smarter actions and accessible backups to improve 
       />
 
       <BodyText heading="Live chat" eyebrow="The solution" accent="#C70000">
-      To support customers evern more we designed a brand new chat interface. This made it easier for customers to get quick help from anywhere in the app.
+      To support customers even more we designed a brand new chat interface. This made it easier for customers to get quick help from anywhere in the app.
       <br></br><br></br>
-      A minimised state made it easier and more intuitive for users to get instructions from the chat assisstant and navigate the app. 
+      A minimised state made it easier and more intuitive for users to get instructions from the chat assistant and navigate the app. 
       All while never losing the active session.
       </BodyText>
 
@@ -246,7 +246,7 @@ We introduced new structures, smarter actions and accessible backups to improve 
             width: 375,
             height: 771,
             border: "#EBEBEB",
-            caption: "Minimsed chat experience",
+            caption: "Minimised chat experience",
             type: "mobile",
             radius: 20,
           },

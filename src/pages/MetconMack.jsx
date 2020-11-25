@@ -75,7 +75,7 @@ const MetconMack = () => (
 
 
 <BodyText heading="Armed and ready" eyebrow="The solution" accent="#626262">
-The Nike Master trainer was equipted with an app to track the challengers workout. 
+The Nike Master trainer was equipped with an app to track the challengers workout. 
 Counting reps, comparing to the target and motivating each challenger to reach their 
 best. With only 1 minute to complete the workout, it’s an intense time for challenger and trainer. 
 <br/><br/>
@@ -118,7 +118,7 @@ majority of the screen to act as the rep counter.
             width: 375,
             height: 812,
             border: "#EBEBEB",
-            caption: "A finsihed workout. Not happy with your numbers? Go again.",
+            caption: "A finished workout. Not happy with your numbers? Go again.",
             type: "mobile",
             radius: 30,
           },

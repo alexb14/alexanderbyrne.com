@@ -13,7 +13,7 @@ import SignOff from "../components/SignOff";
 const polk = () => (
   <div>
     <IntroText heading="Polk Audio">
-    Bringing an accessible and aspirational experience to over 6 million mobile banking customers today and into the future.  
+    An overhauled buying and content experience which stayed true to the story of a heritage American audio company
     </IntroText>
     <div>
       <ProjectMeta
@@ -71,7 +71,7 @@ const polk = () => (
       
       <BodyText heading="A simpler foundation" eyebrow="The solution" accent="#B4442F">
       After our analysis and early customer research we overhauled Polk’s sitemap to create a simpler and more logical structure. 
-      Not only did this strengthen the foundation of the new build it also enabled the devlopment team to start bringing the new site to life.
+      Not only did this strengthen the foundation of the new build it also enabled the development team to start bringing the new site to life.
       </BodyText>
 
       <FullWidthMedia
@@ -94,7 +94,7 @@ const polk = () => (
       />
 
       <BodyText heading="Pointed Category + Sub-Category links" eyebrow="The solution" accent="#B4442F">
-        We design shortcuts in the form of a Product Ribbon component, placed right underneath the hero banner to allow customers aother entry point into the site.
+        We design shortcuts in the form of a Product Ribbon component, placed right underneath the hero banner to allow customers another entry point into the site.
         Studio photography, category groupings and 'from' pricing were locked up together to provide the user with the right amount of information and expectation.
         </BodyText>
 
@@ -177,8 +177,8 @@ const polk = () => (
       />
 
       <BodyText heading="Rethinking the product experience" eyebrow="The solution" accent="#B4442F">
-      With so much information from features, specs, review, companion apps and more we knew we needed to apporach these product pages in a non-traditional way.
-      In our analysis we noticed users would return 5 or 6 times before enter the conversion funnel. This made us think about an intuitve experience when landing here for the 1st of 6th time. 
+      With so much information from features, specs, review, companion apps and more we knew we needed to approach these product pages in a non-traditional way.
+      In our analysis we noticed users would return 5 or 6 times before entering the conversion funnel. This made us think about an intuitive experience when landing here for the 1st of 6th time. 
       <br></br>
       <br></br>
       Our final design resulted in a segmented product page. Each section clearly identified and fit for purpose. This allowed us to tell richer product stories around features and get to the point around specs and reviews.
@@ -220,7 +220,7 @@ const polk = () => (
 
       <BodyText heading="Consistency between Desktop and Mobile" eyebrow="The solution" accent="#B4442F">
       We worked through multiple concepts and ideas to create a product experience that was consistent but also purposeful for the platform. 
-      We utilised all areas of the screen to create a scrolliing experience that never left the cutomer far from important actions.
+      We utilised all areas of the screen to create a scrolling experience that never left the customer far from important actions.
       </BodyText>
 
       <Devices

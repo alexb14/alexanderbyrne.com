@@ -11,7 +11,7 @@ import SignOff from "../components/SignOff";
 const sidneyelcon = () => (
   <div>
     <IntroText heading="Sidney Sans & Elcon Serif">
-    Two custom typeafces designed in partnership for Australia’s largest fashion retailer. 
+    Two custom typefaces designed in partnership for Australia’s largest fashion retailer. 
     Touching on style, respecting heritage and focusing on accessibility, these two types are the new face of Myer.
     </IntroText>
     <div>
@@ -59,8 +59,8 @@ const sidneyelcon = () => (
 
       <BodyText heading="Sidney Sans" eyebrow="The Sans Serif solution" accent="#643986">
       Named after the founder of Myer, Sidney is a geometric sans serif typeface boasting simplified characters 
-      that have been designed to increase legibility and acccessibility. Sidney Sans has been designed to work in 
-      both Regular and Bold. Notice the speicialised characters to keep the typeface simple yet uniquely Myer.
+      that have been designed to increase legibility and accessibility. Sidney Sans has been designed to work in 
+      both Regular and Bold. Notice the specialised characters to keep the typeface simple yet uniquely Myer.
       </BodyText>
 
 
@@ -72,8 +72,8 @@ const sidneyelcon = () => (
       />
       
       <BodyText heading="Our new primary digital typeface" eyebrow="The Sans Serif solution" accent="#643986">
-      We went through multiple variations and versons of the typeface to find the perfect balance across our digital products. 
-      Sidney needed to work perfectly at small and large sizes, within UI comonents and pair beautifully with typical design assets.
+      We went through multiple variations and versions of the typeface to find the perfect balance across our digital products. 
+      Sidney needed to work perfectly at small and large sizes, within UI components and pair beautifully with typical design assets.
       </BodyText>
 
       <Devices
@@ -157,7 +157,7 @@ const sidneyelcon = () => (
 
       <BodyText heading="An even stronger appreciation" eyebrow="Learnings & Outcomes" accent="#643986">
       Typeface design is an entire other ball game. The consistency, fine-tuning and scale is an amazing challenge for a designer. 
-      Collaborating closely and talkign often with the team the TDF was crucial for the success of this project for the digital team and wider Myer brand.
+      Collaborating closely and talking often with the team the TDF was crucial for the success of this project for the digital team and wider Myer brand.
       Both typefaces began rolling out to all digital projects in early 2019. 
       </BodyText>
 
