@@ -41,7 +41,7 @@ const nab = () => (
       <BodyText heading="Outdated experience and unhappy customers" eyebrow="The problem" accent="#C70000">
       NAB hadn't updated their banking app for a number of years. Following declining reviews and NPS, 
       they wanted to redesign their app. With a heavy focus on accessibility, a simplified UI and better content hierarchy 
-      I lead the design of their new app which released in stages throughout 2020.
+      I lead the design of their new app which will be released in stages throughout 2020.
       </BodyText>
 
       <BodyText heading="Project goals" eyebrow="Key focus areas" accent="#C70000">

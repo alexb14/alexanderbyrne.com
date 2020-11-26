@@ -40,8 +40,7 @@ const polk = () => (
       />
 
       <BodyText heading="An eCommerce experiencing poor results" eyebrow="The problem" accent="#B4442F">
-      In the beginning, we wanted to establish a firm understanding of Polk’s online performance. 
-      We sifted through Google Analytics as well as up to date heat map data.
+      Low conversion rates, confusing navigation and a website not catered for their product range was hurtings Polk's online performance. 
       </BodyText>
 
       <BodyText heading="Out with the old" eyebrow="Project goals" accent="#B4442F">
@@ -112,6 +111,8 @@ const polk = () => (
           },
         ]}
       />
+
+      
 
 
       <BodyText heading="Adaptive product listings" eyebrow="The solution" accent="#B4442F">
