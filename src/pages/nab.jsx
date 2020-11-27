@@ -7,12 +7,13 @@ import TextMedia from "../components/TextMedia";
 import TextMediaGrid from "../components/TextMediaGrid";
 import Devices from "../components/Devices";
 import SignOff from "../components/SignOff";
+import Quote from "../components/Quote";
 
 
 const nab = () => (
   <div>
     <IntroText heading="National Australia Bank">
-    Bringing an accessible and aspirational experience to over 6 million mobile banking customers. 
+    Bringing an accessible and aspirational mobile experience to over 6 million banking customers every day.
     </IntroText>
     <div>
       <ProjectMeta
@@ -38,27 +39,27 @@ const nab = () => (
         height="1250"
       />
 
-      <BodyText heading="Outdated experience and unhappy customers" eyebrow="The problem" accent="#C70000">
-      NAB hadn't updated their banking app for a number of years. Following declining reviews and NPS, 
-      they wanted to redesign their app. With a heavy focus on accessibility, a simplified UI and better content hierarchy 
-      I lead the design of their new app which will be released in stages throughout 2020.
+      <BodyText heading="An outdated experience compounded by unsatisfied customers" eyebrow="The problem" accent="#C70000">
+      NAB hadn't updated the core banking features of their mobile app for a number of years. Following declining reviews and Net Promoter Scores, 
+      they identified a need to redesign their app to both better service their loyal customers and stay competitive with other emerging digital 
+      banking offerings.. With a heavy focus on accessibility, a simplified UI and better content hierarchy I led the design of their new app which 
+      is releasing in stages throughout 2020.
       </BodyText>
 
-      <BodyText heading="Project goals" eyebrow="Key focus areas" accent="#C70000">
-      • Create a foundation that will allow the app to be built upon into the future.<br></br>
+      <BodyText heading="" eyebrow="Key focus areas" accent="#C70000">
+      1. Create a foundation that will allow the app to be built upon into the future.<br></br><br></br>
       
-      • Champion accessibility in all design decisions.<br></br>
+      2. Champion accessibility in all design decisions.<br></br><br></br>
       
-      • Design a 'guiding light' for the other digital products throughout the business.
+      3. Design a 'guiding light' for the other digital products throughout the business.
       </BodyText>
 
-      <BodyText heading="Accounts" eyebrow="The solution" accent="#C70000">
-      One of the primary changes within the account screen was hierarchy. NAB’s primary content was small and condensed. 
-      That paired with illegible typography and off balanced actions, resulted in a frustrating experience for customers. 
-      <br></br>
-      <br></br>
-      We wanted to bring an improved hierarchy to these screens and also give users a more obvious interface. These changes not only improved 
-      the immediate appearance of the app, they also strengthened the foundations of an accessible experience. 
+      <BodyText heading="Accounts clarity" eyebrow="The solution" accent="#C70000">
+      One of the primary changes implemented within the account screen was an improved hierarchy. 
+      We brought in a brand new screen structure along with changes to typography, the formalisation of 
+      account groupings and the introduction of iconography. 
+      <br></br><br></br>
+      These changes not only improved the immediate appearance of the app, they also strengthened the foundations of an accessible experience.
       </BodyText>
 
       
@@ -76,9 +77,10 @@ const nab = () => (
         video
       />
       
-      <BodyText heading="Transaction details" eyebrow="The solution" accent="#C70000">
-      When designing the Transaction Details we hand to juggle a lot of elements and configuration. We aimed to make a template that worked for over 
-      10 Account types. All with their own information, actions and details.
+      <BodyText heading="Transaction Details for all use-cases" eyebrow="The solution" accent="#C70000">
+      The overhaul of the Transaction Details screen was the most challenging of the project. 
+      We pushed ourselves to create a template that could look visually consistent across over 10 account types; 
+      all with their own unique configuration of information, actions and details.
       </BodyText>
 
       <Devices
@@ -113,14 +115,12 @@ const nab = () => (
         ]}
       />
 
-<BodyText heading="Improving the small moments" eyebrow="The solution" accent="#C70000">
-        Micro-onboarding is a big part of banking. Whether it’s opening an account for the 1st or 100th time, 
-        those small moments needed attention in the existing NAB experience. 
-        <br></br>
-        <br></br>
-        We designed a New Account flow allowing customers to feel more guided, knowledgeable and in control.
-        This in turn enabled the business to gain a greater understanding of personalisation and the secondary features customers use the most.
-        </BodyText>
+      <BodyText heading="Micro-onboarding" eyebrow="The solution" accent="#C70000">
+        Whether it’s opening an account for the 1st or 100th time, we gave those small moments the attention that it needed within the existing NAB experience.
+        <br></br><br></br>
+        We designed a New Account flow to help customers feel more guided, knowledgeable and in control. 
+        This, in turn, enabled the business to gain a greater understanding of personalisation and the secondary features customers use the most.
+      </BodyText>
 
         <Devices
         items={[
@@ -137,46 +137,10 @@ const nab = () => (
         ]}
       />
 
-<BodyText heading="New management" eyebrow="The solution" accent="#C70000">
-Replacing a confusing and overlooked experience we focused on better ways to manage the small things in your account. 
-We introduced new structures, smarter actions and accessible backups to improve the experience for everyone.
-      </BodyText>
-
-      <Devices
-        items={[
-          {
-            media: "/images/nab/manage-overview.png",
-            width: 375,
-            height: 812,
-            border: "#EBEBEB",
-            caption: "Improved content grouping",
-            type: "mobile",
-            radius: 30,
-          },
-          {
-            media: "/images/nab/menage-details.png",
-            width: 375,
-            height: 812,
-            border: "#EBEBEB",
-            caption: "Smarter actions and content around sharing",
-            type: "mobile",
-            radius: 30,
-          },
-          {
-            media: "/images/nab/manage-options.png",
-            width: 375,
-            height: 812,
-            border: "#EBEBEB",
-            caption: "Simple layouts for accessible secondary actions",
-            type: "mobile",
-            radius: 30,
-          },
-        ]}
-      />
-
-        <BodyText heading="Building accessible foundations" eyebrow="The solution — Designing for everyone" accent="#C70000">
-              We wanted to take a stronger and more accountable approach to Accessibility with the app redesign. 
-              Baked into every screen, layout and component was the ability for readers to increase the text size, initiate voice over and use in landscape orientation.
+      <BodyText heading="Building accessible foundations" eyebrow="The solution — Designing for everyone" accent="#C70000">
+          WWe wanted to take a stronger and more accountable approach to Accessibility with the app redesign. 
+          Baked into every screen, layout and component was the ability for readers to increase the text size, 
+          initiate voice over and to use the app in landscape orientation.
       </BodyText>
 
       <Devices
@@ -204,8 +168,9 @@ We introduced new structures, smarter actions and accessible backups to improve 
       />      
 
       <BodyText heading="Cards" eyebrow="The solution" accent="#C70000">
-      With an abundance of content, settings and features the Cards section of the app 
-      was designed to be clear, organised and promote functions when you needed them.
+      With an abundance of content, settings and features the Cards section of the app was designed to be clear, organised and promote functions when you needed them.
+      We restructured card controls, implemented card status’ and heroes the most important actions the user might need day to day. 
+
       </BodyText>
       <FullWidthMedia
         type="hero"
@@ -215,10 +180,10 @@ We introduced new structures, smarter actions and accessible backups to improve 
       />
 
       <BodyText heading="Live chat" eyebrow="The solution" accent="#C70000">
-      To support customers even more we designed a brand new chat interface. This made it easier for customers to get quick help from anywhere in the app.
+      To support customers even further we designed a brand new chat interface to make it easier to get quick help from anywhere within the app.
       <br></br><br></br>
-      A minimised state made it easier and more intuitive for users to get instructions from the chat assistant and navigate the app. 
-      All while never losing the active session.
+      A minimised state made it quicker and more intuitive for users to get instructions from the chat assistant and navigate the app at the same time; all whilst never losing the active session.
+
       </BodyText>
 
       <Devices
@@ -253,12 +218,26 @@ We introduced new structures, smarter actions and accessible backups to improve 
         ]}
       />
 
-<BodyText heading="Approaching a 100+ Design team" eyebrow="Learnings & Outcomes" accent="#C70000">
+      <Quote
+        avatar="/images/nab/app-store.jpg"
+        citation="App Store review - Simplistic and Elegant • ★★★★★ "
+      >
+        “I welcome the refreshed and new layout. Everything works very quickly and has all the necessary functions needed on a consumer banking app. 
+        Best UI out of the big 4 Aus bank.”
+      </Quote>
+
+<BodyText heading="Tapping into the experience of a 100+ Design team" eyebrow="Learnings & Outcomes" accent="#C70000">
 With over 100 in-house designers, NAB had a comprehensive knowledge base containing successes and failures on their digital products. 
-Before starting to design or create solutions of my own I frequently talked and listened to the mobile and wider digital teams (both Design and Development) 
-to get a better understanding of what they have tried, tested and learnt before. 
+Before starting to design, or create any solutions of my own, I found it essential to engage and actively listen to the mobile and wider 
+digital teams (Key stakeholders, Design and Development). This enabled me to gain a better understanding of what they have tried, tested and 
+learnt before.
+<br></br><br></br>
+As we reached key milestones in the project, a challenging part of my role was to consistently present and showcase the future direction of the 
+new mobile app to Key Stakeholders and the wider NAB Digital teams. I learnt how to evolve my approach to storytelling to make sure all audiences 
+left feeling heard, informed, inspired and, importantly, confident about the new app.
 <br></br><br></br>
 NAB began a staged release of their new app in early 2020.
+
       </BodyText>
 
       
@@ -268,37 +247,75 @@ NAB began a staged release of their new app in early 2020.
     <TextMediaGrid columns={2} flush={true}>
     <TextMedia
         link="/myer"
-        media="/images/projects/myer-tile2.png"
+        media="/images/tiles/myer-2.jpg"
         width="610"
         height="736"
-        flip
+        eyebrow="eCommerce redesign ◦ Design system ◦ User Testing ◦ Interaction design"
+        accent="#74747B"
+        
       >
         <h2>Myer — eCommerce website</h2>
         <p>
         A brightened e-commerce experience for Australia’s largest home and fashion retailer.
         </p>
-      </TextMedia>
+        </TextMedia>
+
+   
 
       <TextMedia
-        link="/unlockmelbourne"
-        media="/images/projects/unlockmelb-tile.png"
+        link="/sidneyelcon"
+        media="/images/tiles/sidney-elcon.jpg"
         width="610"
-        height="520"
-        flip
+        height="647"
+        eyebrow="Typography design ◦ Accessibility"
+        accent="#74747B"
+        
       >
-        <h2>Unlock Melbourne — App</h2>
-        <p>Giving international students a fun and informative way to enjoy their new city.</p>
+        <h2>Sidney & Elcon — Typeface design</h2>
+        <p>Two custom typefaces for Australia's largest department store.</p>
       </TextMedia>
+
 
       <TextMedia
         link="/metcon-mack"
         media="/images/projects/metconmack-tile2.png"
         width="610"
         height="736"
+        eyebrow="Mulitchannel experience ◦ Interaction design ◦ Tablet + Mobile App"
+        accent="#74747B"
         flip
       >
         <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
         <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
+      </TextMedia>
+
+
+      <TextMedia
+        link="/polk"
+        media="/images/tiles/polk-2.jpg"
+        width="610"
+        height="590"
+        eyebrow="eCommerce redesign ◦ Research ◦ Interaction design"
+        accent="#74747B"
+        flip
+      >
+        <h2>Polk Audio — eCommerce website</h2>
+        <p>
+        A product-first redesign for a heritage American audio company.
+        </p>
+      </TextMedia>
+
+      <TextMedia
+        link="/unlockmelbourne"
+        media="/images/tiles/um-3.jpg"
+        width="610"
+        height="520"
+        eyebrow="iOS + Android app ◦ Interaction design"
+        accent="#74747B"
+        flip
+      >
+        <h2>Unlock Melbourne — App</h2>
+        <p>Giving international students a fun and informative way to enjoy their new city.</p>
       </TextMedia>
     </TextMediaGrid>
 

@@ -37,7 +37,7 @@ const SeeMoreLink = styled(NavLink)`
 
 const Home = () => (
   <div>
-    <h1>Product, App and eCommerce Design Lead in London.</h1>
+    <h1>Experience and Interaction <br></br>Design Lead in London</h1>
     <TextMediaGrid columns={2}>
     <TextMedia
         link="/nab"

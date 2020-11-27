@@ -13,7 +13,8 @@ import SignOff from "../components/SignOff";
 const polk = () => (
   <div>
     <IntroText heading="Polk Audio">
-    An overhauled buying and content experience which stayed true to the story of a heritage American audio company
+    An overhauled buying and content experience for an international eCommerce website, 
+    whilst staying true to the brand story of a heritage American audio company.
     </IntroText>
     <div>
       <ProjectMeta
@@ -39,25 +40,31 @@ const polk = () => (
         height="1200"
       />
 
-      <BodyText heading="An eCommerce experiencing poor results" eyebrow="The problem" accent="#B4442F">
-      Low conversion rates, confusing navigation and a website not catered for their product range was hurtings Polk's online performance. 
+      <BodyText heading="An eCommerce website experiencing poor conversion" eyebrow="The problem" accent="#B4442F">
+      Polk Audio’s eCommerce website was operating at a 0.15% conversion rate, well below the industry average of 2.5%. 
+      The current website’s content and navigation was also structured around traditional site entry points and journeys. 
+      This caused friction for potential customers resulting in high user bounce rates. These data insights, along with an 
+      incoming full brand refresh, caused Polk to shift focus to their digital offerings and define a new approach. 
       </BodyText>
 
-      <BodyText heading="Out with the old" eyebrow="Project goals" accent="#B4442F">
-      • Redesign the existing Polk website implementing the updated brand.
+      <BodyText heading="" eyebrow="Key focus areas" accent="#B4442F">
+      1. A componentised approach was required to future-proof potential roll out across other sibling websites on the same platform (Polk Audio is one of 11 sites on a shared development platform).
       <br></br>
-      • Create a design that tailors to the Polk product range.
       <br></br>
-      • Design a faster journey to product experience.
+      2. Consider the impact of a full brand refresh within the new website redesign.
+      <br></br>
+      <br></br>
+      3. Ensure the design could be tailored to showcase the Polk product range in the best light.
+
       </BodyText>
 
       <BodyText heading="Analysing current performance" eyebrow="Approach — Research" accent="#B4442F">
       In the beginning, we wanted to establish a firm understanding of Polk’s online performance. 
-      We sifted through Google Analytics as well as up to date heat map data.
+      We sifted through Google Analytics as well as current heat map data. 
       <br></br>
       <br></br>
-      From this we dove into strategising how to improve the bigger problem areas as well as talking the client 
-      through how the getting the small 1% correct could make a positive impact on conversion. 
+      From this we were able to identify and report on the bigger problem areas as well as small 
+      opportunities with the potential for big impacts for conversion. 
       </BodyText>
 
 
@@ -70,7 +77,7 @@ const polk = () => (
       
       <BodyText heading="A simpler foundation" eyebrow="The solution" accent="#B4442F">
       After our analysis and early customer research we overhauled Polk’s sitemap to create a simpler and more logical structure. 
-      Not only did this strengthen the foundation of the new build it also enabled the development team to start bringing the new site to life.
+      This strengthened the new site's foundation and fixed the existing confusing navigation.
       </BodyText>
 
       <FullWidthMedia
@@ -80,9 +87,10 @@ const polk = () => (
         height="3732"
       />
 
-<BodyText heading="A homepage that got customers off the homepage" eyebrow="The solution" accent="#B4442F">
-        Whether it be Product launches, Sale events, VIP listening session or everyday in between, 
-        we designed an adaptable homepage hero to drive customers from the homepage into a purchase, research and browsing journey.
+<BodyText heading="A Homepage that got customers off the Homepage" eyebrow="The solution" accent="#B4442F">
+Whether it be Product launches, Sale events, VIP listening sessions or any day in between, 
+we designed an adaptable Homepage hero to drive customers from the Homepage into a purchase, 
+research or browsing journey as defined by evolving business needs.
         </BodyText>
 
         <FullWidthMedia
@@ -93,9 +101,10 @@ const polk = () => (
       />
 
       <BodyText heading="Pointed Category + Sub-Category links" eyebrow="The solution" accent="#B4442F">
-        We design shortcuts in the form of a Product Ribbon component, placed right underneath the hero banner to allow customers another entry point into the site.
-        Studio photography, category groupings and 'from' pricing were locked up together to provide the user with the right amount of information and expectation.
-        </BodyText>
+      Shortcuts in the form of a Product Ribbon component, were placed right underneath the hero banner, 
+      to provide customers another way to discover products quickly. Studio photography, category groupings 
+      and 'from' pricing were locked up together to provide the user with just the right amount of information to set expectations.
+      </BodyText>
 
       <Devices
         items={[
@@ -112,64 +121,6 @@ const polk = () => (
         ]}
       />
 
-      
-
-
-      <BodyText heading="Adaptive product listings" eyebrow="The solution" accent="#B4442F">
-      We designed product listing components that adapted to Polk’s diverse product range; compact home theatre systems, beautifully wide sound bars and skyscraper-like speakers.
-      This enabled us to showcase their products in the best light whilst maintaining a structured grid to ease development.
-      </BodyText>
-
-      <FullWidthMedia
-        type="hero"
-        media="/images/polk/plp.jpg"
-        width="2000"
-        height="1600"
-      />
-
-
-      <Devices
-        items={[
-          {
-            media: "/images/polk/plp-mobile-1.png",
-            width: 375,
-            height: 812,
-            border: "#EBEBEB",
-            caption: "",
-            type: "mobile",
-            radius: 0,
-          },
-          {
-            media: "/images/polk/plp-mobile-2.png",
-            width: 375,
-            height: 812,
-            border: "#EBEBEB",
-            caption: "",
-            type: "mobile",
-            radius: 0,
-          },
-          {
-            media: "/images/polk/plp-mobile-3.png",
-            width: 375,
-            height: 812,
-            border: "#EBEBEB",
-            caption: "",
-            type: "mobile",
-            radius: 0,
-          },
-        ]}
-      />
-
-        <Quote
-        avatar="/images/polk/ben.jpg"
-        citation="Ben Aldred — Chief Design Officer, This Place "
-      >
-        “I am not going to lie, that was one of the most satisfying client reviews I have ever been a part of. 
-        It felt incredibly well articulated from start to finish in terms of rationalizing design decisions, 
-        opening up to the client for thoughtful discussion and also pushing them on a project planning perspective.”
-      </Quote>
-
-
       <FullWidthMedia
         type="hero"
         media="/images/polk/hmc-mock.jpg"
@@ -178,11 +129,14 @@ const polk = () => (
       />
 
       <BodyText heading="Rethinking the product experience" eyebrow="The solution" accent="#B4442F">
-      With so much information from features, specs, review, companion apps and more we knew we needed to approach these product pages in a non-traditional way.
-      In our analysis we noticed users would return 5 or 6 times before entering the conversion funnel. This made us think about an intuitive experience when landing here for the 1st of 6th time. 
+      With so much information from features, specs, review, companion apps and more, we knew we needed to approach 
+      these Product Pages in a non-traditional way. In our analysis, we noticed users would return 5 or 6 times before 
+      entering the conversion funnel. This made us think about how to make this a useful experience whether landing here for the 1st or the 6th time. 
       <br></br>
       <br></br>
-      Our final design resulted in a segmented product page. Each section clearly identified and fit for purpose. This allowed us to tell richer product stories around features and get to the point around specs and reviews.
+      Our final design resulted in a Product Page with its own mini navigation. Each section clearly identified and fit for purpose. 
+      This allowed us to tell richer product stories around features and get to the point in providing Specs and Reviews.
+
       </BodyText>
 
       <Devices
@@ -199,29 +153,10 @@ const polk = () => (
           },
         ]}
       />
-
-<BodyText heading="High end products, high end design" eyebrow="The solution" accent="#B4442F">
-      We respected the quality, legacy and price difference in Polk's high end product range. We designed a worthy product hero section to showcase their high end speakers.
-      </BodyText>
-
-      <Devices
-        items={[
-          {
-            media: "/images/polk/polk-legend.jpg",
-            width: 1920,
-            height: 2980,
-            border: "#EBEBEB",
-            caption: " ",
-            type: "desktop",
-            radius: 20,
-          },
-        ]}
-      />
       
-
       <BodyText heading="Consistency between Desktop and Mobile" eyebrow="The solution" accent="#B4442F">
-      We worked through multiple concepts and ideas to create a product experience that was consistent but also purposeful for the platform. 
-      We utilised all areas of the screen to create a scrolling experience that never left the customer far from important actions.
+      Multiple concepts and ideas were worked through to craft a product experience that was consistent, but also purposeful, for the platform. 
+      We utilised all areas of the screen to create a scrolling experience that never left the customer far from the important actions.
       </BodyText>
 
       <Devices
@@ -258,58 +193,89 @@ const polk = () => (
         ]}
       />
 
+      <Quote
+        avatar="/images/polk/ben.jpg"
+        citation="Ben Aldred — Chief Design Officer, This Place "
+      >
+        “I am not going to lie, that was one of the most satisfying client reviews I have ever been a part of. 
+        It felt incredibly well articulated from start to finish in terms of rationalizing design decisions, 
+        opening up to the client for thoughtful discussion and also pushing them on a project planning perspective.”
+      </Quote>
         
 
       <BodyText heading="Leading a redesign in a pandemic" eyebrow="Learnings & Outcomes" accent="#B4442F">
-      Like many, this was my first pandemic project. Not only, was I distant from the team, 
-      I also balanced a client and Chief Design Officer (CDO) in a different time zone. 
-      
-      I learnt how to improve my storytelling and presenting and adapted it for our tri-weekly zoom calls. 
-      
-      Given the time zone difference there were small windows to check-in with the CDO. 
-      
-      This pushed me to rethink my file structures and allowed the CDO to pop into the file and know exactly where the designs were at. 
-
-      <br></br><br></br>
-
-      Following the launch of the new website in October, Polk Audio saw a 500% increase in online sales on the first Tuesday post launch. A stat that the entire team was very proud of.
-
-
+      Like many, this was my first pandemic project. Not only was I physically distant from the team, I needed to also balance a client and 
+      Chief Design Officer (CDO) in a different time zone. I learnt how to improve my communication style and how to adapt the content for 
+      our tri-weekly showcases via Zoom. 
+      <br></br>
+      <br></br>
+      Given there were small windows to check-in with the CDO, I also pushed myself to rethink my file structures to ensure that they 
+      could pop into the file at any given time and know exactly what stage the design work was at. 
+      <br></br>
+      <br></br>
+      Following the launch of the new website in October 2020, Polk Audio saw a 500% increase in online sales in it’s first week post-launch. 
+      A stat that exceeded the expectations of the entire team and is very proud of.
       </BodyText>
 
 
       <h3>Here's a few more projects</h3>
 
     <TextMediaGrid columns={2} flush={true}>
-    <TextMedia
-        link="/myer"
-        media="/images/projects/myer-tile2.png"
-        width="610"
-        height="736"
-        flip
-      >
-        <h2>Myer — eCommerce website</h2>
-        <p>
-        A brightened e-commerce experience for Australia’s largest home and fashion retailer.
-        </p>
-      </TextMedia>
 
-      <TextMedia
+    <TextMedia
         link="/unlockmelbourne"
-        media="/images/projects/unlockmelb-tile.png"
+        media="/images/tiles/um-3.jpg"
         width="610"
         height="520"
+        eyebrow="iOS + Android app ◦ Interaction design"
+        accent="#74747B"
         flip
       >
         <h2>Unlock Melbourne — App</h2>
         <p>Giving international students a fun and informative way to enjoy their new city.</p>
       </TextMedia>
+      
+    <TextMedia
+        link="/myer"
+        media="/images/tiles/myer-2.jpg"
+        width="610"
+        height="736"
+        eyebrow="eCommerce redesign ◦ Design system ◦ User Testing ◦ Interaction design"
+        accent="#74747B"
+        
+      >
+        <h2>Myer — eCommerce website</h2>
+        <p>
+        A brightened e-commerce experience for Australia’s largest home and fashion retailer.
+        </p>
+        </TextMedia>
+
+   
+
+      <TextMedia
+        link="/sidneyelcon"
+        media="/images/tiles/sidney-elcon.jpg"
+        width="610"
+        height="647"
+        eyebrow="Typography design ◦ Accessibility"
+        accent="#74747B"
+        
+      >
+        <h2>Sidney & Elcon — Typeface design</h2>
+        <p>Two custom typefaces for Australia's largest department store.</p>
+      </TextMedia>
+
+      
+     
+      
 
       <TextMedia
         link="/metcon-mack"
         media="/images/projects/metconmack-tile2.png"
         width="610"
         height="736"
+        eyebrow="Mulitchannel experience ◦ Interaction design ◦ Tablet + Mobile App"
+        accent="#74747B"
         flip
       >
         <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
@@ -318,14 +284,20 @@ const polk = () => (
 
       <TextMedia
         link="/nab"
-        media="/images/projects/nab-tile2.png"
+        media="/images/tiles/nab-1.png"
         width="610"
         height="649"
-        locked
+        eyebrow="iOS + Android app ◦ Accessibility"
+        accent="#74747B"
+        
       >
         <h2>National Australia Bank — App</h2>
         <p>A re-imagining of the core mobile banking experience for today and into the future.</p>
       </TextMedia>
+
+      
+
+      
 
     </TextMediaGrid>
 

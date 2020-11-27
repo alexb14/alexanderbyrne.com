@@ -167,33 +167,27 @@ const sidneyelcon = () => (
     <TextMediaGrid columns={2} flush={true}>
     <TextMedia
         link="/myer"
-        media="/images/projects/myer-tile2.png"
+        media="/images/tiles/myer-2.jpg"
         width="610"
         height="736"
-        flip
+        eyebrow="eCommerce redesign ◦ Design system ◦ User Testing ◦ Interaction design"
+        accent="#74747B"
+        
       >
         <h2>Myer — eCommerce website</h2>
         <p>
         A brightened e-commerce experience for Australia’s largest home and fashion retailer.
         </p>
-      </TextMedia>
-
-      <TextMedia
-        link="/unlockmelbourne"
-        media="/images/projects/unlockmelb-tile.png"
-        width="610"
-        height="520"
-        flip
-      >
-        <h2>Unlock Melbourne — App</h2>
-        <p>Giving international students a fun and informative way to enjoy their new city.</p>
-      </TextMedia>
-
-      <TextMedia
+        </TextMedia>
+        
+        
+        <TextMedia
         link="/metcon-mack"
         media="/images/projects/metconmack-tile2.png"
         width="610"
         height="736"
+        eyebrow="Mulitchannel experience ◦ Interaction design ◦ Tablet + Mobile App"
+        accent="#74747B"
         flip
       >
         <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
@@ -202,13 +196,43 @@ const sidneyelcon = () => (
 
       <TextMedia
         link="/nab"
-        media="/images/projects/nab-tile2.png"
+        media="/images/tiles/nab-1.png"
         width="610"
         height="649"
-        locked
+        eyebrow="iOS + Android app ◦ Accessibility"
+        accent="#74747B"
+        
       >
         <h2>National Australia Bank — App</h2>
         <p>A re-imagining of the core mobile banking experience for today and into the future.</p>
+      </TextMedia>
+
+      <TextMedia
+        link="/polk"
+        media="/images/tiles/polk-2.jpg"
+        width="610"
+        height="590"
+        eyebrow="eCommerce redesign ◦ Research ◦ Interaction design"
+        accent="#74747B"
+        flip
+      >
+        <h2>Polk Audio — eCommerce website</h2>
+        <p>
+        A product-first redesign for a heritage American audio company.
+        </p>
+      </TextMedia>
+
+      <TextMedia
+        link="/unlockmelbourne"
+        media="/images/tiles/um-3.jpg"
+        width="610"
+        height="520"
+        eyebrow="iOS + Android app ◦ Interaction design"
+        accent="#74747B"
+        flip
+      >
+        <h2>Unlock Melbourne — App</h2>
+        <p>Giving international students a fun and informative way to enjoy their new city.</p>
       </TextMedia>
 
     </TextMediaGrid>
