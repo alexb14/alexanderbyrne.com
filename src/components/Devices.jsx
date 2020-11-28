@@ -5,7 +5,7 @@ import Video from "./Video";
 import { breakpoint, fontSize } from "../utils/styled";
 
 const Root = styled.div`
-  margin: 16% 0 0;
+  margin: 12% 0 0;
 `;
 
 const Wrapper = styled.div`

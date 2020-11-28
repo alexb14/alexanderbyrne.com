@@ -4,7 +4,7 @@ import { fontSize, breakpoint } from "../utils/styled";
 
 const Root = styled.div`
   max-width: 750px;
-  margin: 16.1% auto;
+  margin: 10% auto;
   ${breakpoint.down`margin: 25% auto`};
 `;
 
