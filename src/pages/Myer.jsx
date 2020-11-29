@@ -113,7 +113,7 @@ const Myer = () => (
             width: 375,
             height: 1014,
             border: "#E6EFF2",
-            caption: " ",
+            caption: "",
             type: "mobile",
             radius: 30,
           },
@@ -221,7 +221,7 @@ const Myer = () => (
         <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
         <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
       </TextMedia>
-      
+
       <TextMedia
         link="/sidneyelcon"
         media="/images/tiles/sidney-elcon.jpg"
