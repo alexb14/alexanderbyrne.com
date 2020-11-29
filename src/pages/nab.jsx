@@ -32,12 +32,16 @@ const nab = () => (
           },
         ]}
       />
-      <FullWidthMedia
+
+< FullWidthMedia
         type="hero"
-        media="/images/nab/hero.jpg"
-        width="2000"
-        height="1250"
+        media="/images/nab/Mock-2.webm"
+        width="1920"
+        height="1080"
+        video
       />
+
+      
 
       <BodyText heading="An outdated experience compounded by unsatisfied customers" eyebrow="The problem" accent="#C70000">
       NAB hadn't updated the core banking features of their mobile app for a number of years. Following declining reviews and Net Promoter Scores, 
@@ -69,13 +73,7 @@ const nab = () => (
         width="2000"
         height="1132"
       />
-      < FullWidthMedia
-        type="hero"
-        media="/images/nab/Mock-2.webm"
-        width="1920"
-        height="1080"
-        video
-      />
+     
       
       <BodyText heading="Transaction Details for all use-cases" eyebrow="The solution" accent="#C70000">
       The overhaul of the Transaction Details screen was the most challenging of the project. 
@@ -115,6 +113,18 @@ const nab = () => (
         ]}
       />
 
+<BodyText heading="Cards" eyebrow="The solution" accent="#C70000">
+      With an abundance of content, settings and features the Cards section of the app was designed to be clear, organised and promote functions when you needed them.
+      We restructured card controls, implemented card status’ and heroes the most important actions the user might need day to day. 
+
+      </BodyText>
+      <FullWidthMedia
+        type="hero"
+        media="/images/nab/cards.png"
+        width="2000"
+        height="1825"
+      />
+
       <BodyText heading="Micro-onboarding" eyebrow="The solution" accent="#C70000">
         Whether it’s opening an account for the 1st or 100th time, we gave those small moments the attention that it needed within the existing NAB experience.
         <br></br><br></br>
@@ -146,7 +156,7 @@ const nab = () => (
       <Devices
         items={[
           {
-            media: "/images/nab/accessible/large-text.png",
+            media: "/images/nab/A11Y Dark Account.png",
             width: 375,
             height: 812,
             border: "#EBEBEB",
@@ -155,7 +165,7 @@ const nab = () => (
             radius: 30,
           },
           {
-            media: "/images/nab/accessible/landscape.png",
+            media: "/images/nab/A11Y Dark TD.png",
             width: 812,
             height: 375,
             border: "#EBEBEB",
@@ -167,23 +177,12 @@ const nab = () => (
         ]}
       />      
 
-      <BodyText heading="Cards" eyebrow="The solution" accent="#C70000">
-      With an abundance of content, settings and features the Cards section of the app was designed to be clear, organised and promote functions when you needed them.
-      We restructured card controls, implemented card status’ and heroes the most important actions the user might need day to day. 
-
-      </BodyText>
-      <FullWidthMedia
-        type="hero"
-        media="/images/nab/cards.png"
-        width="2000"
-        height="1825"
-      />
+      
 
       <BodyText heading="Live chat" eyebrow="The solution" accent="#C70000">
       To support customers even further we designed a brand new chat interface to make it easier to get quick help from anywhere within the app.
       <br></br><br></br>
       A minimised state made it quicker and more intuitive for users to get instructions from the chat assistant and navigate the app at the same time; all whilst never losing the active session.
-
       </BodyText>
 
       <Devices
@@ -217,6 +216,8 @@ const nab = () => (
           },
         ]}
       />
+
+
 
       <Quote
         avatar="/images/nab/app-store.jpg"

@@ -33,12 +33,23 @@ const polk = () => (
           },
         ]}
       />
-      <FullWidthMedia
-        type="hero"
-        media="/images/polk/hmc-mock.jpg"
-        width="2000"
-        height="1500"
+
+<Devices
+        items={[
+          {
+            media: "/images/polk/Product-Ribbon-2.webm",
+            width: 1920,
+            height: 1080,
+            border: "#EBEBEB",
+            caption: "Prototype navigating from Homepage to Category through the Product Ribbon.",
+            type: "desktop",
+            radius: 20,
+            video: true
+          },
+        ]}
       />
+
+    
 
       <BodyText heading="An eCommerce website experiencing poor conversion" eyebrow="The problem" accent="#B4442F">
       Polk Audio’s eCommerce website was operating at a 0.15% conversion rate, well below the industry average of 2.5%. 
@@ -82,31 +93,11 @@ const polk = () => (
 
       <FullWidthMedia
         type="desktop"
-        media="/images/polk/sitemap.png"
-        width="4202"
-        height="3732"
+        media="/images/polk/sitemap-2.png"
+        width="3501"
+        height="1650"
       />
 
-<BodyText heading="Pointed Category + Sub-Category links" eyebrow="The solution" accent="#B4442F">
-      Shortcuts in the form of a Product Ribbon component, were placed right underneath the hero banner, 
-      to provide customers another way to discover products quickly. Studio photography, category groupings 
-      and 'from' pricing were locked up together to provide the user with just the right amount of information to set expectations.
-      </BodyText>
-
-      <Devices
-        items={[
-          {
-            media: "/images/polk/Product-Ribbon-2.webm",
-            width: 1920,
-            height: 1080,
-            border: "#EBEBEB",
-            caption: "Prototype navigating from Homepage to Category through the Product Ribbon.",
-            type: "desktop",
-            radius: 20,
-            video: true
-          },
-        ]}
-      />
 
 <BodyText heading="A homepage that helps customers get to where they want to go" eyebrow="The solution" accent="#B4442F">
 Whether it be Product launches, Sale events, VIP listening sessions or any day in between, 

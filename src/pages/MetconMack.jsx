@@ -24,11 +24,11 @@ const MetconMack = () => (
         },
         {
           label: "When",
-          value: "Sometime in 2016",
+          value: "December 2016",
         },
         {
           label: "Heavy rotation",
-          value: "Nervous Energy by Glades",
+          value: "Gold by Kiiara",
         },
       ]}
     />
@@ -39,7 +39,7 @@ const MetconMack = () => (
       height="1138"
     />
 
-    <BodyText heading="" eyebrow="The problem" accent="#626262">
+    <BodyText heading="" eyebrow="The problem" accent="#FA5400">
     Nike needed an elevated digital experience (inside a truck!) that could be used for the potential customers 
     to actively trial their new product. So we created a dedicated workout station with multiple touch points 
     where participants could compete to beat targets set by Nike’s elite athletes.
@@ -48,10 +48,10 @@ const MetconMack = () => (
     Integrated into their training experience, we worked hard behind the scenes so all they had to do was sweat.
     </BodyText>
 
-    <BodyText heading="" eyebrow="Goals" accent="#626262">
-    1. The experience needed to be a heavily tech-first in approach, but the experience invisible to the participants and staff running the show
+    <BodyText heading="" eyebrow="Key focus areas" accent="#FA5400">
+    1. The experience needed to be heavily tech-first in approach, but invisible to the participants and staff running the show.
     <br></br><br></br>
-    2. Designing for multiple device (TV, iPad, iPhone) & multiple audiences simultaneously
+    2. Designing for multiple device (TV, iPad, iPhone) & multiple audiences simultaneously.
     <br></br><br></br>
     3. Keep each touch point, experience and design highly premium and on brand.
     
@@ -65,26 +65,14 @@ const MetconMack = () => (
             height: 1536,
             border: "#323235",
             type: "desktop",
-            caption: "The opponent, challenge and shoe selection flow.",
+            caption: "The protoyped opponent, challenge and shoe selection flow.",
             radius: 50,
             video: true
           },
         ]}
       />
 
-
-      <FullWidthMedia
-        media="/images/metcon-mack/iPad-3.jpg"
-        width="3000"
-        height="1958"
-      />
-
-      
-
-    
-
-
-<BodyText heading="Armed and ready" eyebrow="The solution" accent="#626262">
+<BodyText heading="Armed and ready" eyebrow="The solution" accent="#FA5400">
 The Nike Master trainer was equipped with an app to track the challengers workout. 
 Counting reps, comparing to the target and motivating each challenger to reach their best. 
 With only 1 minute to complete the workout, it’s an intense time for challenger and trainer. 
@@ -97,10 +85,10 @@ With only 1 minute to complete the workout, it’s an intense time for challenge
         width="3000"
         height="2000"
       />
-<BodyText>
-A highly contextual design, crafter to the situation the Trainers were in, resulted in a fluid experience that 
-so simple and intuitive they could focus their attention on motivating each challneger and away from the 
-app. Once the workout began, we removed buttons for counting reps, instead, allowing the majority of the screen to act as the rep counter.
+<BodyText heading="3... 2... 1... GO!" eyebrow="The solution" accent="#FA5400">
+A highly contextual design, crafted to the situation the Trainers were in. This resulted in a fluid experience that was
+so simple and intuitive, they could focus their attention on motivating each challenger.
+ Once the workout began, we removed buttons allowing the majority of the screen to act as the rep counter.
     </BodyText>
 
 <Devices
@@ -135,14 +123,9 @@ app. Once the workout began, we removed buttons for counting reps, instead, allo
         ]}
       />
 
-<FullWidthMedia
-        type="hero"
-        media="/images/metcon-mack/event-2.jpg"
-        width="2458"
-        height="1220"
-      />
 
-<BodyText heading="Crowd support" eyebrow="The solution" accent="#626262">
+
+<BodyText heading="Crowd support" eyebrow="The solution" accent="#FA5400">
 The experience was completed as the awaiting challengers and crowd watched reps get counted in real time on an external screen.
     </BodyText>
 
@@ -152,7 +135,51 @@ The experience was completed as the awaiting challengers and crowd watched reps 
         height="915"
       />  
 
-<BodyText heading="Simultaneous user experiences" eyebrow="Learnings & outcomes" accent="#626262">
+<BodyText heading="Driving social engagement" eyebrow="The solution" accent="#FA5400">
+To complete the activation experience we designed social content that the Nike Women could engage with and social assets they could share. 
+From geo tagged filters, performance results posts to social landing pages about the event.
+    </BodyText>
+
+<Devices
+        items={[
+          {
+            media: "/images/metcon-mack/snapchat.png",
+            width: 375,
+            height: 812,
+            border: "#EBEBEB",
+            caption: "Snapchat location filters",
+            type: "mobile",
+            radius: 30,
+          },
+          {
+            media: "/images/metcon-mack/instagram.png",
+            width: 375,
+            height: 812,
+            border: "#EBEBEB",
+            caption: "Shareable results",
+            type: "mobile",
+            radius: 30,
+          },
+          {
+            media: "/images/metcon-mack/facebook.png",
+            width: 375,
+            height: 812,
+            border: "#EBEBEB",
+            caption: "Social campaign pages",
+            type: "mobile",
+            radius: 30,
+          },
+        ]}
+      />
+
+<FullWidthMedia
+        type="hero"
+        media="/images/metcon-mack/event-3.jpg"
+        width="1200"
+        height="800"
+      />
+
+<BodyText heading="Simultaneous user experiences" eyebrow="Learnings & outcomes" accent="#FA5400">
 Anyone who has designed for Nike knows it's not easy, but it's extremely rewarding. 
 This project challenged me to think harder and more strategically about how to best design interfaces 
 for 3 simultaneous touch-points, each on a different medium and being used by a separate audience. 
