@@ -11,9 +11,9 @@ import SignOff from "../components/SignOff";
 const MetconMack = () => (
   <div>
   <IntroText heading="Nike Metcon Mack">
-  <p>Who else turns a Mack Truck into a travelling cross-fit gym to cover the 
-    east coast of Australia? Nike needed an elevated digital experience with 
-    multiple touch points for the launch of their new trainer and to empower women everywhere.</p> 
+  <p>Nike enlisted six of Australia’s best female athletes to motivate women on a 10-day road trip down the east coast. 
+    Travelling in a Metcon-branded, double-trailer Mack truck fitted with a custom gym, Nike invited members of the 
+    public to sweat it out at epic workouts, at every stop along the way.</p> 
   </IntroText>
   <div>
     <ProjectMeta
@@ -39,24 +39,22 @@ const MetconMack = () => (
       height="1138"
     />
 
-    <BodyText heading="A workout all over" eyebrow="The goal" accent="#626262">
-    Nike partnered with Australia’s and New Zealand’s best female athletes 
-    to set workout targets for everyone to try and reach. In turn, they needed 
-    a way to inspire, track and engage their NTC Women throughout the experience.
-    <br/><br/>The challengers chose their workout and opponent from a mounted iPad onboard 
-    the truck. They could explore all targets, enter their details and select 
-    the shoe they were given to perform the workout in.
+    <BodyText heading="" eyebrow="The problem" accent="#626262">
+    Nike needed an elevated digital experience (inside a truck!) that could be used for the potential customers 
+    to actively trial their new product. So we created a dedicated workout station with multiple touch points 
+    where participants could compete to beat targets set by Nike’s elite athletes.
+    <br></br><br></br>
+    The whole experience had to be automated with no user input beyond turning a laptop on at each stop along the road trip. 
+    Integrated into their training experience, we worked hard behind the scenes so all they had to do was sweat.
     </BodyText>
 
-      <FullWidthMedia
-        media="/images/metcon-mack/iPad-3.jpg"
-        width="3000"
-        height="1958"
-      />
-
-      <BodyText heading="Burpees or push-ups?" eyebrow="The solution" accent="#626262">
-      We wanted to design familiar cues into the opponent selection part of the app. 
-      Making it feel slightly arcade but balanced with the premium feel or Nike.
+    <BodyText heading="" eyebrow="Goals" accent="#626262">
+    1. The experience needed to be a heavily tech-first in approach, but the experience invisible to the participants and staff running the show
+    <br></br><br></br>
+    2. Designing for multiple device (TV, iPad, iPhone) & multiple audiences simultaneously
+    <br></br><br></br>
+    3. Keep each touch point, experience and design highly premium and on brand.
+    
     </BodyText>
 
     <Devices
@@ -67,6 +65,7 @@ const MetconMack = () => (
             height: 1536,
             border: "#323235",
             type: "desktop",
+            caption: "The opponent, challenge and shoe selection flow.",
             radius: 50,
             video: true
           },
@@ -74,10 +73,21 @@ const MetconMack = () => (
       />
 
 
+      <FullWidthMedia
+        media="/images/metcon-mack/iPad-3.jpg"
+        width="3000"
+        height="1958"
+      />
+
+      
+
+    
+
+
 <BodyText heading="Armed and ready" eyebrow="The solution" accent="#626262">
 The Nike Master trainer was equipped with an app to track the challengers workout. 
-Counting reps, comparing to the target and motivating each challenger to reach their 
-best. With only 1 minute to complete the workout, it’s an intense time for challenger and trainer. 
+Counting reps, comparing to the target and motivating each challenger to reach their best. 
+With only 1 minute to complete the workout, it’s an intense time for challenger and trainer. 
 <br/><br/>
 </BodyText>
 
@@ -88,9 +98,9 @@ best. With only 1 minute to complete the workout, it’s an intense time for cha
         height="2000"
       />
 <BodyText>
-We designed to app to be a fluid experience with a lot of margin for the trainers. 
-Once the workout begun, we removed buttons for counting reps, instead, allowing 
-majority of the screen to act as the rep counter.
+A highly contextual design, crafter to the situation the Trainers were in, resulted in a fluid experience that 
+so simple and intuitive they could focus their attention on motivating each challneger and away from the 
+app. Once the workout began, we removed buttons for counting reps, instead, allowing the majority of the screen to act as the rep counter.
     </BodyText>
 
 <Devices
@@ -127,9 +137,9 @@ majority of the screen to act as the rep counter.
 
 <FullWidthMedia
         type="hero"
-        media="/images/metcon-mack/event.jpg"
-        width="3000"
-        height="2000"
+        media="/images/metcon-mack/event-2.jpg"
+        width="2458"
+        height="1220"
       />
 
 <BodyText heading="Crowd support" eyebrow="The solution" accent="#626262">
@@ -142,11 +152,15 @@ The experience was completed as the awaiting challengers and crowd watched reps 
         height="915"
       />  
 
-<BodyText heading="Simultaneous experiences" eyebrow="Learnings & outcomes" accent="#626262">
+<BodyText heading="Simultaneous user experiences" eyebrow="Learnings & outcomes" accent="#626262">
 Anyone who has designed for Nike knows it's not easy, but it's extremely rewarding. 
-This project pushed me to think harder and design more strategically about the 3 simultaneous touch-points, 
-each on a different medium, being used by a separate audience. I would have loved to have tested this in situ 
-before shipping but given the venue was driving down the coast of Australia that proved impossible. 
+This project challenged me to think harder and more strategically about how to best design interfaces 
+for 3 simultaneous touch-points, each on a different medium and being used by a separate audience. 
+In an ideal world, I would have loved to have tested this in situ, before shipping, but given the venue was already 
+on its way to drive down the coast of Australia that proved impossible.
+<br></br><br></br>
+By the end of the road trip, the experience saw the sweat of 3063 burpees and 4619 pushups across 225 workouts.
+
     </BodyText>
 
 <h3>Browse more projects</h3>
