@@ -35,9 +35,9 @@ const polk = () => (
       />
       <FullWidthMedia
         type="hero"
-        media="/images/polk/assets/hero-1.jpg"
+        media="/images/polk/hmc-mock.jpg"
         width="2000"
-        height="1200"
+        height="1500"
       />
 
       <BodyText heading="An eCommerce website experiencing poor conversion" eyebrow="The problem" accent="#B4442F">
@@ -87,20 +87,7 @@ const polk = () => (
         height="3732"
       />
 
-<BodyText heading="A Homepage that got customers off the Homepage" eyebrow="The solution" accent="#B4442F">
-Whether it be Product launches, Sale events, VIP listening sessions or any day in between, 
-we designed an adaptable Homepage hero to drive customers from the Homepage into a purchase, 
-research or browsing journey as defined by evolving business needs.
-        </BodyText>
-
-        <FullWidthMedia
-        type="hero"
-        media="/images/polk/desktop-homepage.jpg"
-        width="2000"
-        height="1600"
-      />
-
-      <BodyText heading="Pointed Category + Sub-Category links" eyebrow="The solution" accent="#B4442F">
+<BodyText heading="Pointed Category + Sub-Category links" eyebrow="The solution" accent="#B4442F">
       Shortcuts in the form of a Product Ribbon component, were placed right underneath the hero banner, 
       to provide customers another way to discover products quickly. Studio photography, category groupings 
       and 'from' pricing were locked up together to provide the user with just the right amount of information to set expectations.
@@ -113,7 +100,7 @@ research or browsing journey as defined by evolving business needs.
             width: 1920,
             height: 1080,
             border: "#EBEBEB",
-            caption: "Navigating from Homepage to Category through the Product Ribbon.",
+            caption: "Prototype navigating from Homepage to Category through the Product Ribbon.",
             type: "desktop",
             radius: 20,
             video: true
@@ -121,12 +108,20 @@ research or browsing journey as defined by evolving business needs.
         ]}
       />
 
-      <FullWidthMedia
+<BodyText heading="A homepage that helps customers get to where they want to go" eyebrow="The solution" accent="#B4442F">
+Whether it be Product launches, Sale events, VIP listening sessions or any day in between, 
+we designed an adaptable Homepage hero to drive customers from the Homepage into a purchase, 
+research or browsing journey as defined by evolving business needs.
+        </BodyText>
+
+        <FullWidthMedia
         type="hero"
-        media="/images/polk/hmc-mock.jpg"
+        media="/images/polk/desktop-homepage.jpg"
         width="2000"
-        height="1500"
+        height="1600"
       />
+
+      
 
       <BodyText heading="Rethinking the product experience" eyebrow="The solution" accent="#B4442F">
       With so much information from features, specs, review, companion apps and more, we knew we needed to approach 
@@ -234,7 +229,7 @@ research or browsing journey as defined by evolving business needs.
         <h2>Unlock Melbourne — App</h2>
         <p>Giving international students a fun and informative way to enjoy their new city.</p>
       </TextMedia>
-      
+
     <TextMedia
         link="/myer"
         media="/images/tiles/myer-2.jpg"
