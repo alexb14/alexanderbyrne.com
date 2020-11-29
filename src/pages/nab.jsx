@@ -28,7 +28,7 @@ const nab = () => (
           },
           {
             label: "Heavy rotation",
-            value: "Nervous Energy by Glades",
+            value: "Outta My Head by Khalid",
           },
         ]}
       />
@@ -88,7 +88,7 @@ const nab = () => (
             width: 375,
             height: 812,
             border: "#EBEBEB",
-            caption: "Standard Transaction Account",
+            caption: "Transaction Account",
             type: "mobile",
             radius: 30,
           },

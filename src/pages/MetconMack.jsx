@@ -34,9 +34,9 @@ const MetconMack = () => (
     />
     <FullWidthMedia
       type="hero"
-      media="/images/metcon-mack/hero.png"
-      width="2000"
-      height="1138"
+      media="/images/metcon-mack/hero-2.jpg"
+      width="2501"
+      height="1424"
     />
 
     <BodyText heading="" eyebrow="The problem" accent="#FA5400">

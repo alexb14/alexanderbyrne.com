@@ -71,6 +71,11 @@ const SocialLinks = () => (
           LinkedIn
         </Link>
       </Item>
+      <Item>
+        <Link href="https://www.dropbox.com/s/x3i5shuiwju0g1c/AlexanderByrne_Designer_CV.pdf?dl=0" target="_blank">
+          CV
+        </Link>
+      </Item>
     </List>
   </Root>
 );
