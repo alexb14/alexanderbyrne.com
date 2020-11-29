@@ -27,7 +27,7 @@ const sidneyelcon = () => (
           },
           {
             label: "Heavy rotation",
-            value: "Crystaline by The Midnight",
+            value: "Slide by Frank Ocean",
           },
         ]}
       />
