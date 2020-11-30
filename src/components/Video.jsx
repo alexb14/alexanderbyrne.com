@@ -14,7 +14,7 @@ class Video extends Component {
   componentDidMount() {
     if (this.el) {
       const video = findDOMNode(this.el);
-      video.muted = 'muted, autoPlay, PlaysInLine';
+      video.muted = 'muted';
       video.play();
     }
   }
