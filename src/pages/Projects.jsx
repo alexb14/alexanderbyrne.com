@@ -5,7 +5,7 @@ import SignOff from "../components/SignOff";
 
 const Projects = () => (
   <div>
-    <h1>A curation of works spanning freelance and full-time.</h1>
+    <h1>A curation of works spanning freelance and full-time for some of Australia's leading organisations.</h1>
     <TextMediaGrid columns={2}>
     
 

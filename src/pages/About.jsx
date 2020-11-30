@@ -10,8 +10,8 @@ const About = () => (
     <div>
       <Chart />
       <Heading>
-        The above describes my career quicker than I could in words. I’ve helped
-        brands tailor experiences and move their digital products forward.
+      I’ve had the privilege to work with large eCommerce retailers, freelance for leading agencies 
+      and help shift the dial through experience design for global brands.
       </Heading>
       <Quote
         avatar="images/quotes/tim.jpeg"
@@ -25,8 +25,7 @@ const About = () => (
         him all the best in whatever he does next.”
       </Quote>
       <Heading>
-        More recently I began freelancing to broaden my experience at different
-        organisations, collaborating with diverse minds and solving exciting and
+      Recently I’ve been working with diverse minds and solving exciting and
         unique problems.
       </Heading>
       <Quote
