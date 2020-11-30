@@ -48,6 +48,10 @@ const Column = styled.div`
       border-radius: ${props.radius ? props.radius : "0"}px;
       background-color: ${props.border ? props.border : "transparent"};
       padding: 8px;
+      @media only screen and (max-width: 600px) {
+        border-radius: 12px;
+        padding: 4px;
+      }
     }
   `}
     ${(props) =>
@@ -59,6 +63,10 @@ const Column = styled.div`
       background-color: ${props.border ? props.border : "transparent"};
       border-radius: ${props.radius ? props.radius : "0"}px;
       padding: 8px;
+      @media only screen and (max-width: 600px) {
+        border-radius: 12px;
+        padding: 4px;
+      }
     }
   `}
     ${(props) =>
@@ -71,6 +79,10 @@ const Column = styled.div`
       background-color: ${props.border ? props.border : "transparent"};
       border-radius: ${props.radius ? props.radius : "0"}px;
       padding: 12px;
+      @media only screen and (max-width: 600px) {
+        border-radius: 12px;
+        padding: 4px;
+      }
     }
   `}
     ${(props) =>
@@ -82,6 +94,10 @@ const Column = styled.div`
       background-color: ${props.border ? props.border : "transparent"};
       border-radius: ${props.radius ? props.radius : "0"}px;
       padding: 20px;
+      @media only screen and (max-width: 600px) {
+        border-radius: 12px;
+        padding: 4px;
+      }
     }
   `};
 `;
