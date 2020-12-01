@@ -14,6 +14,17 @@ const About = () => (
       and help shift the dial through experience design for global brands.
       </Heading>
       <Quote
+        avatar="images/quotes/andy.jpg"
+        citation="Andy Summerton — Head of UX, National Australia Bank"
+      >
+        “I've worked with Alex both at Tundra Interactive and National Australia Bank. 
+        Alex is a deep thinker and strategic designer that's obsessed with customer outcomes. 
+        A rare breed that can translate product, CX/UX and strategy need into elegant, aesthetically beautiful, highly functional experiences. 
+His process is a well oiled machine, he 'goes wide' and tackles problems from all angles – highly motivated and engaged along the way. 
+His work, which speaks for itself, is detail focussed, but doesn't lose sight of the big picture. 
+I'd recommend Alex to those who want to make an impact.”
+      </Quote>
+      <Quote
         avatar="images/quotes/tim.jpeg"
         citation="Tim Kotsiakos — Founder, M A S S"
       >
