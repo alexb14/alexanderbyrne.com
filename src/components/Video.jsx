@@ -22,9 +22,8 @@ class Video extends Component {
   render() {
     const { media, width, height } = this.props;
     
-
     return (
-      <Media ref={el => this.el = el} width={width} height={height} loop="true">
+      <Media ref={el => this.el = el} width={width} height={height} autoPlay loop playsInline>
         <source src={`${media}`} type="video/mp4" />
       </Media>
     );
