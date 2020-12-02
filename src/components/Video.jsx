@@ -24,7 +24,7 @@ class Video extends Component {
     
 
     return (
-      <Media ref={el => this.el = el} width={width} height={height} autoplay loop muted playsinline>
+      <Media ref={el => this.el = el} width={width} height={height} loop="true">
         <source src={`${media}`} type="video/mp4" />
       </Media>
     );
