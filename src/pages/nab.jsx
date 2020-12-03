@@ -35,7 +35,7 @@ const nab = () => (
 
 < FullWidthMedia
         type="hero"
-        media="/images/nab/Mock-2.webm"
+        media="/images/nab/screen-and-video.webm"
         width="1920"
         height="1080"
         video
