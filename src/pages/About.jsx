@@ -10,8 +10,8 @@ const About = () => (
     <div>
       <Chart />
       <Heading>
-      I’ve had the privilege to work with large eCommerce retailers, freelance for leading agencies 
-      and help shift the dial through experience design for global brands.
+      I’ve worked for product companies and digital agencies globally
+      to help shift the dial through experience design.
       </Heading>
       <Quote
         avatar="images/quotes/andy.jpg"
@@ -24,6 +24,9 @@ His process is a well oiled machine, he 'goes wide' and tackles problems from al
 His work, which speaks for itself, is detail focussed, but doesn't lose sight of the big picture. 
 I'd recommend Alex to those who want to make an impact.”
       </Quote>
+      <Heading>
+      I'm passionate about providing users with frictionless and accessible experiences. 
+      </Heading>
       <Quote
         avatar="images/quotes/tim.jpeg"
         citation="Tim Kotsiakos — Founder, M A S S"
@@ -36,7 +39,7 @@ I'd recommend Alex to those who want to make an impact.”
         him all the best in whatever he does next.”
       </Quote>
       <Heading>
-      Recently I’ve been working with diverse minds and solving exciting and
+      Recently, I’ve been working with diverse minds and solving exciting and
         unique problems.
       </Heading>
       <Quote
