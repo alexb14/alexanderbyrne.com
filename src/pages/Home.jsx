@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import TextMedia from "../components/TextMedia";
+import TextMediaExternal from "../components/TextMediaExternal";
 import TextMediaGrid from "../components/TextMediaGrid";
 import SignOff from "../components/SignOff";
 import { breakpoint, fontSize } from "../utils/styled";
@@ -104,7 +105,7 @@ const Home = () => (
     <h3>Writing</h3>
 
     <TextMediaGrid columns={2} flush={true}>
-      <TextMedia
+    <TextMediaExternal
         link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
         media="/images/writing/covid19-small2.png"
         width="960"
@@ -115,9 +116,9 @@ const Home = () => (
       >
         <h2>The evolving design of the Coronavirus</h2>
         <p>The podium placard has been the silent messenger of the daily Coronavirus briefings.</p>
-      </TextMedia>
+      </TextMediaExternal>
 
-      <TextMedia
+      <TextMediaExternal
         link="https://uxdesign.cc/the-two-google-apps-that-dont-talk-to-each-other-but-should-30770184da4e"
         media="/images/writing/article-google.jpg"
         width="610"
@@ -128,7 +129,7 @@ const Home = () => (
       >
         <h2>Rapid prototyping calendar Events into Google Maps</h2>
         <p>Removing the friction between two Google apps.</p>
-      </TextMedia>
+      </TextMediaExternal>
 
     </TextMediaGrid>
     
