@@ -72,7 +72,7 @@ const SocialLinks = () => (
         </Link>
       </Item>
       <Item>
-        <Link href="https://www.dropbox.com/s/x3i5shuiwju0g1c/AlexanderByrne_Designer_CV.pdf?dl=0" target="_blank">
+        <Link href="https://www.dropbox.com/s/1az1wx9f6y6i5qx/AlexanderByrne_Designer_CV.pdf?dl=0" target="_blank">
           CV
         </Link>
       </Item>
