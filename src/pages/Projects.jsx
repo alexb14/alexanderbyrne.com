@@ -24,21 +24,6 @@ const Projects = () => (
         </p>
         </TextMedia>
 
-        <TextMedia
-        link="/metcon-mack"
-        media="/images/projects/metconmack-tile2.png"
-        width="610"
-        height="736"
-        eyebrow="Mulitchannel experience ◦ Interaction design ◦ Tablet + Mobile App"
-        accent="#74747B"
-        flip
-      >
-        <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
-        <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
-      </TextMedia>
-
-
-   
 
       <TextMedia
         link="/sidneyelcon"
@@ -51,6 +36,32 @@ const Projects = () => (
       >
         <h2>Sidney & Elcon — Typeface design</h2>
         <p>Two custom typefaces for Australia's largest department store.</p>
+      </TextMedia>
+
+      <TextMedia
+        link="/unlockmelbourne"
+        media="/images/tiles/um-3.jpg"
+        width="610"
+        height="520"
+        eyebrow="iOS + Android app ◦ Interaction design"
+        accent="#74747B"
+        flip
+      >
+        <h2>Unlock Melbourne — App</h2>
+        <p>Giving international students a fun and informative way to enjoy their new city.</p>
+      </TextMedia>
+
+      <TextMedia
+        link="/metcon-mack"
+        media="/images/projects/metconmack-tile2.png"
+        width="610"
+        height="736"
+        eyebrow="Mulitchannel experience ◦ Interaction design ◦ Tablet + Mobile App"
+        accent="#74747B"
+        flip
+      >
+        <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
+        <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
       </TextMedia>
 
       
@@ -84,18 +95,7 @@ const Projects = () => (
 
       
 
-      <TextMedia
-        link="/unlockmelbourne"
-        media="/images/tiles/um-3.jpg"
-        width="610"
-        height="520"
-        eyebrow="iOS + Android app ◦ Interaction design"
-        accent="#74747B"
-        flip
-      >
-        <h2>Unlock Melbourne — App</h2>
-        <p>Giving international students a fun and informative way to enjoy their new city.</p>
-      </TextMedia>
+      
 
       
       
