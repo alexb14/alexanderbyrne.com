@@ -24,6 +24,20 @@ const Projects = () => (
         </p>
         </TextMedia>
 
+        <TextMedia
+        link="/metcon-mack"
+        media="/images/projects/metconmack-tile2.png"
+        width="610"
+        height="736"
+        eyebrow="Mulitchannel experience ◦ Interaction design ◦ Tablet + Mobile App"
+        accent="#74747B"
+        flip
+      >
+        <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
+        <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
+      </TextMedia>
+
+
    
 
       <TextMedia
@@ -40,20 +54,19 @@ const Projects = () => (
       </TextMedia>
 
       
-     
-      
-
       <TextMedia
-        link="/metcon-mack"
-        media="/images/projects/metconmack-tile2.png"
+        link="/polk"
+        media="/images/tiles/polk-2.jpg"
         width="610"
-        height="736"
-        eyebrow="Mulitchannel experience ◦ Interaction design ◦ Tablet + Mobile App"
+        height="590"
+        eyebrow="eCommerce redesign ◦ Research ◦ Interaction design"
         accent="#74747B"
         flip
       >
-        <h2>Nike Women Metcon Mack — App + Digital Activation</h2>
-        <p>An elevated digital workout experience for a Mack truck turned crossfit gym.</p>
+        <h2>Polk Audio — eCommerce website</h2>
+        <p>
+        A product-first redesign for a heritage American audio company.
+        </p>
       </TextMedia>
 
       <TextMedia
@@ -69,20 +82,7 @@ const Projects = () => (
         <p>A re-imagining of the core mobile banking experience for today and into the future.</p>
       </TextMedia>
 
-      <TextMedia
-        link="/polk"
-        media="/images/tiles/polk-2.jpg"
-        width="610"
-        height="590"
-        eyebrow="eCommerce redesign ◦ Research ◦ Interaction design"
-        accent="#74747B"
-        flip
-      >
-        <h2>Polk Audio — eCommerce website</h2>
-        <p>
-        A product-first redesign for a heritage American audio company.
-        </p>
-      </TextMedia>
+      
 
       <TextMedia
         link="/unlockmelbourne"
