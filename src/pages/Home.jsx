@@ -69,18 +69,7 @@ const Home = () => (
         </p>
         </TextMedia>
 
-        <TextMedia
-        link="/unlockmelbourne"
-        media="/images/tiles/um-3.jpg"
-        width="610"
-        height="520"
-        eyebrow="iOS + Android app ◦ Interaction design"
-        accent="#74747B"
-        flip
-      >
-        <h2>Unlock Melbourne — App</h2>
-        <p>Giving international students a fun and informative way to enjoy their new city.</p>
-      </TextMedia>
+      
 
     <TextMedia
         link="/nab"
