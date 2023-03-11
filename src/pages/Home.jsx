@@ -41,6 +41,20 @@ const Home = () => (
     <h1>Experience and Interaction <br></br>Design Lead in London</h1>
     <TextMediaGrid columns={2}>
     <TextMedia
+        link="/"
+        media="/images/tiles/cko-1.png"
+        width="610"
+        height="700"
+        eyebrow="Case study in-person or over video call only"
+        accent="#74747B"
+        
+      >
+        <h2>Checkout.com — Product</h2>
+        <p>
+        Redefining the payment management experience for Enterprise merchants. 
+        </p>
+        </TextMedia>
+    <TextMedia
         link="/myer"
         media="/images/tiles/myer-2.jpg"
         width="610"
