@@ -38,7 +38,7 @@ const SeeMoreLink = styled(NavLink)`
 
 const Home = () => (
   <div>
-    <h1>Principal Product Designer. <br></br></h1><h1 style="colour:#666;">Obsessed with crafting functional solutions that are as aesthetic as they are effective.</h1>
+    <h1>Principal Product Designer. <br></br>Obsessed with crafting functional solutions that are as aesthetic as they are effective.</h1>
     <TextMediaGrid columns={2}>
     <TextMedia
         link="/"
