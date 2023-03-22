@@ -3,7 +3,7 @@ import TextMediaExternal from "../components/TextMediaExternal";
 import TextMediaGrid from "../components/TextMediaGrid";
 import SignOff from "../components/SignOff";
 
-const Plugins = () => (
+const plugins = () => (
   <div>
     <h1>Automating the design process for all</h1>
     <TextMediaGrid columns={2}>
@@ -39,4 +39,4 @@ const Plugins = () => (
   </div>
 );
 
-export default Plugins;
+export default plugins;
