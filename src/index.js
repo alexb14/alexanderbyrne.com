@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import About from "./pages/About";
 import Writing from "./pages/Writing";
+import Plugins from "./pages/Plugins";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -36,6 +37,7 @@ render(
       <Route path="/sidneyelcon" component={sidneyelcon} />
       <Route path="/about" component={About} />
       <Route path="/writing" component={Writing} />
+      <Route path="/plugins" component={Plugins} />
       <Route path="/contact" component={Contact} />
     </Layout>
   </Router>,
