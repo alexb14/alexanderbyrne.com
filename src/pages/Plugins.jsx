@@ -9,9 +9,9 @@ const Plugins = () => (
     <TextMediaGrid columns={2}>
     <TextMediaExternal
         link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
-        media="/images/writing/covid19-small2.png"
-        width="960"
-        height="700"
+        media="/images/tiles/lightning.png"
+        width="1920"
+        height="960"
         eyebrow="Featured by UX Collective ★" 
         accent="#00add8"
         flip
@@ -22,11 +22,9 @@ const Plugins = () => (
 
       <TextMediaExternal
         link="https://uxdesign.cc/the-two-google-apps-that-dont-talk-to-each-other-but-should-30770184da4e"
-        media="/images/writing/article-google.jpg"
-        width="610"
-        height="400"
-        eyebrow="Featured by UX Collective ★" 
-        accent="#00add8"
+        media="/images/tiles/dawn.png"
+        width="1920"
+        height="960"
         flip
       >
         <h2>Dawn • File starter</h2>
