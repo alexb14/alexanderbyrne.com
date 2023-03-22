@@ -227,6 +227,8 @@ class Sidebar extends Component {
           return " — About";
         case "/writing":
           return " — Writing";
+        case "/plugins":
+          return " — Plugins";
         case "/contact":
           return " — Contact";
         default:
