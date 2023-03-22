@@ -5,7 +5,7 @@ import SignOff from "../components/SignOff";
 
 const Plugins = () => (
   <div>
-    <h1>Automating the design process for all</h1>
+    <h1>Automating the design process <br></br>for all</h1>
     <TextMediaGrid columns={2}>
     <TextMediaExternal
         link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
