@@ -15,7 +15,7 @@ const Plugins = () => (
         flip
       >
         <h2>Lightning • Content populator</h2>
-        <p>The podium placard has been the silent messenger of the daily Coronavirus briefings.</p>
+        <p>Instantly input realistic dates, names, addresses, emails, currencies and more.</p>
       </TextMediaExternal>
 
       <TextMediaExternal
@@ -26,7 +26,7 @@ const Plugins = () => (
         flip
       >
         <h2>Dawn • File starter</h2>
-        <p>Removing the friction between two Google apps.</p>
+        <p>Instantly set up your page scaffold to speed up your workflow more than 100x.</p>
       </TextMediaExternal>
 
 
