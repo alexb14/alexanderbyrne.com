@@ -46,7 +46,7 @@ const Home = () => (
         width="610"
         height="700"
         eyebrow="Case study in-person or over video call only"
-        accent="#74747B"
+        accent="#B34100"
         
       >
         <h2>Checkout.com — Product</h2>

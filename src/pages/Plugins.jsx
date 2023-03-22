@@ -8,12 +8,10 @@ const Plugins = () => (
     <h1>Automating the design process <br></br>for all</h1>
     <TextMediaGrid columns={2}>
     <TextMediaExternal
-        link="https://uxdesign.cc/the-evolving-design-of-the-coronavirus-e9c1392d4649"
+        link="https://www.figma.com/community/plugin/1170435953164718580"
         media="/images/tiles/lightning.png"
         width="1920"
         height="960"
-        eyebrow="Featured by UX Collective ★" 
-        accent="#00add8"
         flip
       >
         <h2>Lightning • Content populator</h2>
@@ -21,7 +19,7 @@ const Plugins = () => (
       </TextMediaExternal>
 
       <TextMediaExternal
-        link="https://uxdesign.cc/the-two-google-apps-that-dont-talk-to-each-other-but-should-30770184da4e"
+        link="https://www.figma.com/community/plugin/1170033469814190062"
         media="/images/tiles/dawn.png"
         width="1920"
         height="960"
