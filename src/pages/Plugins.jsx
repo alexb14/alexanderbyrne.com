@@ -16,7 +16,7 @@ const Plugins = () => (
         accent="#00add8"
         flip
       >
-        <h2>The evolving design of the Coronavirus</h2>
+        <h2>Lightning • Content populator</h2>
         <p>The podium placard has been the silent messenger of the daily Coronavirus briefings.</p>
       </TextMediaExternal>
 
@@ -29,7 +29,7 @@ const Plugins = () => (
         accent="#00add8"
         flip
       >
-        <h2>Rapid prototyping calendar Events into Google Maps</h2>
+        <h2>Dawn • File starter</h2>
         <p>Removing the friction between two Google apps.</p>
       </TextMediaExternal>
 
@@ -39,4 +39,4 @@ const Plugins = () => (
   </div>
 );
 
-export default Writing;
+export default Plugins;

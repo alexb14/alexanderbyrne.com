@@ -256,6 +256,9 @@ class Sidebar extends Component {
             <NavItem to="/writing" activeClassName="active">
               Writing
             </NavItem>
+            <NavItem to="/plugins" activeClassName="active">
+              Plugins
+            </NavItem>
             <NavItem to="/contact" activeClassName="active">
               Contact
             </NavItem>
